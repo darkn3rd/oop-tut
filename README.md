@@ -5,11 +5,25 @@ Welcome to my material for tutoring OOP concepts.  This material extracts common
 
 ## Topics
 
-A. Declaration and Instantiation
-B. Construction and Destruction
-C. Overloading
-   - Constructor
-D. Static Class Variable
-   - Counter
-E. Immutable Fields
-H. Inheritance
+Topics well thought out:
+
+* Declaration and Instantiation
+* Construction and Destruction
+* Overloading
+   * Constructor
+* Static Class Variable
+   * Counter
+* Immutable Fields
+* Inheritance
+
+Topics that are not yet organized:
+
+* Construction
+   * base/super
+* Overloading
+   * Mutators
+   * Operators
+   * Type Coercion
+* Overriding
+* Abstraction
+* Interface
