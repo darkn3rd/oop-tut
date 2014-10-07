@@ -7,7 +7,7 @@ public class Person
 
     // Properties
     public string Name {
-        get { return name; }    // accessor
-        set { name = value; }   // mutator
+        get { return name; }    // accessor - get data
+        set { name = value; }   // mutator  - set data
     }
 }
