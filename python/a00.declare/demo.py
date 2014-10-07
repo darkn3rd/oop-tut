@@ -7,4 +7,4 @@ person.setName("Jean-Luc")   # mutator
 
 # access and print data through accessor (get)
 name   = person.getName()    # accessor
-print name
+print "Name of the Person:\n\t" + name

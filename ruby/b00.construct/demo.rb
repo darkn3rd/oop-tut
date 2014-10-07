@@ -6,4 +6,4 @@ person = Person.new "Jean-Luc" # construct new object with string parameter
 
 # access and print data through accessor (get)
 name   = person.getName         # accessor
-puts name
+puts "Name of the Person:\n\t" + name
