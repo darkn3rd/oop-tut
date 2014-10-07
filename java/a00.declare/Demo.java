@@ -5,8 +5,10 @@ public class Demo {
         Person person = new Person();   // instantiate new object
         person.setName("Jean-Luc");     // mutator
 
-        // access and print data through accessor (get)
+        // retrieve string from person object
         String name = person.getName(); // accessor
-        System.out.println(name);
+
+        // output results
+        System.out.println("Name of the Person:\n\t" + name);
     }
 }
