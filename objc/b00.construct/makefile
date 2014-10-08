@@ -6,4 +6,4 @@ Person.o: Person.m Person.h
 	gcc -c Person.m
 
 clean:
-	$(RM) *.o
+	$(RM) *.o Demo

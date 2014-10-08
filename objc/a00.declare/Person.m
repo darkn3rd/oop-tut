@@ -3,7 +3,7 @@
 @implementation Person
 
 // Mutators - functions that set stuff
--(void) name: (char *) n
+- (void) name: (char *) n
 {
     if (n) {            // check if we have a string
        // create new char* of length of n
@@ -16,7 +16,7 @@
 }
 
 // Accessors - functions that get stuff
--(char *) name
+- (char *) name
 {
 	return name;
 }

@@ -6,6 +6,6 @@
     char* name;
 }
 
--(void) name: (char *) n;
--(char *) name;
+- (void) name: (char *) n;
+- (char *) name;
 @end

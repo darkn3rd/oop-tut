@@ -4,8 +4,7 @@
 int main (int argc, const char * argv[]) 
 { 
     // initialize data through mutator (set)
-	id person = [Person new];    // instantiate new object
-	[person name: "Jean-Luc"];   // mutator
+	id person = [[Person alloc] initWithName: "Jean-Luc"];    // instantiate new object
 
 	// retrieve string from person object
 	char *name = [person name];  // accessor
