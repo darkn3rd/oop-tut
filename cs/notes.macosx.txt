@@ -1,0 +1,25 @@
+$ brew install nant
+==> Installing nant dependency: mono
+==> Downloading https://downloads.sf.net/project/machomebrew/Bottles/mono-3.4.0.mountain_lion.bottle.tar.gz
+Already downloaded: /Library/Caches/Homebrew/mono-3.4.0.mountain_lion.bottle.tar.gz
+==> Pouring mono-3.4.0.mountain_lion.bottle.tar.gz
+==> Caveats
+To use the assemblies from other formulae you need to set:
+  export MONO_GAC_PREFIX="/usr/local"
+==> Summary
+🍺  /usr/local/Cellar/mono/3.4.0: 1128 files, 171M
+==> Installing nant
+==> Downloading https://downloads.sourceforge.net/nant/nant/nant-0.92-src.tar.gz
+######################################################################## 100.0%
+==> Downloading https://github.com/nant/nant/commit/69c8ee96493c5d953212397c8ca06c2392372ca4.diff
+######################################################################## 100.0%
+==> Patching
+patching file src/NAnt.Console/App.config
+patching file src/NAnt.Core/ConsoleDriver.cs
+patching file src/NAnt.Core/Resources/ProjectHelp.xslt
+patching file src/NAnt.DotNet/Tasks/CscTask.cs
+patching file src/NAnt.NUnit/NAnt.NUnit.build
+patching file src/NDoc.Documenter.NAnt/NDoc.Documenter.NAnt.build
+patching file tests/NAnt.Core/Framework.config
+==> make install prefix=/usr/local/Cellar/nant/0.92
+🍺  /usr/local/Cellar/nant/0.92: 429 files, 7.7M, built in 28 seconds
