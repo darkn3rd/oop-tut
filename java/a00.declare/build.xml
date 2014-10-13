@@ -1,17 +1,45 @@
-<project default="compile">
+<project default="compile" name="Demo" basedir=".">
+  <property name="build.dir" location="build" />
+  <property name="src.dir" location="." />
+  <property name="classes.dir" value="${build.dir}/classes"/>
+  <property name="dist.dir"     value="${build.dir}/dist"/>
+
+
+
 
   <target name="compile">
-    <javac srcdir="." />
+    <mkdir dir="${classes.dir}" />
+    <javac srcdir="${src.dir}" destdir="${classes.dir}" 
+      excludes="Test*.java" includeantruntime="false" />
   </target>
 
   <target name="clean" >
-    <delete>
-      <fileset dir="." includes="*.class" />
-    </delete>
+    <delete dir="${build.dir}"/>
+    <!--  <delete> -->
+    <!-- <fileset dir="." includes="*.class" /> -->
+    <!-- </delete>  -->
+  </target>
+
+  <target name="archive" depends="compile" >
+    <jar destfile="${dist.dir}/Demo.jar"
+      basedir="${classes.dir}" />
   </target>
 
   <target name="run" depends="compile">
-    <java classname="Demo" fork="true"/>
+    <java classname="${classes.dir}/Demo" fork="true"/>
   </target>
+
+<!--   <target name="junit" depends="compile">
+    <junit printsummary="yes">
+      <classpath>
+          <path refid="classpath"/>
+          <path refid="application"/>
+      </classpath>
+      
+      <batchtest fork="yes">
+          <fileset dir="${src.dir}" includes="*Test.java"/>
+      </batchtest>
+    </junit>
+  </target> -->
 
 </project>
