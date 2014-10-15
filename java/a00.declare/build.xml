@@ -1,16 +1,21 @@
 <project default="compile" name="Demo" basedir=".">
-  <property name="build.dir" location="build" />
-  <property name="src.dir" location="." />
-  <property name="classes.dir" value="${build.dir}/classes"/>
-  <property name="dist.dir"     value="${build.dir}/dist"/>
+  <property name="build.dir"   location="build" />
+  <property name="src.dir"     location="." />
+  <property name="test.dir"    location="tests" />
 
-
-
+  <path id="classpath">
+    <pathelement location="${build.dir}" />
+  </path>
 
   <target name="compile">
-    <mkdir dir="${classes.dir}" />
-    <javac srcdir="${src.dir}" destdir="${classes.dir}" 
+    <mkdir dir="${build.dir}" />
+    <javac srcdir="${src.dir}" destdir="${build.dir}" 
       excludes="Test*.java" includeantruntime="false" />
+  </target>
+
+  <target name="test-compile" depends="compile">
+    <mkdir dir="${build.dir}" />
+    <javac srcdir="${src.dir}" destdir="${test.dir}" />
   </target>
 
   <target name="clean" >
@@ -22,11 +27,15 @@
 
   <target name="archive" depends="compile" >
     <jar destfile="${dist.dir}/Demo.jar"
-      basedir="${classes.dir}" />
+      basedir="${build.dir}" />
   </target>
 
   <target name="run" depends="compile">
-    <java classname="${classes.dir}/Demo" fork="true"/>
+    <java classname="Demo" fork="true">
+      <classpath>
+        <pathelement location="${build.dir}" />
+      </classpath>
+    </java>
   </target>
 
 <!--   <target name="junit" depends="compile">
