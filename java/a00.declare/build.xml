@@ -13,16 +13,16 @@
       excludes="Test*.java" includeantruntime="false" />
   </target>
 
+<!-- not picking up class path from environment --> 
   <target name="test-compile" depends="compile">
-    <mkdir dir="${build.dir}" />
-    <javac srcdir="${src.dir}" destdir="${test.dir}" />
+    <mkdir dir="${test.dir}" />
+    <javac srcdir="${src.dir}" destdir="${test.dir}" 
+      excludes="Demo.java" />
   </target>
 
   <target name="clean" >
     <delete dir="${build.dir}"/>
-    <!--  <delete> -->
-    <!-- <fileset dir="." includes="*.class" /> -->
-    <!-- </delete>  -->
+    <delete dir="${test.dir}"/>
   </target>
 
   <target name="archive" depends="compile" >

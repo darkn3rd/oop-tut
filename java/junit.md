@@ -31,13 +31,23 @@ echo export 'JAVA_HOME=/Library/Java/Home' >> ~/.bash_profile
 echo export CLASSPATH="${CLASSPATH}${CLASSPATH:+:}/usr/share/junit/junit.jar:." >> ~/.bash_profile
 ```
 
-Note that both installations of Java 6 from Apple or Java 7 from Oracle use ```/Library/Java/Home``` to point to the desired target Java environment.  
-
 Currently (October 2014), JUnit 4.11 and Ant 1.9.4 are available.  
 
-### OS X 10.8.5 Getting Ant 1.9.4
+#### OS X 10.8.5 Default Configuration with Oracle Java 7
 
-Ant build system is useful for compiling and running JUnit tests.  That latest can be grabbed from using [Homebrew](http://brew.sh/).
+It seems that ```/Library/Java/Home``` is designated to point to the main entry point.  Apple distributed Java 6 has this symlink pointing to ```/System/Library/Frameworks/JavaVM.framework/```.  Further installations by Oracle install Java inconistently, and seem to ignore this link.  You can use this convention to point ```/Library/Java/Home``` to the desired target Java.  
+
+For JDK 1.7.0_60, I do the following:
+
+```bash
+sudo rm /Library/Java/Home
+sudo ln -s /Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home /Library/Java/Home
+echo export 'JAVA_HOME=/Library/Java/Home' >> ~/.bash_profile
+```
+
+### OS X 10.8.5 Unsing the Latest Ant (Ant 1.9.4)
+
+Ant build system is useful for compiling and running JUnit tests.  That latest can be grabbed from using [Homebrew](http://brew.sh/).  Using that system, this is what I did to instlal Ant 1.9.4:
 
 ```bash
 $ brew install ant
@@ -51,11 +61,16 @@ Mac OS X already provides this software and installing another version in
 parallel can cause all kinds of trouble.
 ==> Summary
 🍺  /usr/local/Cellar/ant/1.9.4: 1597 files, 39M
+```
+
+Afterwards, I point the existing symlink to the new ant version.
+
+```bash
 $ sudo rm /usr/bin/ant
 $ sudo ln -s /usr/local/Cellar/ant/1.9.4/bin/ant /usr/bin/ant
 ```
 
-### OS X 10.8.5 Getting JUnit 4.11
+### OS X 10.8.5 Using the Latest JUnit (JUnit 4.11)
 
 Downloaded the latest and greatest (as of October 11th, 2014) into my ```~/Downloads``` folder:
 
