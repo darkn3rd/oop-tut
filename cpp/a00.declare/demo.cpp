@@ -10,7 +10,7 @@ int main(int argc, char* argv[])
 {
     // initialize data through mutator (set)
     Person person;               // instantiate new object
-    person.setName("Jean-Luc");  // mutator
+    person.setName((char*)"Jean-Luc");  // mutator
 
     // retrieve string from person object
     string name = person.getName();
