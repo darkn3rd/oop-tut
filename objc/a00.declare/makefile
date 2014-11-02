@@ -1,9 +1,12 @@
-all: Demo.o Person.o
-	gcc -lobjc -o Demo Demo.o Person.o
-Demo.o: Demo.m Person.h
-	gcc -c Demo.m
-Person.o: Person.m Person.h
-	gcc -c Person.m
+CC=gcc -lobjc
+
+all: Demo
+Demo: Demo.o Person.o
+	$(CC) -o Demo Demo.o Person.o
+Demo.o: Demo.m
+	$(CC) -c Demo.m -o $@
+Person.o: Person.m
+	$(CC) -c Person.m -o $@
 
 clean:
 	$(RM) *.o Demo
