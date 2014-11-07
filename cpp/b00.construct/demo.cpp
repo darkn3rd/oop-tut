@@ -9,7 +9,7 @@ using namespace PersonSpace;
 int main(int argc, char* argv[])
 {
     // initialize data through mutator (set)
-    Person person("Jean-Luc");   // instantiate new object
+    Person person((char*)"Jean-Luc");   // instantiate new object
 
     // retrieve string from person object
     string name = person.getName();
