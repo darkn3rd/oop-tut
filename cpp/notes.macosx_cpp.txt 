@@ -4,3 +4,24 @@ $ brew install cpputest
 ==> ./configure --prefix=/usr/local/Cellar/cpputest/3.6
 ==> make install
 🍺  /usr/local/Cellar/cpputest/3.6: 51 files, 964K, built in 14 seconds
+
+$ brew install boost
+==> Downloading https://downloads.sf.net/project/machomebrew/Bottles/boost-1.55.0_2.mountain_lion.bottle.4.tar.gz
+######################################################################## 100.0%
+==> Pouring boost-1.55.0_2.mountain_lion.bottle.4.tar.gz
+🍺  /usr/local/Cellar/boost/1.55.0_2: 10036 files, 431M
+
+$ brew install rlog
+==> Downloading https://rlog.googlecode.com/files/rlog-1.4.tar.gz
+######################################################################## 100.0%
+==> Patching
+patching file rlog/common.h.in
+==> ./configure --prefix=/usr/local/Cellar/rlog/1.4
+==> make install
+🍺  /usr/local/Cellar/rlog/1.4: 92 files, 1020K, built in 8 seconds
+
+$ brew install cmake
+==> Downloading https://downloads.sf.net/project/machomebrew/Bottles/cmake-3.0.0.mountain_lion.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring cmake-3.0.0.mountain_lion.bottle.tar.gz
+🍺  /usr/local/Cellar/cmake/3.0.0: 1622 files, 27M
