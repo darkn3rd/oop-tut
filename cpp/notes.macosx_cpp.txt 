@@ -1,0 +1,6 @@
+$ brew install cpputest
+==> Downloading https://github.com/cpputest/cpputest/archive/v3.6.tar.gz
+######################################################################## 100.0%
+==> ./configure --prefix=/usr/local/Cellar/cpputest/3.6
+==> make install
+🍺  /usr/local/Cellar/cpputest/3.6: 51 files, 964K, built in 14 seconds
