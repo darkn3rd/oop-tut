@@ -1,9 +1,5 @@
-#include <string.h>
-#include <stdlib.h>
-#include <iostream>
 #include "Person.h"
 
-using namespace std;
 using namespace PersonSpace;
 
 int main(int argc, char* argv[])

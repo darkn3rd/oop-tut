@@ -1,30 +1,42 @@
-#ifdef  __cplusplus
-
 #ifndef _PERSONCLASS
 #define _PERSONCLASS
+
+#include <iostream>
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+using namespace std;
 
 namespace PersonSpace {
 
 class Person {
     // private data members
-    char* name = NULL;
-    int   age  = 0;
+    string name;
+    int    age  = 0;
+    // private member functions
+    void   info();
 public:
     // Constructors - initialize stuff
-    Person(char* n);        // Default n to NULL
-    Person(int);            // Default a to 0
-    Person(char* n, int a); // Default n to NULL and a to 0
+    Person();
+    Person(char* n);
+    Person(int);
+    Person(char* n, int a);
 
     // Mutators - functions that set stuff
-    void setName(char* n);
+    void setName(const char* n);
     void setAge(int a);
 
     // Accessors - functions that get stuff
-    char* getName();
-    int   getAge();
+    string getName();
+    int    getAge();
 };
 
 }
 
+#ifdef __cplusplus
+}
+#endif
+
 #endif  // PERSONCLASS
-#endif  /* __cplusplus */
