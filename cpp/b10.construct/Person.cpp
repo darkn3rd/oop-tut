@@ -1,9 +1,4 @@
-#include <string.h>
-#include <stdlib.h>
-#include <iostream>
 #include "Person.h"
-
-using namespace std;
 
 namespace PersonSpace {
 
