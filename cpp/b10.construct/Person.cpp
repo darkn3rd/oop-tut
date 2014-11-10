@@ -1,11 +1,22 @@
+#include <string.h>
+#include <stdlib.h>
+#include <iostream>
 #include "Person.h"
+
+using namespace std;
 
 namespace PersonSpace {
 
-// Constructor
+// Constructors
 Person::Person()
 {
   cout << "[INFO]: Person Object is created" << endl;
+}
+
+Person::Person(char* n)
+{
+  cout << "[INFO]: Person Object is created with name=\"" << n << "\"" << endl;
+  setName(n);
 }
 
 // Mutators - functions that set stuff

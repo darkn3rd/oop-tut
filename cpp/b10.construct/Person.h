@@ -17,6 +17,7 @@ class Person {
 public:
     // Constructors
     Person();
+    Person(char* n);
     // Mutators - functions that set stuff
     void   setName(const char* name);
     // Accessors - functions that get stuff
