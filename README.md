@@ -7,14 +7,17 @@ Welcome to my material for tutoring OOP concepts.  This material extracts common
 
 Topics well thought out:
 
-* Declaration and Instantiation
-* Construction and Destruction
+* Declaration and Instantiation (A00)
+* Construction (Initialization)
+   * Default Constructor (B00)
+   * Constructor with parameters (B10)
+   * Destructor (B20)
 * Overloading
-   * Constructor
+   * Constructor (C00)
 * Static Class Variable
-   * Counter
-* Immutable Fields
-* Inheritance
+   * Counter (D00)
+* Immutable Fields (D10)
+* Inheritance (E10)
 
 Topics that are not yet organized:
 
