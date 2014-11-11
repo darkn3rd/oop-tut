@@ -16,7 +16,6 @@ class Person {
     string name;
 public:
     // Constructors
-    Person();
     Person(char* n);
     // Mutators - functions that set stuff
     void   setName(const char* name);
