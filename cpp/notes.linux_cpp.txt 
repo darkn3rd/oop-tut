@@ -1,0 +1,82 @@
+# CLang 3.4.6 on Fedora release 20 (Heisenbug)
+
+$ sudo yum install clang
+...
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+Warning: RPMDB altered outside of yum.
+  Updating   : libstdc++-4.8.3-7.fc20.x86_64                          1/5
+  Installing : llvm-3.4-6.fc20.x86_64                                 2/5
+  Installing : libstdc++-devel-4.8.3-7.fc20.x86_64                    3/5
+  Installing : clang-3.4-6.fc20.x86_64                                4/5
+  Cleanup    : libstdc++-4.8.2-7.fc20.x86_64                          5/5
+  Verifying  : clang-3.4-6.fc20.x86_64                                1/5
+  Verifying  : llvm-3.4-6.fc20.x86_64                                 2/5
+  Verifying  : libstdc++-devel-4.8.3-7.fc20.x86_64                    3/5
+  Verifying  : libstdc++-4.8.3-7.fc20.x86_64                          4/5
+  Verifying  : libstdc++-4.8.2-7.fc20.x86_64                          5/5
+
+Installed:
+  clang.x86_64 0:3.4-6.fc20
+
+Dependency Installed:
+  libstdc++-devel.x86_64 0:4.8.3-7.fc20      llvm.x86_64 0:3.4-6.fc20
+
+Dependency Updated:
+  libstdc++.x86_64 0:4.8.3-7.fc20
+...
+
+#
+# This gives me
+#  ./Person.h:4:10: fatal error: 'iostream' file not found #include <iostream>
+#
+
+sudo yum groupinstall "Development Tools"
+
+Installed:
+  cvs.x86_64 0:1.11.23-33.fc20        diffstat.x86_64 0:1.57-3.fc20    doxygen.x86_64 1:1.8.6-1.fc20
+  patchutils.x86_64 0:0.3.3-4.fc20    rcs.x86_64 0:5.9.2-1.fc20        subversion.x86_64 0:1.8.10-1.fc20
+  systemtap.x86_64 0:2.6-2.fc20
+
+Dependency Installed:
+  apr.x86_64 0:1.5.1-1.fc20                            apr-util.x86_64 0:1.5.3-1.fc20
+  dyninst.x86_64 0:8.2.0-1.fc20                        libdwarf.x86_64 0:20140131-2.fc20
+  libserf.x86_64 0:1.3.7-1.fc20                        subversion-libs.x86_64 0:1.8.10-1.fc20
+  systemtap-client.x86_64 0:2.6-2.fc20                 systemtap-devel.x86_64 0:2.6-2.fc20
+  systemtap-runtime.x86_64 0:2.6-2.fc20
+
+#
+# This gives me
+#  ./Person.h:4:10: fatal error: 'iostream' file not found #include <iostream>
+#
+
+$ sudo yum install libstdc++-static
+
+Running transaction
+  Installing : libstdc++-static-4.8.3-7.fc20.x86_64                                                     1/1
+  Verifying  : libstdc++-static-4.8.3-7.fc20.x86_64                                                     1/1
+
+Installed:
+  libstdc++-static.x86_64 0:4.8.3-7.fc20
+
+# ./Person.h:4:10: fatal error: 'iostream' file not found
+# #include <iostream>
+#          ^
+
+$ yum whatprovides '*/iostream.h'
+$ sudo yum install compat-gcc-34
+
+Installed:
+  compat-gcc-34.x86_64 0:3.4.6-29.fc19
+
+$ sudo yum install gcc
+
+Updated:
+  gcc.x86_64 0:4.8.3-7.fc20
+
+Dependency Updated:
+  cpp.x86_64 0:4.8.3-7.fc20        libgcc.x86_64 0:4.8.3-7.fc20        libgomp.x86_64 0:4.8.3-7.fc20
+
+ sudo yum install gcc-c++
