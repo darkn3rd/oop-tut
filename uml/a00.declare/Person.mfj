@@ -1,0 +1,98 @@
+{
+	"_type": "UMLClass",
+	"_id": "AAAAAAFJnMB2GvWJB74=",
+	"_parent": {
+		"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+	},
+	"name": "Person",
+	"visibility": "public",
+	"attributes": [
+		{
+			"_type": "UMLAttribute",
+			"_id": "AAAAAAFJnMEuL/WyFLo=",
+			"_parent": {
+				"$ref": "AAAAAAFJnMB2GvWJB74="
+			},
+			"name": "name",
+			"visibility": "private",
+			"isStatic": false,
+			"isLeaf": false,
+			"type": "string",
+			"isReadOnly": false,
+			"isOrdered": false,
+			"isUnique": false,
+			"isDerived": false,
+			"aggregation": "none",
+			"isID": false
+		}
+	],
+	"operations": [
+		{
+			"_type": "UMLOperation",
+			"_id": "AAAAAAFJnMG1nPW4WRI=",
+			"_parent": {
+				"$ref": "AAAAAAFJnMB2GvWJB74="
+			},
+			"name": "setName",
+			"visibility": "public",
+			"isStatic": false,
+			"isLeaf": false,
+			"parameters": [
+				{
+					"_type": "UMLParameter",
+					"_id": "AAAAAAFJnMNCmPXCti4=",
+					"_parent": {
+						"$ref": "AAAAAAFJnMG1nPW4WRI="
+					},
+					"name": "n",
+					"visibility": "public",
+					"isStatic": false,
+					"isLeaf": false,
+					"type": "string",
+					"isReadOnly": false,
+					"isOrdered": false,
+					"isUnique": false,
+					"direction": "in"
+				}
+			],
+			"concurrency": "sequential",
+			"isQuery": false,
+			"isAbstract": false
+		},
+		{
+			"_type": "UMLOperation",
+			"_id": "AAAAAAFJnMN9LPXFkNs=",
+			"_parent": {
+				"$ref": "AAAAAAFJnMB2GvWJB74="
+			},
+			"name": "getName",
+			"visibility": "public",
+			"isStatic": false,
+			"isLeaf": false,
+			"parameters": [
+				{
+					"_type": "UMLParameter",
+					"_id": "AAAAAAFJnMO8ufXM77Q=",
+					"_parent": {
+						"$ref": "AAAAAAFJnMN9LPXFkNs="
+					},
+					"visibility": "public",
+					"isStatic": false,
+					"isLeaf": false,
+					"type": "string",
+					"isReadOnly": false,
+					"isOrdered": false,
+					"isUnique": false,
+					"direction": "return"
+				}
+			],
+			"concurrency": "sequential",
+			"isQuery": false,
+			"isAbstract": false
+		}
+	],
+	"isAbstract": false,
+	"isFinalSpecification": false,
+	"isLeaf": false,
+	"isActive": false
+}
