@@ -11,15 +11,9 @@ Person::Person(char* n)
 // Destructors
 Person::~Person()
 {
-  /*  if (name) {                      // check if name is allocated
-        delete name;              // delete memory allocation
-        name = NULL;                 // set pointer to NULL
-    }*/
-
     name.clear();
 
     cout << "[INFO]: Person Object is destroyed" << endl;
-
 }
 
 // Mutators - functions that set stuff
