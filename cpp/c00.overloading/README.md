@@ -1,4 +1,5 @@
 # B.2.0 Overloading Constructors (OOP Tutorial in C++)
+**© 2014 by Joaquín Menchaca**
 
 ## Purpose
 

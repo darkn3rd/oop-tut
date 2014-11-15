@@ -1,4 +1,5 @@
 # A.0.1 Instantiation
+**© 2014 by Joaquín Menchaca**
 
 ## Purpose
 

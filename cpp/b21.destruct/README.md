@@ -1,4 +1,5 @@
 # B.2.1 Destructors
+**© 2014 by Joaquín Menchaca**
 
 ## Purpose
 

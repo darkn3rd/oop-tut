@@ -1,4 +1,5 @@
 # A.0.0 Declaration
+**© 2014 by Joaquín Menchaca**
 
 ## Purpose
 

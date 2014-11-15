@@ -5,9 +5,26 @@
 
 This material is in it's infancy. A basic makefile is included that is tested with clang.
 
-Working out types of lessons (use cases) for material that will work in C#, Java, Ruby, and Python.  Some experimentation with Objective-C as well.
+The exact lessons (use cases) are still being developed.
 
-## Tested
+## Lessons
+
+These are the current lessons thus far.
+
+ 1. Declaration and Instantiation
+ 2. Constructors and Destructors
+ 3. Overloading Constructors
+ 4. Class Variables (Static)
+
+## Usage
+
+A basic make file is included and has been tested with clang on Heisenbug (Fedora 20) and Mountain Lion (OS X 10.8.5).  On these systems, simply do the following:
+
+* Compiling Code: ```make```
+* Running the Demonstration: ```./demo```
+* Cleaning Up: ```make clean```
+
+## Tested Systems
 
 * Mac OS X 10.8.5 (Mountain Lion), XCode 5.1.1 (Apple LLVM 5.1)
 * Fedora 20 (Heisenbug), clang 3.4
@@ -15,5 +32,5 @@ Working out types of lessons (use cases) for material that will work in C#, Java
 
 ## Terms
 
-Data Members - fields, properties
-Member Functions - methods
+* **Data Members** - fields, properties
+* **Member Functions** - methods

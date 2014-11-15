@@ -13,7 +13,7 @@ namespace PersonSpace {
 
 class Person {
   private:
-    string name;             // data member
+    string name; // data member
   public:
     Person  (const char* n); // constructor
     ~Person ();              // destructor

@@ -1,4 +1,5 @@
 # B.1.0 Custom Constructor
+**© 2014 by Joaquín Menchaca**
 
 ## Purpose
 

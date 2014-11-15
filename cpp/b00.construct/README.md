@@ -1,4 +1,5 @@
 # B.0.0 Default Constructor
+**© 2014 by Joaquín Menchaca**
 
 ## Purpose
 
