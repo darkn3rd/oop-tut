@@ -13,30 +13,22 @@ namespace PersonSpace {
 
 class Person {
  private:
-    // instance data members
-    string name;
+    string name;      // instance data member
+    static int count; // class data member
 
-    // class-wide data members
-    static int count;
-
-    // Private Utility Function
-    void info();
+    void info ();     // private utility member function 
  public:
-    // Constructors - initialize stuff
-    Person();
-    Person(char* n);
+    // ### CONSTRUCTORS ###
+    Person ();
+    Person (const char* n);
 
-    // Destructors
+    // ### DESTRUCTORS ###
     ~Person();
 
-    // Mutators - functions that set stuff
-    void setName(const char* n);
-
-    // Accessors - functions that get stuff
-    string getName();
-
-    // Class-wide Accessor
-    static int getCount();
+    // ### MEMBER FUNCTIONS ###
+    void       setName  (const char*);  // mutator
+    string     getName  ();             // accessor
+    static int getCount ();             // class accessor
 };
 
 }

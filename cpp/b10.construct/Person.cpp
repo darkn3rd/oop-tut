@@ -3,7 +3,7 @@
 namespace PersonSpace {
 
 // Constructors
-Person::Person(char* n)
+Person::Person(const char* n)
 {
   cout << "[INFO]: Person Object is created with name = \"";
   cout << n << "\"." << endl;

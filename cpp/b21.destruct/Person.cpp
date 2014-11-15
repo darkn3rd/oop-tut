@@ -2,7 +2,7 @@
 
 namespace PersonSpace {
 
-Person::Person(char* n)
+Person::Person(const char* n)
 {
   cout << endl;
   cout << "[INFO]: Person Object is created with name = \"";

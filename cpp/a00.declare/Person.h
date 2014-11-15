@@ -13,13 +13,10 @@ namespace PersonSpace {
 
 class Person {
   private:
-    // Private Data Members
-    string name;
+    string name; // data member
   public:
-    // Mutators - functions that set stuff
-    void   setName(const char* name);
-    // Accessors - functions that get stuff
-    string getName();
+    void   setName (const char*); // mutator
+    string getName ();            // accessor
 };
 
 }

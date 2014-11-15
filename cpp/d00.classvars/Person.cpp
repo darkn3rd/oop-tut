@@ -7,7 +7,7 @@ int Person::count = 0;
 
 // ########## Constructors - initialize stuff ##########
 Person::Person()               { ++count; info(); }
-Person::Person(char* n)        { setName(n); ++count; info(); }
+Person::Person(const char* n)  { setName(n); ++count; info(); }
 
 // ########## Destructors ##########
 Person::~Person()
