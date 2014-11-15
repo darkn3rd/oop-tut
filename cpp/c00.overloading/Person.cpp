@@ -5,7 +5,6 @@ namespace PersonSpace {
 // ########## Constructors - initialize stuff ##########
 Person::Person()               { info(); }
 Person::Person(char* n)        { setName(n); info(); }
-Person::Person(int a)          { setAge(a); info(); }
 Person::Person(char *n, int a) { setName(n); setAge(a); info(); }
 
 // ########## Mutators - functions that set stuff ##########

@@ -9,7 +9,6 @@ int main(int argc, char* argv[])
 
     // initialize data through mutator (set)
     Person captain((char*)"Jean-Luc");  // instantiate /w name
-    Person officer(21);                 // instantiate /w age
     Person ensign((char*)"Wesley", 15); // instantiate /w name and age
 
     // retrieve string from person object
@@ -18,16 +17,6 @@ int main(int argc, char* argv[])
 
     // output results
     cout << "Captain:" << endl;
-    cout << "\tName: " << name << endl;
-    cout << "\tAge: " << age << endl;
-
-    // retrieve string from person object
-
-    name = officer.getName();
-    age  = officer.getAge();
-
-    // output results
-    cout << "Officer:" << endl;
     cout << "\tName: " << name << endl;
     cout << "\tAge: " << age << endl;
 

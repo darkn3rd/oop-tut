@@ -12,16 +12,16 @@ using namespace std;
 namespace PersonSpace {
 
 class Person {
+  private:
     // private data members
     string name;
     int    age  = 0;
     // private member functions
     void   info();
-public:
+  public:
     // Constructors - initialize stuff
     Person();
     Person(char* n);
-    Person(int);
     Person(char* n, int a);
 
     // Mutators - functions that set stuff
