@@ -1,4 +1,4 @@
-# B.2. Class Variables (OOP Tutorial in C++)
+# B.2.0 Class Variables (OOP Tutorial in C++)
 
 ## Purpose
 

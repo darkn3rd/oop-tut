@@ -1,10 +1,12 @@
-# A.0. Instantiation (OOP Tutorial in C++)
+# A.0.1 Instantiation (OOP Tutorial in C++)
 
 ## Purpose
 
 This tutorial demonstrates the following lessons:
 
  1. Instantiation an object on the heap.
+ 2. Initialize private data through a mutator (setter) on object in heap.
+ 3. Retrieve private data through a accessor (getter) on object in heap.
 
 # Notes
 
