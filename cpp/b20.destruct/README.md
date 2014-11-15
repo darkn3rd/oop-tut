@@ -2,7 +2,9 @@
 
 ## Purpose
 
-This tutorial demonstrates how to create a destructor.  
+This tutorial demonstrates:
+
+1. How to create a destructor.  
 
 # Notes
 

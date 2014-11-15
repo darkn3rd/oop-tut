@@ -4,9 +4,11 @@
 
 This tutorial demonstrates the following lessons:
 
- 1. Declare a class (on the stack).
- 2. Initialize private data through a mutator (setter).
- 3. Retrieve private data through a accessor (getter).
+ 1. Declaration a class
+ 2. Controlling access through ```private``` and ```public``` labels.
+ 3. Instantiation of an object on the stack
+ 4. Initialize private data through a mutator (setter).
+ 5. Retrieve private data through a accessor (getter).
 
 # Notes
 

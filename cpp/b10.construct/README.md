@@ -2,7 +2,9 @@
 
 ## Purpose
 
-This tutorial demonstrates how to create a custom constructor that is used to initialize private data members.
+This tutorial demonstrates:
+
+1. Creating a custom constructor to initialize data members.
 
 # Notes
 
