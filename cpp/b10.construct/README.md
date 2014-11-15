@@ -1,4 +1,4 @@
-# B.1.0 Custom Constructor (OOP Tutorial in C++)
+# B.1.0 Custom Constructor
 
 ## Purpose
 

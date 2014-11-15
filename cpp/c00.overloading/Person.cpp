@@ -3,9 +3,10 @@
 namespace PersonSpace {
 
 // ########## Constructors - initialize stuff ##########
-Person::Person()               { info(); }
-Person::Person(char* n)        { setName(n); info(); }
-Person::Person(char *n, int a) { setName(n); setAge(a); info(); }
+Person::Person()                     { info(); }
+Person::Person(const char* n)        { setName(n); info(); }
+Person::Person(int a)                { setAge(a); info(); }
+Person::Person(const char *n, int a) { setName(n); setAge(a); info(); }
 
 // ########## Mutators - functions that set stuff ##########
 void Person::setName(const char* n)

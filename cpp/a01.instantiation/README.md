@@ -1,4 +1,4 @@
-# A.0.1 Instantiation (OOP Tutorial in C++)
+# A.0.1 Instantiation
 
 ## Purpose
 

@@ -1,4 +1,4 @@
-# B.2.0 Overloading Construcotrs (OOP Tutorial in C++)
+# B.2.0 Overloading Constructors (OOP Tutorial in C++)
 
 ## Purpose
 

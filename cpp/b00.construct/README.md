@@ -1,4 +1,4 @@
-# B.0.0 Default Constructor (OOP Tutorial in C++)
+# B.0.0 Default Constructor
 
 ## Purpose
 

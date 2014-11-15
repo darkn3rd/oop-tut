@@ -17,20 +17,21 @@ class Person {
     string name;
     int    age  = 0;
     // private member functions
-    void   info();
+    void info ();
   public:
     // Constructors - initialize stuff
-    Person();
-    Person(char* n);
-    Person(char* n, int a);
+    Person  ();
+    Person  (const char*);
+    Person  (int);
+    Person  (const char*, int);
 
     // Mutators - functions that set stuff
-    void setName(const char* n);
-    void setAge(int a);
+    void   setName  (const char*);
+    void   setAge   (int);
 
     // Accessors - functions that get stuff
-    string getName();
-    int    getAge();
+    string getName ();
+    int    getAge  ();
 };
 
 }

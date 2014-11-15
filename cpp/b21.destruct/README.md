@@ -1,4 +1,4 @@
-# B.2.1 Destructors (OOP Tutorial in C++)
+# B.2.1 Destructors
 
 ## Purpose
 

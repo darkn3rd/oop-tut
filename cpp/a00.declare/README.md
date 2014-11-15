@@ -1,4 +1,4 @@
-# A.0.0 Declaration (OOP Tutorial in C++)
+# A.0.0 Declaration
 
 ## Purpose
 
