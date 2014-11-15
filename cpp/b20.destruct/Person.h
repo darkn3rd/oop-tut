@@ -12,9 +12,10 @@ using namespace std;
 namespace PersonSpace {
 
 class Person {
+  private:
     // Private Data Members
     string name;
-public:
+  public:
     // Constructors
     Person(char* n);
     // Destructors

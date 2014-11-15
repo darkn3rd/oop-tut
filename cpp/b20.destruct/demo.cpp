@@ -4,7 +4,7 @@ using namespace PersonSpace;
 
 int main(int argc, char* argv[])
 {
-    // initialize data through mutator (set)
+    // create Person object on the stack
     Person captain((char*)"Jean-Luc");   // instantiate new object
 
     // retrieve string from captain object
