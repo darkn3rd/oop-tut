@@ -12,9 +12,10 @@ using namespace std;
 namespace PersonSpace {
 
 class Person {
+  private:
     // Private Data Members
     string name;
-public:
+  public:
     // Mutators - functions that set stuff
     void   setName(const char* name);
     // Accessors - functions that get stuff
