@@ -12,11 +12,18 @@ The exact lessons (use cases) are still being developed.
 These are the current lessons devised thus far are the following
 
  1. Declaration and Instantiation
+    * Initializing objects: stack vs. heap
  2. Constructors and Destructors
+    * Default Constructors vs. Custom Constructors
+    * Destructor
+    * Deleting objects on the heap
  3. Overloading Constructors
- 4. Class Variables (Static)
- 5. Immutability
+    * Member Initialization List
+    * Constructor Chaining to Delegated Constructor
+ 4. Class Variables (```static```)
+ 5. Immutability (```const```)
  6. Inheritance
+    * Constructor Chaining to Parent Constructor
 
 ## Usage
 
