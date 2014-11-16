@@ -20,7 +20,7 @@ These are the current lessons devised thus far are the following
 
 ## Usage
 
-A basic make file is included and has been tested with clang on Heisenbug (Fedora 20) and Mountain Lion (OS X 10.8.5).  On these systems, simply do the following:
+A basic makefile is included and has been tested on Heisenbug (Fedora 20) and Mountain Lion (OS X 10.8.5).  On these systems, simply do the following:
 
 * Compiling Code: ```make```
 * Running the Demonstration: ```make run```

@@ -12,18 +12,18 @@ The exact lessons (use cases) are still being developed.
 These are the current lessons devised thus far are the following
 
  1. Declaration and Instantiation
- 2. Constructors and Destructors
+ 2. Constructors
  3. Overloading Constructors
  4. Class Variables (Static)
- 5. Immutability
+ 5. Immutability (Final)
  6. Inheritance
 
 ## Usage
 
-A basic make file is included and has been tested with clang on Heisenbug (Fedora 20) and Mountain Lion (OS X 10.8.5).  On these systems, simply do the following:
+A basic makefile is included and has been tested on Heisenbug (Fedora 20) and Mountain Lion (OS X 10.8.5).  On these systems, simply do the following:
 
 * Compiling Code: ```make```
-* Running the Demonstration: ```./demo```
+* Running the Demonstration: ```make run```
 * Cleaning Up: ```make clean```
 
 ## Tested Systems
