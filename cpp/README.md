@@ -3,7 +3,7 @@
 
 ## Status
 
-This material is in it's infancy. A basic makefile is included that is tested with clang.
+This material is in its infancy. A basic makefile is included that is tested with clang.
 
 The exact lessons (use cases) are still being developed.
 
@@ -26,7 +26,7 @@ A basic make file is included and has been tested with clang on Heisenbug (Fedor
 
 ## Tested Systems
 
-* Mac OS X 10.8.5 (Mountain Lion), XCode 5.1.1 (Apple LLVM 5.1)
+* Mac OS X 10.8.5 (Mountain Lion), XCode 5.1.1 (Apple LLVM 5.1) w/ Command Line Tools
 * Fedora 20 (Heisenbug), clang 3.4
   * iostream not found when using ```clang -stdlib=libc++```  
 
