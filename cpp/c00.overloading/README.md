@@ -3,7 +3,11 @@
 
 ## Purpose
 
-This tutorial introduces the concept of overloading through invariable constructors:
+This tutorial demonstrates:
+
+1. Overloading Constructors
+
+There will be the following invariable constructors:
 
  * constructor without any parameters
  * constructor with one parameter of a string
@@ -12,4 +16,4 @@ This tutorial introduces the concept of overloading through invariable construct
 
 ## Notes
 
-In traditional C language, you cannot have two functions with the same name.  In C++, you can have two functions with the same name, as long as they are not ambigious, meaning that they need to have different variables.  When you pass in a different number variables or type of variables, C++ will select the appropriate function.
+In traditional C language, you cannot have two functions with the same name.  In C++, you can have two functions with the same name, as long as they are not ambiguous, meaning that they need to have different variables.  When you pass in a different number of variables or different types of variables (or a combination of the two), C++ will select the appropriate function.
