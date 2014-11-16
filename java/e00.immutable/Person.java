@@ -1,24 +1,29 @@
 public class Person
 {
     private String name = "";
-    private Integer age = 0;
+    private final int id;
 
     // Constructor
-    public Person(String name)  { this.setName(name); }
-    public Person(Integer age)  { this.setAge(age); }
-
-    public Person(String name, Integer age) 
-    { 
+    public Person(String name, int id)
+    {
+        this.id = id;
         this.setName(name);
-        this.setAge(age);
+        this.info();
     }
-    
-    // Mutators - functions that set stuff	
+
+    // Utility Method
+    private void info() {
+        System.out.println(
+          "[INFO] Person Object: '" + this.getName() + "' created.\n" +
+          "[INFO] \tCitizen Id No.: " + this.getId() + "\n");
+    }
+
+
+    // Mutators - functions that set stuff
     public void   setName(String name) { this.name = name; }
-    public void   setAge(Integer age)  { this.age = age; }
 
     // Accessors - functions that get stuff
-    public String getName()            { return name; }
-    public int    getAge()             { return age; }
+    public String getName() { return name; }
+    public int    getId()   { return id; }
 
 }
