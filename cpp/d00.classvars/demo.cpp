@@ -4,6 +4,10 @@ using namespace PersonSpace;
 
 int main(int argc, char* argv[])
 {
+    cout << "\n\tThe number of Persons is now: " << Person::getCount() << endl;
+
+    cout << "\nCreating Persons..." << endl << endl;
+
     // instantiate three Person objects on the heap
     Person *captain = new Person((char*)"Jean-Luc");
     Person *officer = new Person((char*)"Data");
