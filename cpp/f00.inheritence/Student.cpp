@@ -2,7 +2,7 @@
 
 namespace StudentSpace {
 
-  void   Student::setGPA(double g) { this->gpa = g; } // mutator
+  void   Student::setGPA(double g) { gpa = g; } // mutator
   double Student::getGPA()         { return gpa; }   // accessor
 
 }
