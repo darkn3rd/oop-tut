@@ -28,6 +28,6 @@ public class Demo {
     gpa =  officer.GPA;  // accessor
 
     // output results
-    System.Console.WriteLine("Captain:\n\tName: {0}\n\tGPA: {1} ", name, gpa);
+    System.Console.WriteLine("Officer:\n\tName: {0}\n\tGPA: {1} ", name, gpa);
   }
 }
