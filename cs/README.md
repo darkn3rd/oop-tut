@@ -14,7 +14,7 @@ These are the current lessons devised thus far are the following
  1. Declaration and Instantiation
  2. Constructors
  3. Overloading Constructors
-    * Calling Designated Constructor
+    * Constructor Chaining
  4. Class Variables (```static```)
  5. Immutability (```readonly```)
  6. Inheritance
