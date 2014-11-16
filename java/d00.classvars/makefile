@@ -4,7 +4,7 @@ BUILD = build
 SRC = .
 
 all: Demo.java Person.java
-	mkdir $(BUILD)
+	mkdir -p $(BUILD)
 	$(JC) $(JFLAGS) Demo.java Person.java
 
 run:

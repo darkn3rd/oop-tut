@@ -1,24 +1,29 @@
 public class Person
 {
-    private String name = "";
-    private Integer age = 0;
+  private String name = "";
+  private static int count;
 
-    // Constructor
-    public Person(String name)  { this.setName(name); }
-    public Person(Integer age)  { this.setAge(age); }
 
-    public Person(String name, Integer age) 
-    { 
-        this.setName(name);
-        this.setAge(age);
-    }
-    
-    // Mutators - functions that set stuff	
-    public void   setName(String name) { this.name = name; }
-    public void   setAge(Integer age)  { this.age = age; }
+  // Constructor
+  public Person(String name)  { this.setName(name); ++count; info(); }
 
-    // Accessors - functions that get stuff
-    public String getName()            { return name; }
-    public int    getAge()             { return age; }
+  // Finalizers
+  // Note: Garbage Collection is non-deterministic, so this cannot be tested.
+  protected void finalize()   { --count; }
+
+  // Utility Method
+  private void info() {
+      System.out.println(
+        "[INFO] Person Object: '" +
+        this.getName() +
+        "' created.");
+  }
+
+  // Mutators - functions that set stuff
+  public void   setName(String name) { this.name = name; }
+
+  // Accessors - functions that get stuff
+  public String getName()            { return name; }
+  public static int getCount()       { return count; }
 
 }
