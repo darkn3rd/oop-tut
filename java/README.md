@@ -18,6 +18,12 @@ These are the current lessons devised thus far are the following
  5. Immutability (Final)
  6. Inheritance
 
+Other topics I would like to cover shortly.
+
+ * Overriding
+ * Abstraction
+ * Class-wide Constants ```static final```
+
 ## Usage
 
 A basic makefile is included and has been tested on Heisenbug (Fedora 20) and Mountain Lion (OS X 10.8.5).  On these systems, simply do the following:
