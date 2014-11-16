@@ -6,8 +6,9 @@
 This tutorial introduces the concept of overloading through invariable constructors:
 
  * constructor without any parameters
- * constructor with one parameter of string
- * constructor with two parameters of string and int.
+ * constructor with one parameter of a string
+ * constructor with one parameter of an int
+ * constructor with two parameters of a string and an int.
 
 ## Notes
 
