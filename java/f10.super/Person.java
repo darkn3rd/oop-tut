@@ -2,6 +2,9 @@ public class Person
 {
     private String name = "";
 
+    // Constructor
+    public Person(String name)  { this.setName(name); }
+
     // Mutators - functions that set stuff
     public void   setName(String name) { this.name = name; }
 

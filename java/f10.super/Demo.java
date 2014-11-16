@@ -4,17 +4,10 @@ public class Demo {
         String name;
         Double gpa;
 
-        // create new objects with a name
-        Student captain = new Student();
-        Student officer = new Student();
-
-        // set object's name value
-        captain.setName("Jean-Luc");
-        officer.setName("Data");
-
-        // set object's gpa value
-        captain.setGPA(3.8);
-        officer.setGPA(4.0);
+        // create new objects and initialize data
+        Student captain = new Student("Jean-Luc");  // create obj w/ name
+        captain.setGPA(3.8);                        // set object's gpa
+        Student officer = new Student("Data", 4.0); // create obj w/ name, gpa
 
         // retrieve string from person object
         name = captain.getName(); // accessor
