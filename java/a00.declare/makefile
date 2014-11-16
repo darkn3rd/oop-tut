@@ -1,16 +1,15 @@
-JFLAGS = -g
 JC = javac
-.SUFFIXES: .java .class
-.java.class:
-	$(JC) $(JFLAGS) $*.java
+JFLAGS = -d $(BUILD) -classpath $(BUILD) -sourcepath $(SRC)
+BUILD = build
+SRC = .
 
-CLASSES = \
-     Demo.java \
-     Person.java
+all: Demo.java Person.java
+	mkdir $(BUILD)
+	$(JC) $(JFLAGS) Demo.java Person.java
 
-default: classes
-
-classes: $(CLASSES:.java=.class)
+run:
+	java -classpath $(BUILD) Demo
 
 clean:
-	$(RM) *.class
+	$(RM) $(BUILD)/*.class
+	rmdir $(BUILD)
