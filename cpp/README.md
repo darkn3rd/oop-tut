@@ -9,12 +9,14 @@ The exact lessons (use cases) are still being developed.
 
 ## Lessons
 
-These are the current lessons thus far.
+These are the current lessons devised thus far are the following
 
  1. Declaration and Instantiation
  2. Constructors and Destructors
  3. Overloading Constructors
  4. Class Variables (Static)
+ 5. Immutability
+ 6. Inheritance
 
 ## Usage
 
