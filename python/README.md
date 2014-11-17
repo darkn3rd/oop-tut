@@ -37,3 +37,7 @@ Other topics I would like to cover shortly.
 
 * *__OS X 10.8.5 (Mountain Lion)__*
   * Python 2.7.8 (```brew install python```)
+
+## Links
+
+* http://broken.build/2011/07/21/static-variables-and-methods-in-python/
