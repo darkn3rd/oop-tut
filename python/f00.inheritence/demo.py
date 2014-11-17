@@ -1,9 +1,26 @@
 #!/usr/bin/python -B
-from Person import Person    # include Person.py
+from Student import Student    # include Person.py
 
-# initialize data through constructor
-person = Person("Jean-Luc")  # construct new object with string parameter
+# create new objects
+captain = Student()
+officer = Student()
 
-# access and print data through accessor (get)
-name   = person.getName()    # accessor
-print "Name of the Person:\n\t" + name
+# set object's name value
+captain.setName("Jean-Luc")
+officer.setName("Data")
+
+# set object's gpa value
+captain.setGPA(3.8)
+officer.setGPA(4.0)
+
+# retrieve data from captain object
+name = captain.getName()
+gpa  = captain.getGPA()
+
+print("Captain:\n\tName: %s\n\tGPA: %s" % (name, gpa))
+
+# retrieve data from officer object
+name = officer.getName()
+gpa  = officer.getGPA()
+
+print("Officer:\n\tName: %s\n\tGPA: %s" % (name, gpa))

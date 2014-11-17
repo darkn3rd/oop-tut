@@ -2,8 +2,8 @@
 # class declaration
 class Person:
   ###### Initializer ######
-  def __init__(self,name):
-    self.setName(name)    # call mutator
+  #def __init__(self,name):
+  #s  self.setName(name)    # call mutator
 
   ###### Mutators ######
   def setName (self,name):
