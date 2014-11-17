@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # class declaration
 class Person:
-  ###### Initializers ######
+  ###### Initializer ######
   def __init__(self,name, id_):
     self.__id = id_    # indicate we want this private id variable
     self.setName(name) # call mutator

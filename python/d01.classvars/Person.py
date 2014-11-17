@@ -4,7 +4,7 @@ class Person:
   ###### Class Variables ######
   count = 0
 
-  ###### Constructors ######
+  ###### Initializer ######
   def __init__(self,name):
     self.setName(name)    # call mutator
     self.__class__.count += 1     # incrememnt count
