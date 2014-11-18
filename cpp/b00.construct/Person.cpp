@@ -5,7 +5,7 @@ namespace PersonSpace {
 // Constructor
 Person::Person()
 {
-  cout << "[INFO]: Person Object is created" << endl;
+  cout << " [INFO]: Person Object is created" << endl;
 }
 
 // Mutators - functions that set stuff
