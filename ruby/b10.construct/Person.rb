@@ -3,6 +3,7 @@
 class Person
   # Constructors
   def initialize(name) # constructor
+    puts "  [INFO]: Person Object is created with name = \"#{name}\""
     setName(name)      # call mutator
   end
   

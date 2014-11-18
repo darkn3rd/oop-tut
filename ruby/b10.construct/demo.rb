@@ -1,9 +1,24 @@
 #!/usr/bin/ruby
 require 'Person'                # include Person.rb
 
-# initialize data through constructor
-person = Person.new "Jean-Luc" # construct new object with string parameter
+puts "Creating two objects:\n\n"
 
-# access and print data through accessor (get)
-name   = person.getName         # accessor
-puts "Name of the Person:\n\t" + name
+# create two objects
+captain = Person.new "Jean-Luc"      # instantiate new object
+officer = Person.new "Data"      # instantiate new object
+
+puts "\nPrinting Results:\n\n"
+
+# retrieve string from captain object through accessor (get)
+name   = captain.getName   # call accessor
+
+# output results
+puts "  Name of the Captain:\n\t" + name
+
+# retrieve string from officer object through accessor (get)
+name   = officer.getName   # call accessor
+
+# output results
+puts "  Name of the Officer:\n\t" + name
+
+puts "\n"
