@@ -16,7 +16,6 @@ These are the topics ironed out so far (still under development):
    * :green_book: Destructor (B20)
 * :books: Overloading Constructors (C00)
    * :green_book: Delegated Constructor (C10)
-   * :green_book: Optional Parameters (C20)
 * :books: Class Variables
    * :green_book: Class or Static Method (D00)
 * :books: Immutable Fields (D10)
