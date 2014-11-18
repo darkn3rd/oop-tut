@@ -2,8 +2,8 @@
 # class declaration
 class Person:
   # Constructors
-  def __init__(self,name):
-    self.setName(name)    # call mutator
+  def __init__(self):
+    print("  [INFO]: Person Object is created")
 
   # Mutators - functions that set stuff
   def setName (self,name):
