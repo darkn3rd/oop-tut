@@ -1,9 +1,27 @@
 #!/usr/bin/ruby
 require 'Person'                # include Person.rb
+require 'Student'               # include Student.rb
 
-# initialize data through constructor
-person = Person.new "Jean-Luc" # construct new object with string parameter
+# create new objects
+captain = Student.new
+officer = Student.new
 
-# access and print data through accessor (get)
-name   = person.getName         # accessor
-puts "Name of the Person:\n\t" + name
+# set objects' name value
+captain.setName "Jean-Luc"
+officer.setName "Data"
+
+# set objects' gpa value
+captain.setGPA  3.8
+officer.setGPA  4.0
+
+# retrieve data from captain object
+name   = captain.getName
+age    = captain.getGPA
+
+puts "Captain:\n\tName: #{name}\n\tGPA: #{age}"
+
+# retrieve data from officer object
+name   = officer.getName
+age    = officer.getGPA
+
+puts "Officer:\n\tName: #{name}\n\tGPA: #{age}"
