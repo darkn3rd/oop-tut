@@ -1,9 +1,32 @@
 #!/usr/bin/python -B
 from Person import Person    # include Person.py
 
-# initialize data through constructor
-person = Person("Jean-Luc")  # construct new object with string parameter
+print("Creating two objects:\n")
 
-# access and print data through accessor (get)
-name   = person.getName()    # accessor
-print "Name of the Person:\n\t" + name
+# create two objects
+captain = Person("Jean-Luc") # instantiate new object
+officer = Person("Data")     # instantiate new object
+
+print("\nPrinting Results:\n")
+
+# retrieve string from captain object through accessor (get)
+name = captain.getName()     # call accessor
+
+# output results
+print("  Name of the Captain:\n\t" + name)
+
+# retrieve string from officer object through accessor (get)
+name = officer.getName()     # call accessor
+
+# output results
+print("  Name of the Officer:\n\t" + name)
+
+print("")
+
+
+
+
+
+
+
+
