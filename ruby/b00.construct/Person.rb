@@ -1,17 +1,17 @@
 #!/usr/bin/ruby
 # class declaration
 class Person
-  # Constructors
-  def initialize(name) # constructor
-    setName(name)      # call mutator
+  ###### Initializer ######
+  def initialize()     # constructor
+      puts "  [INFO]: Person Object is created\n"
   end
   
-  # Mutators - functions that set stuff
+  ###### Mutators ######
   def setName (name)
     @name = name       # set instance data
   end
   
-  # Accessors - functions that get stuff
+  ###### Accessors ######
   def getName
     @name              # return instance data
   end
