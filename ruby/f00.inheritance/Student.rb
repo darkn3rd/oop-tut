@@ -2,7 +2,7 @@
 # class declaration
 class Student < Person
   ###### Mutators ######
-  def setGPA (gpa=0.0)
+  def setGPA (gpa)
     @gpa = gpa         # set instance data
   end
   
