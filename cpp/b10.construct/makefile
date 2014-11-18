@@ -8,5 +8,8 @@ Demo.o: demo.cpp Person.cpp
 Person.o: Person.cpp
 	$(CC) -c Person.cpp -o $@
 
+run:
+	./Demo
+
 clean:
 	$(RM) *.o Demo
