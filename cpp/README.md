@@ -11,19 +11,19 @@ The exact lessons (use cases) are still being developed.
 
 These are the current lessons devised thus far are the following
 
- 1. Declaration and Instantiation
-    * Initializing objects: stack vs. heap
- 2. Constructors and Destructors
-    * Default Constructors vs. Custom Constructors
-    * Destructor
-    * Deleting objects on the heap
- 3. Overloading Constructors
-    * Member Initialization List
-    * Constructor Chaining to Delegated Constructor
- 4. Class Variables (```static```)
- 5. Immutability (```const```)
- 6. Inheritance
-    * Constructor Chaining to Parent Constructor
+ 1. :green_book: Declaration and Instantiation
+    * :page_facing_up: Initializing objects: stack vs. heap
+ 2. :green_book: Constructors and Destructors
+    * :page_facing_up: Default Constructors vs. Custom Constructors
+    * :page_facing_up: Destructor
+    * :page_facing_up: Deleting objects on the heap
+ 3. :green_book: Overloading Constructors
+    * :page_facing_up: Member Initialization List
+    * :page_facing_up: Constructor Chaining to Delegated Constructor
+ 4. :green_book: Class Variables (```static```)
+ 5. :green_book: Immutability (```const```)
+ 6. :green_book: Inheritance
+    * :page_facing_up: Constructor Chaining to Parent Constructor
 
 ## Usage
 
@@ -35,11 +35,14 @@ A basic make file is included and has been tested with clang on Heisenbug (Fedor
 
 ## Tested Systems
 
-* Mac OS X 10.8.5 (Mountain Lion), XCode 5.1.1 (Apple LLVM 5.1) w/ Command Line Tools
-* Fedora 20 (Heisenbug), clang 3.4
-  * iostream not found when using ```clang -stdlib=libc++```  
+* :dvd: Mac OS X 10.8.5 (Mountain Lion)
+  * :package:  XCode 5.1.1 (Apple LLVM 5.1)
+  * :package:  XCode 5.1.1 Command Line Tools
+* :dvd: Fedora 20 (Heisenbug)
+  * :package: clang 3.4 (`yum install clang`)
+  * ***Note***: iostream not found when using ```clang -stdlib=libc++```  
 
 ## Terms
 
-* **Data Members** - fields, properties
-* **Member Functions** - methods
+* :book: **Data Members** - fields, properties, attributes
+* :book: **Member Functions** - methods
