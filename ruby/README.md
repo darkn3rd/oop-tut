@@ -29,3 +29,7 @@ These are the current lessons devised thus far are the following
 
 * :dvd: *__OS X 10.8.5 (Mountain Lion)__*
   * :package: Ruby 2.1.2p95 (`brew install ruby`)
+
+## Links
+
+* [Read Ruby by Matthias Richwin](http://readruby.io/)
