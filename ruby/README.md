@@ -27,4 +27,4 @@ These are the current lessons devised thus far are the following
 ## Tested Systems
 
 * :dvd: *__OS X 10.8.5 (Mountain Lion)__*
-  * :package: Ruby 2.1.2p95 (`brew install python`)
+  * :package: Ruby 2.1.2p95 (`brew install ruby`)
