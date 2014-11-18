@@ -1,0 +1,17 @@
+<project default="compile">
+
+  <target name="compile">
+    <javac srcdir="." />
+  </target>
+
+  <target name="clean" >
+    <delete>
+      <fileset dir="." includes="*.class" />
+    </delete>
+  </target>
+
+  <target name="run" depends="compile">
+    <java classname="Demo" fork="true"/>
+  </target>
+
+</project>
