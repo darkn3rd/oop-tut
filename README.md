@@ -35,7 +35,7 @@ These topics are in total brainstorming mode:
 
 ## Tasks
 
-Recent Stuff:
+### Recent Stuff
 
 * [x] Try compiles on Linux (Fedora 20)
   * [x] C++ v11
@@ -49,7 +49,7 @@ Recent Stuff:
 * [x] Ruby - Complete 6 lessons for 4 topic areas.
   * [x] Find alternatives to immutability and overloading
 
-Near Future:
+### Near Future
 
 * [ ] Build Material Objective-C.
   * [ ] Test material on Linux.
@@ -60,7 +60,7 @@ Near Future:
 * [ ] Brainstorm more advanced OOP material with abstractions, virtual, interface, boxing, etc.
 * [ ] Test on other platforms: Windows versions, Mac OS X versions, Linux Distros
 
-Far Future (total brainstorm):
+### Far Future (total brainstorm)
 
 * :bulb: Experiment with various Unit test platforms.
   * :bulb: Consider using same code base in interactive mode, maybe create an *unit-tut* repository.
