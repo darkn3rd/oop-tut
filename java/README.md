@@ -13,6 +13,7 @@ These are the current lessons devised thus far are the following
 
  1. :green_book: Declaration and Instantiation
  2. :green_book: Constructors
+     * :page_facing_up: Default Constructors vs. Custom Constructors
  3. :green_book: Overloading Constructors
     * :page_facing_up: Calling Delgated Constructor (chaining with `this()`)
  4. :green_book: Class Variables (`static`)
