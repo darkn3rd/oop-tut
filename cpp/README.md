@@ -14,7 +14,8 @@ These are the current lessons devised thus far are the following
  1. :green_book: Declaration and Instantiation
     * :page_facing_up: Initializing objects: stack vs. heap
  2. :green_book: Constructors and Destructors
-    * :page_facing_up: Default Constructors vs. Custom Constructors
+    * :page_facing_up: Default Constructors vs. Custom Constructors (stack)
+    * :page_facing_up: Default Constructors vs. Custom Constructors (heap)
     * :page_facing_up: Destructor
     * :page_facing_up: Deleting objects on the heap
  3. :green_book: Overloading Constructors
