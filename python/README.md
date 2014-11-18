@@ -13,6 +13,7 @@ These are the current lessons devised thus far are the following
 
  1. :green_book: Declaration and Instantiation
  2. :green_book: Initializer
+     * :page_facing_up: Default vs. Custom Initializer
  3. :closed_book: Overloaded Constructors ***ALTERNATIVE***
  4. :green_book: Class Variables
     * :page_facing_up: Using `@staticmethod`
