@@ -15,6 +15,7 @@ These are the current lessons devised thus far are the following
  2. :green_book: Initializer
     * :page_facing_up: Default vs. Custom Initializer
  3. :closed_book: Overloaded Constructors ***ALTERNATIVE***
+    * :page_facing_up: Optional Parameters
  4. :green_book: Class Variables
  5. :closed_book: Immutability ***ALTERNATIVE***
  6. :green_book: Inheritance
