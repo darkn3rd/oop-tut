@@ -29,7 +29,7 @@ These are the current lessons devised thus far are the following
 
 ## Tested Systems
 
-* :dvd: * __OS X 10.8.5 (Mountain Lion)__*
+* :dvd: *__OS X 10.8.5 (Mountain Lion)__*
   * :package: Python 2.7.8 (`brew install python`)
 
 ## Links
