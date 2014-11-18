@@ -11,32 +11,26 @@ The exact lessons (use cases) are still being developed.
 
 These are the current lessons devised thus far are the following
 
- 1. Declaration and Instantiation
- 2. Initializer
- 3. *Simulating* Overloaded Constructors
- 4. Class Variables
-    * Using ```@staticmethod```
-    * Using ```@classmethod```
-    * ```Person.count``` vs ```self.__class__.count```
- 5. *Simulating* Immutability
- 6. Inheritance
-    * Using parent methods
-    * Using ```super()```
-
-Other topics I would like to cover shortly.
-
- * Overriding
- * Abstraction
- * Class-wide Constants ```static final```
+ 1. :green_book: Declaration and Instantiation
+ 2. :green_book: Initializer
+ 3. :closed_book: Overloaded Constructors ***ALTERNATIVE***
+ 4. :green_book: Class Variables
+    * :page_facing_up: Using `@staticmethod`
+    * :page_facing_up: Using `@classmethod`
+    * :page_facing_up: `Person.count` vs `self.__class__.count`
+ 5. :closed_book: Immutability ***ALTERNATIVE***
+ 6. :green_book: Inheritance
+    * :page_facing_up: Using parent methods
+    * :page_facing_up: Using `super()`
 
 ## Usage
 
-* Running the Demonstration: ```./demo.py```
+* Running the Demonstration: `./demo.py`
 
 ## Tested Systems
 
-* *__OS X 10.8.5 (Mountain Lion)__*
-  * Python 2.7.8 (```brew install python```)
+* :dvd: * __OS X 10.8.5 (Mountain Lion)__*
+  * :package: Python 2.7.8 (`brew install python`)
 
 ## Links
 
