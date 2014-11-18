@@ -16,7 +16,6 @@ These are the current lessons devised thus far are the following
      * :page_facing_up: Default Constructors vs. Custom Constructors
  3. :green_book: Overloading Constructors
     * :page_facing_up: Constructor Chaining
-    * :page_facing_up: Optional Parameters    
  4. :green_book: Class Variables (`static`)
  5. :green_book: Immutability (`readonly`)
  6. :green_book: Inheritance
