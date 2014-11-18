@@ -54,6 +54,7 @@ These topics are in total brainstorming mode:
 * [ ] Build Material Objective-C.
   * [ ] Test material on Linux.
 * [ ] Experiment with default variables as alternative to overloading on C#, C++, and Java.
+* [ ] Use any convenience facility in Python and Ruby for setters/getters.
 * [ ] Determine why Nant 0.9.2 is core dumping on Fedora 20 with Mono 3.4
 * [ ] Develop Nant build scripts, Explore XBuild (MSBuild) scripts.
 * [ ] Design consistent build strategy for all languages, such as `build/` directory.
