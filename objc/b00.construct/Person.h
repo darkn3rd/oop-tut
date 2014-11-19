@@ -3,11 +3,11 @@
 
 @interface Person : NSObject
 {
-    char* name;
+    NSString *name;
 }
 
-- (id) initWithName: (char *) n;
+- (id) initWithName: (NSString *name) n;
 - (id) init;
-- (void) name: (char *) n;
-- (char *) name;
+- (void) name: (NSString *name) n;
+- (NSString *name) name;
 @end
