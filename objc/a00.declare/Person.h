@@ -1,11 +1,10 @@
 #import <Foundation/Foundation.h>
-#import <stdlib.h>
 
 @interface Person : NSObject
 {
     char* name;
 }
 
-- (void) name: (char *) n;
-- (char *) name;
+- (void)   setName: (char *) name;
+- (char *) getName;
 @end

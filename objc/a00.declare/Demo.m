@@ -4,11 +4,11 @@
 int main (int argc, const char * argv[]) 
 { 
     // initialize data through mutator (set)
-	id person = [Person new];    // instantiate new object
-	[person name: "Jean-Luc"];   // mutator
+	id person = [Person new];      // instantiate new object
+	[person setName: "Jean-Luc"];  // mutator
 
 	// retrieve string from person object
-	char *name = [person name];  // accessor
+	char *name = [person getName]; // accessor
 
     // output results
 	printf("Name of the Person:\n\t%s\n", name);
