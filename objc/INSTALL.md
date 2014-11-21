@@ -44,11 +44,14 @@ $ gcc -lobjc hello.m -o hello
 $ ./hello
 今日は。お元気ですか？
 ```
+Note, for compiling Objective-C v1 programs that use `#import <objc/Object.h>`, you'll need to include `-arch i386`.  The Object library is only available in 32-bit. Specifically, the default will compile 64-bit programs and set the macro definition of `__OBJC2__`.  This causes the Object interface to be unavailable.
 
 
 ## Fedora 20
 
-On Fedora 20, we'll the following three packages of ***gcc***, ***gcc-objc***, and ***gnustep-base-devel***.
+On Fedora 20, you need to install ***gcc*** and ***gcc-objc***.  You'll also want to get basic GNUStep libraries with ***gnustep-base-devel***.  
+
+On Linux, the packages only install Objective-C version 1, which doesn't include newer features like *Blocks*.
 
 ```
 $ sudo yum -y install gcc gcc-objc gnustep-base-devel

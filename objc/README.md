@@ -9,13 +9,15 @@ The exact lessons (use cases) are still being developed.
 
 ## Overview
 
-The wikipedia [article](http://en.wikipedia.org/wiki/Objective-C) on Objective:
+The wikipedia [article](http://en.wikipedia.org/wiki/Objective-C) on Objective-C:
 
 * http://en.wikipedia.org/wiki/Objective-C
 
 ## Installation
 
-Here are some [Installation Instructions](INSTALL.md) that will help configure and setup an Objective-C v1 environment with the Foundation Libraries.
+Here are some [Installation Instructions](INSTALL.md) that will help configure and setup an Objective-C environment with the Foundation Libraries.  
+
+
 
 ## Lessons
 
