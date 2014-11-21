@@ -7,6 +7,16 @@ This material is in its infancy. A basic makefile is included that is tested wit
 
 The exact lessons (use cases) are still being developed.
 
+## Overview
+
+The wikipedia [article](http://en.wikipedia.org/wiki/Objective-C) on Objective:
+
+* http://en.wikipedia.org/wiki/Objective-C
+
+## Installation
+
+Here are some [Installation Instructions](INSTALL.md) that will help configure and setup an Objective-C v1 environment with the Foundation Libraries.
+
 ## Lessons
 
 These are the current lessons devised thus far are the following
