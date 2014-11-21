@@ -1,7 +1,6 @@
 CC=gcc -arch i386
 LDFLAGS=-lobjc
 CFLAGS=
-#CC=`gnustep-config --objc-flags` -lgnustep-base -lobjc
 
 all: Demo
 Demo: Demo.o Person.o

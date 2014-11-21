@@ -1,13 +1,15 @@
-#import <Foundation/Foundation.h>
+#import <objc/Object.h>
 #import <stdlib.h>
+#import <stdio.h>
+#import <string.h>
 
-@interface Person : NSObject
+@interface Person : Object
 {
-    NSString *name;
+    char* name;
 }
 
-- (id) initWithName: (NSString *name) n;
-- (id) init;
-- (void) name: (NSString *name) n;
-- (NSString *name) name;
+- (Person *) initWithName: (char *) n;
+- (Person *) init;
+- (void) name: (char *) n;
+- (char *) name;
 @end

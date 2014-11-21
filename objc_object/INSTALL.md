@@ -40,7 +40,7 @@ $ hdiutil unmount "/Volumes/Command Line Tools (Mountain Lion)"
 After these are install, you can simply do the following:
 
 ```bash
-$ gcc -lobjc hello.m -o hello
+$ gcc -arch i386 -lobjc hello.m -o hello
 $ ./hello
 今日は。お元気ですか？
 ```
