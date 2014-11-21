@@ -40,3 +40,8 @@ Some links I came across when trying when looking for reference material.
 * :link: [Compiling Objective-C without a GUI](http://codeseekah.com/2012/09/12/compiling-objective-c-without-a-gui/) - Great article that shows how to make command line programs on Mac OS X and Linux
 * :link: [Getting started with Objective C on Ubuntu ](http://www.fatvat.co.uk/2010/04/getting-started-with-objective-c-on.html) - Article that tells how to get Foundation libraries using GNUStep
 * :link: [Google Objective-C Style Guide](http://google-styleguide.googlecode.com/svn/trunk/objcguide.xml)
+* :link: [The Objective C Language](https://atomicobject.com/resources/handbook-of-software/objective-c-language)
+http://www.sveinbjorn.org/objectivec_stdout
+http://iphonesdkdev.blogspot.com/2008_07_01_archive.html?m=1
+http://www.codeproject.com/Articles/770577/From-Cplusplus-to-Objective-C-A-quick-guide-for-pr
+https://ind.ie/phoenix/
