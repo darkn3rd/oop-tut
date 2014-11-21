@@ -1,6 +1,9 @@
-#import <Foundation/Foundation.h>
+#import <objc/Object.h>
+#import <stdlib.h>
+#import <string.h>
+#import <stdio.h>
 
-@interface Person : NSObject
+@interface Person : Object
 {
     char* name;
 }
