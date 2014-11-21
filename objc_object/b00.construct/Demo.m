@@ -9,7 +9,7 @@ int main (int argc, const char * argv[])
 	id officer = [[Person alloc] init];    // instantiate new object
 	// initialize data through mutator (set)
 	[captain setName: "Jean-Luc"];         // call mutator
-	[captain setName: "Data"];             // call mutator
+	[officer setName: "Data"];             // call mutator
 
 	printf("\nPrinting Results:\n\n");
 
@@ -26,6 +26,8 @@ int main (int argc, const char * argv[])
 	// output results
 	printf("  Name of the Officer:\n");
 	printf("\t%s\n", name);
+
+  printf("\n");
 
 	// return exit of success
 	return EXIT_SUCCESS;
