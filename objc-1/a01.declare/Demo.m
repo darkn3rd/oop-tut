@@ -8,11 +8,11 @@ int main (int argc, const char * argv[])
     // initialize data
     captain.name = @"Jean-Luc";    // mutator
 
-	// retrieve string from person object
+  // retrieve string from person object
     char *name = captain.name;
     // output results
     //NSPrint([NSString stringWithFormat: @"Name of the Person:\n\t%@\n", name]);
 
     // return exit of success
-	return EXIT_SUCCESS;
+  return EXIT_SUCCESS;
 }

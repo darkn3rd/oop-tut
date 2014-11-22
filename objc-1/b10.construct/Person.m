@@ -31,7 +31,7 @@
 // Accessors - functions that get stuff
 - (char *) getName
 {
-	return name;
+  return name;
 }
 
 @end

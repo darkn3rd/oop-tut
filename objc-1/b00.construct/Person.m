@@ -22,7 +22,7 @@
 // ###### Accessors ######
 - (char *) getName
 {
-	return name;
+  return name;
 }
 
 @end
