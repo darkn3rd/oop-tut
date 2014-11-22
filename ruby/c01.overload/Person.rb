@@ -2,8 +2,8 @@
 # class declaration
 class Person
   ###### Initializer ######
-  def initialize(*args) 
-    name = "NULL"
+  def initialize(*args)
+    name = "(NULL)"
     age  = -1
 
     if args then
@@ -15,8 +15,15 @@ class Person
 
     setName(name)      # call mutator
     setAge(age)        # call mutator
+    info()
   end
-  
+
+  ###### Methods ######
+  def info ()
+    puts "[INFO]: Person Object is created with age=\"#{@age}\"," +
+            "name=\"#{@name}\""
+  end
+
   ###### Mutators ######
   def setName (name)
     @name = name       # set instance data
@@ -25,7 +32,7 @@ class Person
   def setAge (age)
     @age = age       # set instance data
   end
-  
+
   ###### Accessors ######
   def getName
     @name              # return instance data

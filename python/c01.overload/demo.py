@@ -6,6 +6,8 @@ captain = Person("Jean-Luc")
 officer = Person(21)
 ensign  = Person("Wesley", 15)
 
+print("")
+
 # retrieve string from captain object
 name   = captain.getName()    # accessor
 age    = captain.getAge()     # accessor

@@ -3,7 +3,7 @@
 class Person:
   ###### Initializer ######
   def __init__(self,*args):
-    name = "NULL"   # default name
+    name = "(NULL)" # default name
     age  = -1       # default age
 
     # set last string and int to name and age
@@ -14,8 +14,14 @@ class Person:
         if type(arg).__name__=='str':
           name  = arg
 
-    self.setName(name)    # call mutator w. name
-    self.setAge(age)      # call mutator w. age
+    self.setName(name) # call mutator w. name
+    self.setAge(age)   # call mutator w. age
+    self.info()        # report info on object
+
+  ###### Methods ######
+  def info (self):
+    print("[INFO]: Person Object is created with age=\"%d\", name=\"%s\"" \
+            % (self.age, self.name))
 
   ###### Mutators ######
   def setName (self,name):

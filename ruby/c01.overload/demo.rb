@@ -6,6 +6,8 @@ captain = Person.new "Jean-Luc"
 officer = Person.new 21
 ensign  = Person.new "Wesley", 15
 
+puts "\n"
+
 # retrieve string from captain object
 name   = captain.getName    # accessor
 age    = captain.getAge     # accessor
