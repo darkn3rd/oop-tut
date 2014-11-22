@@ -3,15 +3,30 @@
 
 int main (int argc, const char * argv[])
 {
-  // initialize data through mutator (set)
-	id captain = [[Person alloc] initWithName: "Jean-Luc"];    // instantiate new object
+	const char *name;
 
-	// retrieve string from person object
-	const char *name = [captain name];  // accessor
+	printf("Creating two objects:\n\n");
 
-  // output results
-	printf("Name of the Person:\n\t%s\n", name);
+	// create two objects
+	id captain = [[Person alloc] init: "Jean-Luc"];
+	id officer = [[Person alloc] init: "Data"];
 
-  // return exit of success
+	printf("\nPrinting Results:\n\n");
+
+	// retrieve string from captain object
+	name = [captain getName];  // call accessor
+
+	// output results
+	printf("  Name of the Captain:\n\t%s\n", name);
+
+	// retrieve string from captain object
+	name = [officer getName];              // call accessor
+
+	// output results
+	printf("  Name of the Officer:\n\t%s\n", name);
+
+	printf("\n");
+
+	// return exit of success
 	return EXIT_SUCCESS;
 }

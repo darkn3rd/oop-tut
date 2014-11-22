@@ -8,8 +8,7 @@
     char* name;
 }
 
-- (Person *) initWithName: (char *) n;
-- (Person *) init;
-- (void) name: (char *) n;
-- (char *) name;
+- (Person *) init: (char *) n;
+- (void) setName: (char *) n;
+- (char *) getName;
 @end

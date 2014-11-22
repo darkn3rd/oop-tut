@@ -3,23 +3,20 @@
 @implementation Person
 
 // Initializers - functions that initialize fields to default state
-- (Person *) initWithName: (char *) n {
+- (Person *) init: (char *) n {
     self = [super init];
 
+    printf("  [INFO]: Person Object is created with name = \"%s\".\n", n);
+
     if (self) {
-        [self name: n];   // call mutator to copy string
+        [self setName: n];   // call mutator to copy string
     }
 
     return self;
 }
 
-- (Person *) init {
-    // Forward to appropriate initialization method
-    return [self initWithName: nil];  // send empty string as default
-}
-
 // Mutators - functions that set stuff
-- (void) name: (char *) n
+- (void) setName: (char *) n
 {
     if (n) {            // check if we have a string
        // create new char* of length of n
@@ -32,7 +29,7 @@
 }
 
 // Accessors - functions that get stuff
-- (char *) name
+- (char *) getName
 {
 	return name;
 }
