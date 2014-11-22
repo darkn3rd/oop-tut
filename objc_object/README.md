@@ -21,13 +21,15 @@ These are the current lessons devised thus far are the following
  1. :green_book: Declaration and Instantiation
  2. :green_book: Constructors
     * :page_facing_up: Default Constructors vs. Custom Constructors
+ 3. :green_book: Overloading Constructors
+    * :page_facing_up: Constructor Chaining to Delegated Constructor
 
 ## Usage
 
 A basic make file is included and has been tested Mountain Lion (OS X 10.8.5).  On these systems, simply do the following:
 
 * Compiling Code: `make`
-* Running the Demonstration: `./demo`
+* Running the Demonstration: `make run`
 * Cleaning Up: `make clean`
 
 ## Tested Systems
