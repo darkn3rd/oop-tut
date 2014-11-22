@@ -3,15 +3,43 @@
 
 int main (int argc, const char * argv[])
 {
-  // initialize data through mutator (set)
-	id captain = [[Person alloc] initWithName: "Jean-Luc"];    // instantiate new object
+    const char *name;
+    int   age;
 
-	// retrieve string from person object
-	const char *name = [captain name];  // accessor
+    // initialize data through overloaded constructor (set)
+    id captain = [[Person alloc] initWithName: "Jean-Luc"];
+    id officer = [[Person alloc] initWithAge: 21];
+    id ensign  = [[Person alloc] initWithName: "Wesley" age: 15];
 
-  // output results
-	printf("Name of the Person:\n\t%s\n", name);
+    printf("\n");
 
-  // return exit of success
-	return EXIT_SUCCESS;
+    // retrieve string from person object
+    name = [captain getName];
+    age  = [captain getAge];
+
+    // output results
+    printf("Captain: \n");
+    printf("\tName: %s\n", name);
+    printf("\tAge: %d\n", age);
+
+    // retrieve string from person object
+    name = [officer getName];
+    age  = [officer getAge];
+
+    // output results
+    printf("Officer:\n");
+    printf("\tName: %s\n", name);
+    printf("\tAge: %d\n", age);
+
+    // retrieve string from person object
+    name = [ensign getName];
+    age  = [ensign getAge];
+
+    // output results
+    printf("Ensign:\n");
+    printf("\tName: %s\n", name);
+    printf("\tAge: %d\n", age);
+
+    // return exit of success
+    return EXIT_SUCCESS;
 }
