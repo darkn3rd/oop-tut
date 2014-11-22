@@ -5,7 +5,27 @@ This shows how to create a basic Objective-C environment using the generic Objec
 First, let's create the typical "Hello World" program and call it `hello.m`.
 
 ```objective-c
+// hello.m
+#import <objc/Object.h>
+#import <stdio.h>
 
+@interface Hello: Object
+
+- (void)sayIt;
+
+@end
+
+@implementation Hello
+
+- (void)sayIt { printf("Hello World!\n"); }
+
+@end
+
+int main(void)
+{
+    Hello *object = [Hello new];
+    [object sayIt];
+}
 ```
 
 ## OS X 10.8.5
@@ -27,27 +47,19 @@ $ hdiutil unmount "/Volumes/Command Line Tools (Mountain Lion)"
 After these are install, you can simply do the following:
 
 ```bash
-$ gcc -arch i386 -lobjc hello.m -o hello
+$ gcc -arch i386 -lobjc hello1.m -o hello
 $ ./hello
-今日は。お元気ですか？
+Hello World!
 ```
 
 ## Fedora 20
 
-On Fedora 20, you need to install ***gcc*** and ***gcc-objc***.  
+On Fedora 20, you need to install ***gcc*** and ***gcc-objc*** through a command like this:  
 ```
 $ sudo yum -y install gcc gcc-objc
 ```
 
-Once these are installed, we'll compile the ```hello.m```:
-
-```bash
-$ gcc -lobjc hello.m -o hello
-$ ./hello
-今日は。お元気ですか？
-```
-
-The packages installed earlier contained the following components:
+This will install the following packages and dependencies:
 
 * :package: gcc
   * :package: cpp
@@ -55,3 +67,12 @@ The packages installed earlier contained the following components:
   * :package: libgomp
 * :package: gcc-objc
   * :package: libobjc
+
+
+Once these are installed, we'll compile the ```hello.m```:
+
+```bash
+$ gcc -lobjc hello1.m -o hello
+$ ./hello
+Hello World!
+```
