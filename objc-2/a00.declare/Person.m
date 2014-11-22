@@ -7,7 +7,7 @@
 {
     if (n) {            // check if we have a string
        // create new char* of length of n
-       name = (char *) malloc(strlen(n)+1);	
+       name = (char *) malloc(strlen(n)+1);
        strcpy(name, n); // copy contents
     }
     else {
@@ -18,7 +18,7 @@
 // Accessors - functions that get stuff
 - (char *) getName
 {
-	return name;
+  return name;
 }
 
 @end
