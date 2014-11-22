@@ -1,11 +1,11 @@
-# Objective-C Foundation Environment
+# Objective-C Standard Environment
 
 This shows how to create a basic Objective-C environment using the generic Object library.
 
-First, let's create the typical "Hello World" program and call it `hello.m`.
+First, let's create the typical "Hello World" program and call it `hello1.m`.
 
 ```objective-c
-// hello.m
+// hello1.m
 #import <objc/Object.h>
 #import <stdio.h>
 
