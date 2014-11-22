@@ -38,13 +38,13 @@ $ hdiutil mount ~/Downloads/xcode_5.1.1.dmg
 $ sudo cp -R "/Volumes/Xcode/Xcode.app" /Applications
 $ hdiutil unmount /Volumes/Xcode
 $ sudo xcodebuild -license
-$ # Command Lines TOols Install
+$ # Command Lines Tools Install
 $ hdiutil mount  ~/Downloads/command_line_tools_for_osx_mountain_lion_april_2014.dmg
 $ sudo -S installer -verbose -pkg "/Volumes/Command Line Tools (Mountain Lion)/Command Line Tools (Mountain Lion).mpkg" -target /
 $ hdiutil unmount "/Volumes/Command Line Tools (Mountain Lion)"
 ```
 
-After these are install, you can simply do the following:
+After these are installed, you can simply do the following:
 
 ```bash
 $ gcc -arch i386 -lobjc hello1.m -o hello
