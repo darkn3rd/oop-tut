@@ -3,9 +3,9 @@
 namespace PersonSpace {
 
   // ########## Constructors - initialize stuff ##########
-  Person::Person()              : Person("NULL", -1) { /* nothing */ }
+  Person::Person()              : Person("(NULL)", -1) { /* nothing */ }
   Person::Person(const char* n) : Person(n, -1)      { /* nothing */ }
-  Person::Person(int a)         : Person("NULL", a)  { /* nothing */ }
+  Person::Person(int a)         : Person("(NULL)", a)  { /* nothing */ }
   // ########## Delegated Constructor ##########
   Person::Person(const char *n, int a) : age (a)  { setName(n); info(); }
 
