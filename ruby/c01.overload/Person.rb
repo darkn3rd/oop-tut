@@ -13,9 +13,9 @@ class Person
       end
     end
 
-    setName(name)      # call mutator
-    setAge(age)        # call mutator
-    info()
+    setName(name) # call mutator w. name
+    setAge(age)   # call mutator w. age
+    info()        # report info on object
   end
 
   ###### Methods ######
