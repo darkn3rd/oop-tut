@@ -5,8 +5,15 @@
 
 This tutorial demonstrates the following lessons:
 
- 1. Declaration a class (interface and implementation)
- 4. Initialize private data through a mutator (setter).
- 5. Retrieve private data through a accessor (getter).
+ 1. Declare a class
+    * Create a field (instance variable)
+    * Create methods:
+      * Accessor to get data
+      * Mutator to set data
+ 2. Create an object (Instantiation)
+ 3. Initialize object data
+ 4. Retrieve information from Object
 
 # Notes
+
+All fields in Objective-C default to `protected` and are thus only accessible by this class and derived (children) classes.

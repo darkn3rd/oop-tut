@@ -5,10 +5,13 @@
 
 This tutorial has the following lessons:
 
-1. Create an object using a default constructor on the stack.
+1. Define a class with supporting the default constructor mechanism.
+2. Create an object that calls the default constructor.
 
-The default constructor will not initialize any data.  Instead, the mutator (setter) will be use to initialize any data.
+In this lesson, the default constructor, the `init` method, will not initialize any data, but instead just report information.  The instance data will be initialized through the `setName` mutator.
 
 # Notes
 
-Instead of using the actual implicit default constructor, we create one that does nothing more that report that object was created and a constructor was called.
+Objective-C responds to an `init` message, which fulfills the role of a default constructor.  We can define our own `init` method to respond to this message, rather than using the one inherited.  
+
+After we are done, we need to call the parent's `init` method, and return the result, which is a pointer to our object.

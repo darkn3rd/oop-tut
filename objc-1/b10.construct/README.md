@@ -5,6 +5,9 @@
 
 This tutorial demonstrates:
 
-1. Creating a custom constructor to initialize data members.
+1. Define a class that supports initializing data at construction.
+2. Create an object that instantiates an object with initialized data.
+
+In this lesson, we create a custom constructor that accepts arguments to initialize field data.  This way we do not have to call numerous mutators (setters), and can instead initialize required data during the object's creation.
 
 # Notes
