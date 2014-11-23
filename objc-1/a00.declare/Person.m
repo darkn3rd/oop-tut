@@ -3,20 +3,17 @@
 @implementation Person
 
 // Mutators - functions that set stuff
-- (void) setName: (char *) n
+- (void) setName: (const char *) n
 {
-    if (n) {            // check if we have a string
+    if (n) {
        // create new char* of length of n
        name = (char *) malloc(strlen(n)+1);
        strcpy(name, n); // copy contents
     }
-    else {
-        name = n;       // set name to NULL (default)
-    }
 }
 
 // Accessors - functions that get stuff
-- (char *) getName
+- (const char *) getName
 {
   return name;
 }

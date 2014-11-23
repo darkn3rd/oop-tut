@@ -5,9 +5,9 @@
 
 @interface Person : Object
 {
-    char* name;
+  char* name;
 }
 
-- (void)   setName: (char *) name;
-- (char *) getName;
+- (void)   setName: (const char *) n;
+- (const char *) getName;
 @end
