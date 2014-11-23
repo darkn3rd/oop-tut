@@ -8,21 +8,21 @@
     return self;
 }
 
-- (Person *) initWithName: (char *) n age:(int) a {
-    self = [super init];
-    if (self) { [self setName: n]; [self setAge: a]; [self info]; }
-    return self;
-}
-
 - (Person *) initWithAge: (int) a {
     self = [super init];
     if (self) { [self setAge: a]; [self info]; }
     return self;
 }
 
-- (Person *) initWithName: (char *) n {
+- (Person *) initWithName: (const char *) n {
     self = [super init];
     if (self) { [self setName: n]; [self info]; }
+    return self;
+}
+
+- (Person *) initWithName: (const char *) n age:(int) a {
+    self = [super init];
+    if (self) { [self setName: n]; [self setAge: a]; [self info]; }
     return self;
 }
 
@@ -34,7 +34,7 @@
 
 
 // ###### Mutators ######
-- (void) setName: (char *) n {
+- (void) setName: (const char *) n {
     if (n) {
        // create new char* of length of n
        name = (char *) malloc(strlen(n)+1);
@@ -45,8 +45,8 @@
 - (void) setAge: (int) a { age = a; }
 
 // ###### Accessors ######
-- (char *) getName { return name; }
-- (int)    getAge  { return age; }
+- (const char *) getName { return name; }
+- (int)          getAge  { return age; }
 
 
 @end

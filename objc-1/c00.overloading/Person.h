@@ -9,14 +9,17 @@
     int age;
 }
 
+// ###### Initializers ######
 - (Person *) init;
-- (Person *) initWithName: (char *) n;
-- (Person *) initWithName: (char *) n age:(int) a;
 - (Person *) initWithAge: (int) a;
-
+- (Person *) initWithName: (const char *) n;
+- (Person *) initWithName: (const char *) n age:(int) a;
+// ###### Methods ######
 - (void) info;
-- (void) setName: (char *) n;
-- (char *) getName;
+// ###### Mutators ######
+- (void) setName: (const char *) n;
 - (void) setAge: (int) a;
+// ###### Accessors ######
+- (const char *) getName;
 - (int) getAge;
 @end
