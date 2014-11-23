@@ -1,4 +1,4 @@
-# B.2.0 Class Variables
+# D.0.0 Class Variables
 **© 2014 by Joaquín Menchaca**
 
 ## Purpose
