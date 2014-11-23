@@ -10,7 +10,7 @@
 }
 
 // ###### Mutators ######
-- (void) setName: (char *) n
+- (void) setName: (const char *) n
 {
     if (n) {            // check if we have a string
        // create new char* of length of n
@@ -20,7 +20,7 @@
 }
 
 // ###### Accessors ######
-- (char *) getName
+- (const char *) getName
 {
   return name;
 }

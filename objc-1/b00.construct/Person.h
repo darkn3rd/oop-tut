@@ -9,6 +9,6 @@
 }
 
 - (Person *) init;
-- (void) setName: (char *) n;
-- (char *) getName;
+- (void) setName: (const char *) n;
+- (const char *) getName;
 @end
