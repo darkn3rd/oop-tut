@@ -37,3 +37,8 @@ A basic make file is included and has been tested Mountain Lion (OS X 10.8.5).  
 * :dvd: Mac OS X 10.8.5 (Mountain Lion)
   * :package:  XCode 5.1.1 (Apple LLVM 5.1)
   * :package:  XCode 5.1.1 Command Line Tools
+
+## Links
+
+* [Google Objective-C Style Guide](http://google-styleguide.googlecode.com/svn/trunk/objcguide.xml)  
+* [Coding Guidelines for Cocoa](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.pdf)
