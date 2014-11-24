@@ -8,8 +8,6 @@
   char *_name;
 }
 
-//@property char name;
 @property char *name;
-
 
 @end
