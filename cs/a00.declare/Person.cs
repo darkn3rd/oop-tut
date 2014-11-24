@@ -1,10 +1,10 @@
 public class Person
 {
-    private string name;
+  private string name;
 
-    // Properties
-    public string Name {
-        get { return name; }    // accessor - get data
-        set { name = value; }   // mutator - set data
-    }
+  // ###### Mutators ######
+  public void   setName(string name) { this.name = name; }
+  
+  // ###### Accessors ######
+  public string getName() { return name; }
 }
