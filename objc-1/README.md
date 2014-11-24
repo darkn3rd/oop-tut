@@ -21,8 +21,13 @@ These are the current lessons devised thus far are the following
  1. :green_book: Declaration and Instantiation
  2. :green_book: Constructors
     * :page_facing_up: Default Constructors vs. Custom Constructors
- 3. :green_book: Overloading Constructors
+ 3. :closed_book: Overloading Constructors ***ALTERNATIVE***
     * :page_facing_up: Constructor Chaining to Delegated Constructor
+ 4. :green_book: Class Variables
+ 5. :closed_book: Immutability ***ALTERNATIVE***
+ 6. :green_book: Inheritance
+    * :page_facing_up: Using parent methods
+    * :page_facing_up: Using `super()`
 
 ## Usage
 
