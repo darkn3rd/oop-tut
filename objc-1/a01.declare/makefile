@@ -10,7 +10,7 @@ Demo.o: Demo.m
 Person.o: Person.m
 	$(CC) $(CFLAGS) -c Person.m -o $@
 
-run:
+run: all
 	./Demo
 
 clean:
