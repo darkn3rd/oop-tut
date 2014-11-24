@@ -10,7 +10,7 @@ This tutorial demonstrates the following lessons:
 
 This lesson demonstrates creating a field that is written to only once at instantiation of the object.
 
-# Notes
+## Notes
 
 Objective-C does not provide the true facility to create immutable fields that can be initialized during object instantiation.
 
