@@ -1,18 +1,17 @@
-#import <stdlib.h>
 #import "Person.h"
 
 int main (int argc, const char * argv[])
 {
-    // istantiate new object
-    Person *captain = [[Person alloc] init]; // instantiate new object
-    // initialize data
-    captain.name = @"Jean-Luc";    // mutator
+  // initialize data through mutator (set)
+  Person *person = [Person new]; // instantiate new object
+  [person name: "Jean-Luc"];  // mutator
 
   // retrieve string from person object
-    char *name = captain.name;
-    // output results
-    //NSPrint([NSString stringWithFormat: @"Name of the Person:\n\t%@\n", name]);
+  const char *name = [person name]; // accessor
 
-    // return exit of success
+  // output results
+  printf("Name of the Person:\n\t%s\n", name);
+
+  // return exit of success
   return EXIT_SUCCESS;
 }

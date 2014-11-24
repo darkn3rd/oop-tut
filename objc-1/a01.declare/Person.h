@@ -3,9 +3,11 @@
 #import <string.h>
 #import <stdio.h>
 
-// ###### Objects ######
 @interface Person : Object
+{
+  char* name;
+}
 
-@property char *name;
-
+- (void)   name: (const char *) n;
+- (const char *) name;
 @end
