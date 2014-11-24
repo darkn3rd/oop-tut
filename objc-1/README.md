@@ -19,12 +19,15 @@ Here are some [Installation Instructions](INSTALL.md) that will help configure a
 These are the current lessons devised thus far are the following
 
  1. :green_book: Declaration and Instantiation
+    * Properties with setter and getters
+    * Properties accessed with dot `.` notation
  2. :green_book: Constructors
-    * :page_facing_up: Default Constructors vs. Custom Constructors
+    * :page_facing_up: Custom Constructors
  3. :closed_book: Overloading Constructors ***ALTERNATIVE***
-    * :page_facing_up: Constructor Chaining to Delegated Constructor
+    * :page_facing_up: Constructor Chaining
  4. :green_book: Class Variables
  5. :closed_book: Immutability ***ALTERNATIVE***
+    * Immutability using Properties
  6. :green_book: Inheritance
     * :page_facing_up: Using parent methods
     * :page_facing_up: Using `super()`
