@@ -17,8 +17,6 @@ int main (int argc, const char * argv[])
 
   printf("\n");
 
-  printf("%d", count);
-
   // return exit of success
   return EXIT_SUCCESS;
 }
