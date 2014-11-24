@@ -9,7 +9,9 @@ Welcome to my material for tutoring OOP concepts.  This material extracts common
 
 These are the topics ironed out so far (still under development):
 
-* :books: Declaration and Instantiation (A00)
+* :books: Declaration and Instantiation
+  * :green_book: Accessors and Mutators (A00)
+  * :green_book: Properties (A10)
 * :books: Construction (Initialization)
    * :green_book: Default Constructor (B00)
    * :green_book: Constructor with parameters (B10)
@@ -42,9 +44,14 @@ These topics are in total brainstorming mode:
 ### Near Future
 
 * [ ] Develop Objective-C Material
-  * [ ] Objective-C 1 (Object)
-  * [ ] Objective-C 2 w/ Foundation (GNUStep, Cocoa)
-* [ ] Use any convenience facility in Python and Ruby for setters/getters.
+  * [x] Objective-C 1 (Object)
+    * [ ] Test on Linux
+  * [ ] Objective-C 2 w/ Foundation (Cocoa)
+    * [ ] Test on Linux (GNUStep)
+* [ ] Ruby, Python - manual properties
+* [ ] Python decorators, `@property`
+* [ ] Ruby: `attr_reader`, `attr_writer` and `attr_accessor`
+* [ ] Simulate Properties with Java Lambda block
 * [ ] Determine why Nant 0.9.2 is core dumping on Fedora 20 with Mono 3.4
 * [ ] Develop Nant build scripts, Explore XBuild (MSBuild) scripts.
 * [ ] Design consistent build strategy for all languages, such as `build/` directory.
