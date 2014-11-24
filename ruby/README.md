@@ -12,6 +12,8 @@ The exact lessons (use cases) are still being developed.
 These are the current lessons devised thus far are the following
 
  1. :green_book: Declaration and Instantiation
+    * :page_facing_up: Properties
+    * :page_facing_up: Attribute Accessor Generator
  2. :green_book: Initializer
     * :page_facing_up: Default vs. Custom Initializer
  3. :closed_book: Overloaded Constructors ***ALTERNATIVE***
