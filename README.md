@@ -31,11 +31,11 @@ This uses a Person and Student metaphor, where Student is a type of a Person.
 * :books: Overloading Constructors (D00)
    * :green_book: Delegated Constructor (D10)
 * :books: Class Variables
-   * :green_book: Class or Static Method (D10)
-* :books: Immutable Fields (D20)
-* :books: Inheritance (F00)
-  * :green_book: Parent's Constructor (F10)
-* :books: Overriding (F10)
+   * :green_book: Class or Static Method (E10)
+* :books: Immutable Fields (F00)
+* :books: Inheritance (G00)
+  * :green_book: Parent's Constructor (G10)
+* :books: Overriding (H00)
 
 ### Part III
 
