@@ -7,30 +7,44 @@ Welcome to my material for tutoring OOP concepts.  This material extracts common
 
 ## Topics
 
-These are the topics ironed out so far (still under development):
+These are the topics ironed out so far (still under development)
 
-* :books: Declaration and Instantiation
-  * :green_book: Accessors and Mutators (A00)
-  * :green_book: Properties (A10)
+### Part I  Introduction
+
+This is a simple HelloWorld class and object.
+
+* :books:
+  * :green_book: Declaration and Class Method (A00)
+  * :green_book: Instantiation and Instance Method (A10)
+
+### Part II Mechanics
+
+This uses a Person and Student metaphor, where Student is a type of a Person.
+
+* :books: Instance Variables and Accessors
+  * :green_book: Accessors and Mutators (B00)
+  * :green_book: Properties (B10)
 * :books: Construction (Initialization)
-   * :green_book: Default Constructor (B00)
-   * :green_book: Constructor with parameters (B10)
-   * :green_book: Destructor (B20)
-* :books: Overloading Constructors (C00)
-   * :green_book: Delegated Constructor (C10)
+   * :green_book: Default Constructor (C00)
+   * :green_book: Constructor with parameters (C10)
+   * :green_book: Destructor (C20)
+* :books: Overloading Constructors (D00)
+   * :green_book: Delegated Constructor (D10)
 * :books: Class Variables
-   * :green_book: Class or Static Method (D00)
-* :books: Immutable Fields (D10)
-* :books: Inheritance (E00)
-  * :green_book: Parent's Constructor (E10)
+   * :green_book: Class or Static Method (D10)
+* :books: Immutable Fields (D20)
+* :books: Inheritance (F00)
+  * :green_book: Parent's Constructor (F10)
+* :books: Overriding (F10)
 
-These topics are in total brainstorming mode:
+### Part III
+
+These topics are in total brainstorming mode.  An abstract shape with concrete square, triangle, and circle is used to show abstraction.
 
 * :books: Overloading
-   * :green_book: Mutators
+   * :green_book: Methods
    * :green_book: Operators
    * :green_book: Type Coercion
-* :books: Overriding
 * :books: Abstraction
 * :books: Interface
 
