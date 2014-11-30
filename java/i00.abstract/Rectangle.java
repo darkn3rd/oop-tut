@@ -1,13 +1,10 @@
 public class Rectangle extends Shape {
-    private Double length;
-    private Double width;
+   /******* CONSTRUCTORS *******/
+   public Rectangle(Double length, Double width)  { super(length, width); }
+   public Rectangle(Integer length, Integer width)  { super(length, width); }
 
-    public Rectangle(Double length, Double width)  {
-      this.length = length;
-      this.width  = width;
-    }
-
-    public double calculateArea() {
-      return length * width;
-    }
+   /******* METHODS *******/
+   public Double calculateArea() {
+      return (super.width * super.height);
+   }
 }
