@@ -1,13 +1,10 @@
-public class Triangle implements Shape {
-    private Double base;
-    private Double height;
+public class Triangle extends Shape {
+    /******* CONSTRUCTORS *******/
+    public Triangle(Double base, Double height)  { super(base, height); }
+    public Triangle(Integer base, Integer height)  { super(base, height); }
 
-    public Triangle(Double base, Double height)  {
-      this.base   = base;
-      this.height = height;
-    }
-
-    public double calculateArea() {
-      return (base * height)/2;
+    /******* METHODS *******/
+    public Double calculateArea() {
+      return (super.width * super.height)/2;
     }
 }

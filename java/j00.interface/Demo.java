@@ -1,9 +1,12 @@
 public class Demo {
-    // Hndle passing in int?
-    // Manage precisions
-    public static void main(String args[])
-    {
-      Shape shape = new Circle(21.0);
-      System.out.println("Circle 21 is: " + shape.calculateArea());
-    }
+  public static void main(String args[])
+  {
+    Shape triangleObject  = new Triangle(4,5);
+    Shape rectangleObject = new Rectangle(4,5);
+
+    System.out.println("The Area of a Triangle with 4 and 5:  " +
+       triangleObject.calculateArea());
+    System.out.println("The Area of a Rectangle with 4 and 5: " +
+       rectangleObject.calculateArea());
+  }
 }
