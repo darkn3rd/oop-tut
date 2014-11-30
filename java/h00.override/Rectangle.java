@@ -1,13 +1,10 @@
-public class Rectangle {
-    protected Double length;
-    protected Double width;
+public class Rectangle extends Shape {
 
     public Rectangle(Double length, Double width)  {
-      this.length = length;
-      this.width  = width;
+      super(length, width);
     }
 
     public double calculateArea() {
-      return length * width;
+      return (super.width * super.height);
     }
 }

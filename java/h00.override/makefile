@@ -3,9 +3,9 @@ JFLAGS = -d $(BUILD) -classpath $(BUILD) -sourcepath $(SRC)
 BUILD = build
 SRC = .
 
-all: Demo.java Rectangle.java Square.java
+all: Demo.java Shape.java Rectangle.java Triangle.java
 	mkdir -p $(BUILD)
-	$(JC) $(JFLAGS) Demo.java Rectangle.java Square.java
+	$(JC) $(JFLAGS) Demo.java Shape.java Rectangle.java Triangle.java
 
 run:
 	java -classpath $(BUILD) Demo
