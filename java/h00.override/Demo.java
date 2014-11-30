@@ -1,12 +1,12 @@
 public class Demo {
-    // Hndle passing in int?
-    // Manage precisions
-    public static void main(String args[])
-    {
-      Rectangle rectangle = new Rectangle(4.0,5.0);
-      Triangle triangle = new Triangle(4.0, 5.0);
-      System.out.println("Triangle 4,5: " + triangle.calculateArea());
-      System.out.println("Rectangle 4,5: " + rectangle.calculateArea());
+  public static void main(String args[])
+  {
+    Triangle triangleObject  = new Triangle(4,5);
+    Rectangle rectangleObject = new Rectangle(4,5);
 
-    }
+    System.out.println("The Area of a Triangle with 4 and 5:  " +
+       triangleObject.calculateArea());
+    System.out.println("The Area of a Rectangle with 4 and 5: " +
+       rectangleObject.calculateArea());
+  }
 }
