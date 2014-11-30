@@ -1,3 +1,13 @@
 public class Rectangle implements Shape {
+    private Double length;
+    private Double width;
 
+    public Person(Double length, Double width)  {
+      this.length = length;
+      this.width  = width;
+    }
+
+    public double calculateArea() {
+      return length * width;
+    }
 }
