@@ -4,6 +4,7 @@ public class Rectangle extends Shape {
    public Rectangle(Integer length, Integer width) { super(length, width); }
 
    /******* METHODS *******/
+   @Override
    public Double calculateArea() {
       return (super.width * super.height);
    }

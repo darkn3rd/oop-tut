@@ -4,6 +4,7 @@ public class Triangle extends Shape {
     public Triangle(Integer base, Integer height)  { super(base, height); }
 
     /******* METHODS *******/
+    @Override
     public Double calculateArea() {
       return (super.width * super.height)/2;
     }

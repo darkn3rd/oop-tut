@@ -7,7 +7,7 @@ all: Demo.java Shape.java Rectangle.java Triangle.java
 	mkdir -p $(BUILD)
 	$(JC) $(JFLAGS) Demo.java Shape.java Rectangle.java Triangle.java
 
-run:
+run: all
 	java -classpath $(BUILD) Demo
 
 clean:
