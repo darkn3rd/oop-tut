@@ -35,3 +35,5 @@ These are the current lessons devised thus far are the following
 ## Links
 
 * [Read Ruby by Matthias Richwin](http://readruby.io/)
+* [Abstract classes in Ruby - losing the security blanket](http://yakhairsurplus.com/abstract-classes-ruby-losing-security-blanket/)
+* [Abstract classes in Ruby](http://riccardotacconi.blogspot.com/2012/12/abstract-classes-in-ruby.html)
