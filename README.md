@@ -3,7 +3,7 @@
 
 Welcome to my material for tutoring OOP concepts.  This material extracts common OOP concepts and functionality from C++, C#, and Java programming languages.  Then I see how I could apply these concepts to Objective-C, Python, and Ruby.
 
-***Last Update***: November 22nd, 2014
+***Last Update***: November 30th, 2014
 
 ## Topics
 
@@ -35,48 +35,11 @@ This uses a Person and Student metaphor, where Student is a type of a Person.
 * :books: Immutable Fields (F00)
 * :books: Inheritance (G00)
   * :green_book: Parent's Constructor (G10)
-* :books: Overriding (H00)
 
 ### Part III
 
 These topics are in total brainstorming mode.  An abstract shape with concrete square, triangle, and circle is used to show abstraction.
 
-* :books: Overloading
-   * :green_book: Methods
-   * :green_book: Operators
-   * :green_book: Type Coercion
-* :books: Abstraction
-* :books: Interface
-
-## Tasks
-
-### Recent Stuff
-
-* [x] Testing on Fedora 20: C++, Java 8, C#, Objective-C
-* [x] Complete 6 lessons: C++, Java, C#, Python, Ruby
-
-### Near Future
-
-* [ ] Develop Objective-C Material
-  * [x] Objective-C 1 (Object)
-    * [ ] Test on Linux
-  * [ ] Objective-C 2 w/ Foundation (Cocoa)
-    * [ ] Test on Linux (GNUStep)
-* [ ] Ruby, Python - manual properties
-* [ ] Python decorators, `@property`
-* [ ] Ruby: `attr_reader`, `attr_writer` and `attr_accessor`
-* [ ] Simulate Properties with Java Lambda block
-* [ ] Determine why Nant 0.9.2 is core dumping on Fedora 20 with Mono 3.4
-* [ ] Develop Nant build scripts, Explore XBuild (MSBuild) scripts.
-* [ ] Design consistent build strategy for all languages, such as `build/` directory.
-* [ ] Brainstorm more advanced OOP material with abstractions, virtual, interface, boxing, etc.
-* [ ] Test on other platforms (Win, Unix, Lin Distros)
-
-### Far Future (total brainstorm)
-
-* :bulb: Experiment with various Unit test platforms.
-  * :bulb: Consider using same code base in interactive mode, maybe create an *unit-tut* repository.
-* :bulb: Build more robust cross-platform build scripts (as needed, if needed)
-* :bulb: Design Patterns? Modeling?
-* :bulb: Other languages? (Go, Rust, Perl, PHP)
-* :bulb: Other platforms? (Solaris distros, BSD distros)
+* :books: Overriding (H00)
+* :books: Abstraction (I00)
+* :books: Interface (J00)
