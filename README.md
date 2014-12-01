@@ -38,7 +38,7 @@ This uses a Person and Student metaphor, where Student is a type of a Person.
 
 ### Part III
 
-These topics are in total brainstorming mode.  These features may vary, as not all languages have *abstraction* or *interfaces*.
+These topics are in total brainstorming mode.  These features may vary, as not all languages have the same features, such as *abstraction* or *interfaces*.
 
 * :books: Overriding (H00)
 * :books: Abstraction (I00)
