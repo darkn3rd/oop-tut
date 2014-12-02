@@ -21,6 +21,9 @@ These are the current lessons devised thus far are the following
  5. :green_book: Immutability (`readonly`)
  6. :green_book: Inheritance
     * :page_facing_up: Calling Parent's Constructor (`base`)
+ 7. :green_book: Virtual Methods (Overriding)
+ 8. :green_book: Abstract Methods
+ 9. :green_book: Interface
 
 ## Usage
 

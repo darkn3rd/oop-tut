@@ -25,6 +25,8 @@ These are the current lessons devised thus far are the following
  5. :green_book: Immutability (```const```)
  6. :green_book: Inheritance
     * :page_facing_up: Constructor Chaining to Parent Constructor
+ 7. :green_book: Virtual Member Functions (Overriding)
+ 8. :green_book: Pure Virtual Member Functions (Abstraction)
 
 ## Usage
 

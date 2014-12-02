@@ -24,11 +24,10 @@ These are ad-hoc notes and tasks to help keep track of where I am at.
 ### Recent Stuff
 
 * [x] Testing on Fedora 20: C++, Java 8, C#, Objective-C
-* [x] Complete 6 lessons: C++, Java, C#, Python, Ruby
-* [x] Added Overriding, Abstract, Interface
-  * [x] C#, Java
-  * [ ] C++, Objective-C
-  * [ ] Python, Ruby
+* [x] Complete Part II (6 lessons): C++, Java, Objective-C, C#, Python, Ruby
+* [x] Complete Part I (Declare, Instantiate): C#, C++, Objective-C, Java, Python, Ruby
+* [x] Complete Part III (Overriding, Abstract, Interface)
+  * [x] C#, [x] Java, [x] C++, [x] Objective-C, [x] Python, [x] Ruby
 
 ### Near Future
 
