@@ -1,4 +1,4 @@
-# H.0.0 Overriding
+# J.0.0 Interface
 **© 2014 by Joaquín Menchaca**
 
 ## Purpose
@@ -10,7 +10,7 @@ This tutorial demonstrates:
 
 This tutorial introduces an *interface* construction.  
 
-The interface can be thought of as a contract of things that can be implemented.  This is useful for structure that may have many components that can change, such as a music player with that can play variety of file formats and devices.
+The interface can be thought of as a contract of things that can be implemented.  This is useful for a structure that may have many components that can change, such as a music player with that can play variety of file formats and devices.
 
 This tutorial shows how an interface of a method that will be implemented by children of the `Shape` class, as Shape is abstract and cannot implement the interface itself.
 
