@@ -1,4 +1,4 @@
-public abstract class Shape implements Shapeable {
+public abstract class Shape implements Dimensionable {
    /******* FIELDS *******/
    protected Double width;
    protected Double height;

@@ -1,4 +1,4 @@
-interface Shapeable {
+interface Dimensionable {
   /******* METHODS *******/
   public Double calculateArea();
 }
