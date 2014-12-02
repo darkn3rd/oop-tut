@@ -26,8 +26,6 @@ These are the current lessons devised thus far are the following
 
 Other topics I would like to cover shortly.
 
- * Overriding
- * Abstraction
  * Class-wide Constants `static final`
 
 ## Usage
