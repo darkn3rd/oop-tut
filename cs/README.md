@@ -37,8 +37,8 @@ A basic makefile is included and has been tested on ***Heisenbug*** (Fedora 20) 
 
 * :dvd: _**Fedora 20 (Heisenbug)**_
   * :package: Mono-Devel 0.3.10 from CentOS Repo
-  * :package: Nant 0.90-11.fc19 (`yum install nant`) ***core dumps***
-  * :scroll: Nant 0.92 (compiled from source) ***core dumps***
+  * :beetle: Nant 0.90-11.fc19 (`yum install nant`) ***core dumps***
+  * :beetle: Nant 0.92 (compiled from source) ***core dumps***
 * :dvd: _**OS X 10.8.5 (Mountain Lion)**_
   * :package: Mono 3.4 (downloaded and package install)
   * :beer: Nant 0.92 (`brew install nant`)

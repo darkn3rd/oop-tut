@@ -22,6 +22,7 @@ These are the current lessons devised thus far are the following
  6. :green_book: Inheritance
     * :page_facing_up: Using parent methods
     * :page_facing_up: Using `super()`
+ 7. :green_book: Overriding Methods
 
 ## Usage
 
