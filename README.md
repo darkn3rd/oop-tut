@@ -38,9 +38,9 @@ This uses a Person and Student metaphor, where Student is a type of a Person.
 
 ### Part III
 
-These topics are in total ***brainstorming*** mode.  
+These topics are in total ***brainstorming*** mode.  This uses an abstract `Shape` class and concrete implementations of a shapes, such as `Rectangle` or `Triangle`.
 
-These features are starting to vary, as invocation oriented OOP languages support some notion of *abstraction* or *interfaces*, while inspection oriented OOP languages may not support such features.
+Such a concept works well for invocation oriented OOP languages that some either *abstraction* or *interface* concepts, but gets challenging to see how to apply this to inspection oriented OOP languages that do not have such features.
 
 * :books: Overriding (H00)
 * :books: Abstraction (I00)
