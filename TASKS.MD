@@ -24,13 +24,13 @@ These are ad-hoc notes and tasks to help keep track of where I am at.
 ### Recent Stuff
 
 * [x] Testing on Fedora 20: C++ (clang), Java 8 (open-jdk), C# (mono), Objective-C (gcc)
-* [X] Part I (Declare, Instantiate): C++, C#, Java, Objective-C, Python, Ruby
-* [X] Part II (6 lessons): C++, C#, Java, Objective-C, Python, Ruby
-  * [x] Properties: C#, Java, Objective-C, Python, Ruby
-* [X] Part III
-  * Override: C++, C#, Java, Objective-C (Object), Python, Ruby
-  * Abstraction: C++ (pure virtual function), C#, Java, Python
-  * Interface: C#, Objective-C (protocol), Java
+* [x] Part I (Declare, Instantiate): C++, C#, Java, Objective-C, Python, Ruby
+* [x] Part II (6 lessons): C++, C#, Java, Objective-C, Python, Ruby
+  * [x] **Properties**: C#, Java, Objective-C, Python, Ruby
+* [x] Part III
+  * **Override**: C++, C#, Java, Objective-C (Object), Python, Ruby
+  * **Abstraction**: C++ (pure virtual function), C#, Java, Python
+  * **Interface**: C#, Objective-C (protocol), Java
 
 ### Near Future
 
