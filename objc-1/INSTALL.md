@@ -54,6 +54,10 @@ Hello World!
 
 ## Fedora 20
 
+***NOTE***  This seems to fail under Fedora, as `new`, `alloc`, and `init` do not seem to be supported with `objc/Object.h`.  Investigating further.
+
+This instructions, should have worked.  :sob:
+
 On Fedora 20, you need to install ***gcc*** and ***gcc-objc*** through a command like this:  
 ```
 $ sudo yum -y install gcc gcc-objc
