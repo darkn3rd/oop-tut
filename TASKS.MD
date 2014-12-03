@@ -23,28 +23,31 @@ These are ad-hoc notes and tasks to help keep track of where I am at.
 
 ### Recent Stuff
 
-* [x] Testing on Fedora 20: C++, Java 8, C#, Objective-C
-* [x] Complete Part II (6 lessons): C++, Java, Objective-C, C#, Python, Ruby
-* [x] Complete Part I (Declare, Instantiate): C#, C++, Objective-C, Java, Python, Ruby
-* [x] Complete Part III (Overriding, Abstract, Interface)
-  * [x] C#, [x] Java, [x] C++, [x] Objective-C, [x] Python, [x] Ruby
+* [x] Testing on Fedora 20: C++ (clang), Java 8 (open-jdk), C# (mono), Objective-C (gcc)
+* [X] Part I (Declare, Instantiate): C++, C#, Java, Objective-C, Python, Ruby
+* [X] Part II (6 lessons): C++, C#, Java, Objective-C, Python, Ruby
+  * [x] Properties: C#, Java, Objective-C, Python, Ruby
+* [X] Part III
+  * Override: C++, C#, Java, Objective-C (Object), Python, Ruby
+  * Abstraction: C++ (pure virtual function), C#, Java, Python
+  * Interface: C#, Objective-C (protocol), Java
 
 ### Near Future
 
-* [ ] Develop Objective-C Material
-  * [x] Objective-C 1 (Object)
-    * [ ] Test on Linux
-  * [ ] Objective-C 2 w/ Foundation (Cocoa)
-    * [ ] Test on Linux (GNUStep)
-* [ ] Ruby, Python - manual properties
-* [ ] Python decorators, `@property`
-* [ ] Ruby: `attr_reader`, `attr_writer` and `attr_accessor`
-* [ ] Simulate Properties with Java Lambda block
-* [ ] Determine why Nant 0.9.2 is core dumping on Fedora 20 with Mono 3.4
-* [ ] Develop Nant build scripts, Explore XBuild (MSBuild) scripts.
-* [ ] Design consistent build strategy for all languages, such as `build/` directory.
-* [ ] Brainstorm more advanced OOP material with abstractions, virtual, interface, boxing, etc.
+* [ ] Explore Modules, Mix-ins (Python, Ruby)
+* [ ] Explore Namespace, Packages (C#, C++, Java)
+* [ ] Explore Selectors, Category
+* [ ] Issue: Research Linux GCC objc support for `init`, `alloc`, `new`
+* [ ] Issue: Research Nant 0.9.2. core dumping with Mono 3.4
+* [ ] Explore XBuild (MSBuild) scripts
+* [ ] Research Adding Property support ala ad-hoc for C++, Java
+* [ ] Develop Objective-C lessons with Foundation libraries
+  * [ ] GNUStep (Linux)
+  * [ ] Cocoa (OS X)
 * [ ] Test on other platforms (Win, Unix, Lin Distros)
+* [ ] Brainstorm & Develop other OOP material
+  * [ ] Develop attributes for Interfaces, Abstraction
+  * [ ] Differences for compiled dynamic or static dispatch tables
 
 ### Far Future (total brainstorm)
 
