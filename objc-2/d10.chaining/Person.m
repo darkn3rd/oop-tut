@@ -11,24 +11,16 @@ void NSPrint(NSString *str)
 
 /******* INITIALIZERS *******/
 - (id) init {
-   if (self = [super init]) {
-     [self info];
-   }
+   if (self = [super init]) { [self initWithName: @"(NULL)" age: @-1]; }
    return self;
 }
 
 - (id) initWithAge: (NSNumber *) age {
-   if (self = [super init]) {
-     _age = age;
-     [self info];
-   }
+   if (self = [super init]) { [self initWithName: @"(NULL)" age: age]; }
    return self;
 }
 - (id) initWithName: (NSString *) name {
-   if (self = [super init]) {
-     _name = name;
-     [self info]; 
-   }
+   if (self = [super init]) { [self initWithName: name age: @-1]; }
    return self;
 }
 
