@@ -7,13 +7,21 @@ This is a tutorial of the Objective-C using the generic `objc/Object` library.  
 
 ## Overview
 
-The wikipedia [article](http://en.wikipedia.org/wiki/Objective-C) on Objective-C:
+Wikipedia [article](http://en.wikipedia.org/wiki/Objective-C) on Objective-C does a far better job that I could explain:
 
 * http://en.wikipedia.org/wiki/Objective-C
+
+## Terminology
+
+In my tutorials, I use the term ***accessor*** to mean a method (member function) to access instance variables (fields) from a class, and I use the term ***mutator*** to mean a method (member function) to change instance variables (fields) in a class.  These are called ***getters*** and ***setters*** respectively.
+
+In some OOP languages, like Objective-C and Ruby, an ***accessor*** can be either a ***getter*** or ***setter***.  I will try my best to be explicit on these to avoid confusion.
+
 
 ## Installation
 
 Here are some [Installation Instructions](INSTALL.md) that will help configure and setup an Objective-C environment with the Foundation Libraries.  
+
 ## Lessons
 
 These are the current lessons devised thus far are the following

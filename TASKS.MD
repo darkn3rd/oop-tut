@@ -36,6 +36,9 @@ These are ad-hoc notes and tasks to help keep track of where I am at.
 
 * [ ] Explore Modules, Mix-ins (Python, Ruby)
 * [ ] Explore Namespace, Packages (C#, C++, Java)
+* [ ] Explore Copying Objects, e.g. copy constructors, `copyWithZone`
+  * [ ] single class copy with `Person` [D30]
+  * [ ] parent-child, copy child class `Student` [G20]
 * [ ] Explore Selectors, Category
 * [ ] Issue: Research Linux GCC objc support for `init`, `alloc`, `new`
 * [ ] Issue: Research Nant 0.9.2. core dumping with Mono 3.4

@@ -9,10 +9,10 @@ This tutorial demonstrates the following lessons:
     * Create a field (instance variable)
     * Create a property
  2. Create an object (Instantiation)
- 3. Initialize object data using `.` notation
- 4. Retrieve information from Object using `.` notation
+ 3. Initialize object data using `object.name =` notation
+ 4. Retrieve information from Object using `= object.name` notation
 
-This lesson shows how to access the property (getters and setters) using the dot `.` notation, rather than sendings messages of `name` and `setName`.
+This lesson shows how to access the property (getters and setters) using the dot `.` notation, rather than sending explicit messages of `name` and `setName`.
 
 # Notes
 

@@ -1,4 +1,4 @@
-# A.0.2 Declaration
+# B.1.0 Properties
 **© 2014 by Joaquín Menchaca**
 
 ## Purpose
@@ -9,8 +9,8 @@ This tutorial demonstrates the following lessons:
     * Create a field (instance variable)
     * Create a property
  2. Create an object (Instantiation)
- 3. Initialize object data
- 4. Retrieve information from Object
+ 3. Initialize object data by sending a `setName` message.
+ 4. Retrieve information from an Object by sending a `name` message.
 
 This lesson shows how to automatically generate mutators and accessors for fields you wish to declare. Using the `@property` and `@synthesize` keywords, methods named `name` and `setName` are automatically created.
 
