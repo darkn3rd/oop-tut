@@ -3,7 +3,12 @@
 
 // ###### Objects ######
 @interface Person : NSObject
+{
+  NSString *_name;
+}
 
-@property (assign) NSString *name;
+//@property (assign) NSString *name;
+- (void)   setName: (NSString *) name;
+- (NSString *) name;
 
 @end
