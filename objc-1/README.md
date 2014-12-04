@@ -17,7 +17,6 @@ In my tutorials, I use the term ***accessor*** to mean a method (member function
 
 In some OOP languages, like Objective-C and Ruby, an ***accessor*** can be either a ***getter*** or ***setter***.  I will try my best to be explicit on these to avoid confusion.
 
-
 ## Installation
 
 Here are some [Installation Instructions](INSTALL.md) that will help configure and setup an Objective-C environment with the Foundation Libraries.  
