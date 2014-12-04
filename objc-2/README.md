@@ -3,21 +3,23 @@
 
 ## Status
 
-This material is in its infancy. A basic makefile is included that is tested with clang.
-
-The exact lessons (use cases) are still being developed.
+This material is in its infancy. A basic makefile is included that is tested with clang.  The exact lessons (use cases) are still being developed.
 
 ## Overview
 
-The wikipedia [article](http://en.wikipedia.org/wiki/Objective-C) on Objective-C:
+Wikipedia [article](http://en.wikipedia.org/wiki/Objective-C) on Objective-C does a far better job that I could explain:
 
 * http://en.wikipedia.org/wiki/Objective-C
+
+## Terminology
+
+In my tutorials, I use the term ***accessor*** to mean a method (member function) that accesses instance variables (fields) from an object, and I use the term ***mutator*** to mean a method (member function) that changes instance variables (fields) in an object.  These are called ***getters*** and ***setters*** respectively.
+
+In some OOP languages, like Objective-C and Ruby, an ***accessor*** can be either a ***getter*** or ***setter***.  I will try my best to be explicit on these to avoid confusion.
 
 ## Installation
 
 Here are some [Installation Instructions](INSTALL.md) that will help configure and setup an Objective-C environment with the Foundation Libraries.  
-
-
 
 ## Lessons
 
@@ -25,18 +27,19 @@ These are the current lessons devised thus far are the following
 
  1. :green_book: Declaration and Instantiation
  2. :green_book: Constructors
+ 3. :green_book: Overloading Constructors
 
 ## Usage
 
 A basic make file is included and has been tested Mountain Lion (OS X 10.8.5).  On these systems, simply do the following:
 
 * Compiling Code: `make`
-* Running the Demonstration: `./demo`
+* Running the Demonstration: `make run`
 * Cleaning Up: `make clean`
 
 ## Tested Systems
 
-* :dvd: Mac OS X 10.8.5 (Mountain Lion)
+* :dvd: OS X 10.8.5 (Mountain Lion)
   * :package:  XCode 5.1.1 (Apple LLVM 5.1)
   * :package:  XCode 5.1.1 Command Line Tools
 
