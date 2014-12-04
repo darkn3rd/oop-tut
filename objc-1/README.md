@@ -13,7 +13,7 @@ Wikipedia [article](http://en.wikipedia.org/wiki/Objective-C) on Objective-C doe
 
 ## Terminology
 
-In my tutorials, I use the term ***accessor*** to mean a method (member function) to access instance variables (fields) from a class, and I use the term ***mutator*** to mean a method (member function) to change instance variables (fields) in a class.  These are called ***getters*** and ***setters*** respectively.
+In my tutorials, I use the term ***accessor*** to mean a method (member function) that accesses instance variables (fields) from an object, and I use the term ***mutator*** to mean a method (member function) that changes instance variables (fields) in an object.  These are called ***getters*** and ***setters*** respectively.
 
 In some OOP languages, like Objective-C and Ruby, an ***accessor*** can be either a ***getter*** or ***setter***.  I will try my best to be explicit on these to avoid confusion.
 
