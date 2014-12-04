@@ -1,13 +1,25 @@
-CC=gcc -lobjc
-#CC=`gnustep-config --objc-flags` -lgnustep-base -lobjc
+UNAME_S := $(shell uname -s)
+ifeq ($(UNAME_S),Linux)
+	CC= gcc
+	CCFLAGS += -Wall
+	LDFLAGS += -lobjc
+endif
+ifeq ($(UNAME_S),Darwin)
+	CC = clang
+	CCFLAGS += -fobjc-arc
+	LDFLAGS += -framework Foundation
+endif
 
 all: Demo
 Demo: Demo.o Person.o
-	$(CC) -o Demo Demo.o Person.o
+	$(CC) $(LDFLAGS) -o Demo Demo.o Person.o
 Demo.o: Demo.m
-	$(CC) -c Demo.m -o $@
+	$(CC) $(CFLAGS) -c Demo.m -o $@
 Person.o: Person.m
-	$(CC) -c Person.m -o $@
+	$(CC) $(CFLAGS) -c Person.m -o $@
+
+run: all
+	./Demo
 
 clean:
 	$(RM) *.o Demo
