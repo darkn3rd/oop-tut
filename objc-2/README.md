@@ -60,3 +60,4 @@ http://www.sveinbjorn.org/objectivec_stdout
 http://iphonesdkdev.blogspot.com/2008_07_01_archive.html?m=1
 http://www.codeproject.com/Articles/770577/From-Cplusplus-to-Objective-C-A-quick-guide-for-pr
 https://ind.ie/phoenix/
+http://objectivetoast.com/2014/06/10/better-class-variables-with-settings-objects/
