@@ -1,7 +1,7 @@
-#import <objc/Object.h>
+#import <Foundation/Foundation.h>
 
 @protocol Shapeable
 
-  - (double) calculateArea;
+  - (NSNumber *) calculateArea;
 
 @end

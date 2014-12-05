@@ -2,7 +2,7 @@
 
 @interface Rectangle : Shape
 
-  - (Rectangle *) initWithWidth: (double) w height: (double) h;
-  - (double) calculateArea;
+  - (Rectangle *) initWithWidth: (NSNumber *) w height: (NSNumber *) h;
+  - (NSNumber *) calculateArea;
 
 @end

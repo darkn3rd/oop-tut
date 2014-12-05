@@ -1,10 +1,13 @@
-#import <objc/Object.h>
+#import <Foundation/Foundation.h>
+#import <stdlib.h>
 
-@interface Shape : Object
+void NSPrint(NSString *str);
+
+@interface Shape : NSObject
 {
-  double width, height;
+  NSNumber *width, *height;
 }
 
-  - (Shape *) initWithWidth: (double) w height: (double) h;
+  - (Shape *) initWithWidth: (NSNumber *) w height: (NSNumber *) h;
 
 @end

@@ -3,7 +3,7 @@
 
 @interface Triangle : Shape <Shapeable>
 
-  - (Triangle *) initWithWidth: (double) w height: (double) h;
-  - (double) calculateArea;
+  - (Triangle *) initWithWidth: (NSNumber *) w height: (NSNumber *) h;
+  - (NSNumber *) calculateArea;
 
 @end

@@ -3,12 +3,12 @@
 @implementation Rectangle
 
   /******* INITIALIZERS *******/
-  - (Rectangle *) initWithWidth: (double) w height: (double) h {
+  - (Rectangle *) initWithWidth: (NSNumber *) w height: (NSNumber *) h {
     if (self = [super init]) { width = w; height = h; }
     return self;
   }
 
   /******* METHODS *******/
-  - (double) calculateArea { return (width * height); };
+  - (NSNumber *) calculateArea { return [NSNumber numberWithFloat: ([width floatValue] * [height floatValue])]; }
 
 @end

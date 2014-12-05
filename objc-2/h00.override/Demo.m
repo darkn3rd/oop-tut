@@ -6,16 +6,16 @@
 
 int main (int argc, const char * argv[])
 {
-  Shape *shapeObject = [[Shape alloc] initWithWidth: 4.0 height: 5.0];
-  Shape *triangleObject = [[Triangle alloc] initWithWidth: 4.0 height: 5.0];
-  Shape *rectangleObject = [[Rectangle alloc] initWithWidth: 4.0 height: 5.0];
+  Shape *shapeObject = [[Shape alloc] initWithWidth: @4.0 height: @5.0];
+  Shape *triangleObject = [[Triangle alloc] initWithWidth: @4.0 height: @5.0];
+  Shape *rectangleObject = [[Rectangle alloc] initWithWidth: @4.0 height: @5.0];
 
-  printf("The Area of a Shapeless object with 4 and 5:  %2.0f\n",
-    [shapeObject calculateArea]);
-  printf("The Area of a Triangle object with 4 and 5:   %1.0f\n",
-    [triangleObject calculateArea]);
-  printf("The Area of a Rectangle object with 4 and 5:  %1.0f\n",
-    [rectangleObject calculateArea]);
+  NSPrint([NSString stringWithFormat: @"The Area of a Shapeless object with 4 and 5:  %@\n",
+    [shapeObject calculateArea]]);
+  NSPrint([NSString stringWithFormat: @"The Area of a Triangle object with 4 and 5:   %@\n",
+    [triangleObject calculateArea]]);
+  NSPrint([NSString stringWithFormat: @"The Area of a Rectangle object with 4 and 5:  %@\n",
+    [rectangleObject calculateArea]]);
 
   return EXIT_SUCCESS;
 }
