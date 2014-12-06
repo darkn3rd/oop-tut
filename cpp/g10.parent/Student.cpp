@@ -1,6 +1,6 @@
 #include "Student.h"
 
-namespace StudentSpace {
+namespace PersonSpace {
 
  // Constructors
  Student::Student(const char* n)           : Person(n) { /* nothing */ }

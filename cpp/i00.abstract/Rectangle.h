@@ -7,9 +7,7 @@
 extern "C" {
 #endif
 
-using namespace ShapeSpace;
-
-namespace RectangleSpace {
+namespace ShapeSpace {
 
   class Rectangle : public Shape {
     public:

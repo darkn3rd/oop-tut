@@ -3,8 +3,7 @@
 #include "Rectangle.h"
 
 using namespace std;
-using namespace TriangleSpace;
-using namespace RectangleSpace;
+using namespace ShapeSpace;
 
 int main(int argc, char* argv[])
 {

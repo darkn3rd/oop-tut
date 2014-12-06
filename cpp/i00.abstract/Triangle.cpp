@@ -1,6 +1,6 @@
 #include "Triangle.h"
 
-namespace TriangleSpace {
+namespace ShapeSpace {
 
  /******* CONSTRUCTORS *******/
  Triangle::Triangle (double w, double h) : Shape(w,h) { /* nothing */ }

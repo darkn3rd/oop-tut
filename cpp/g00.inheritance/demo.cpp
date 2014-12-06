@@ -1,6 +1,6 @@
 #include "Student.h"
 
-using namespace StudentSpace;
+using namespace PersonSpace;
 
 int main(int argc, char* argv[])
 {

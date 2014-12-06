@@ -8,9 +8,8 @@ extern "C" {
 #endif
 
 using namespace std;
-using namespace PersonSpace;
 
-namespace StudentSpace {
+namespace PersonSpace {
 
   class Student : public Person {
     private:

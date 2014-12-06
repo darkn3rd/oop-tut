@@ -1,6 +1,6 @@
 #include "Rectangle.h"
 
-namespace RectangleSpace {
+namespace ShapeSpace {
  /******* CONSTRUCTORS *******/
  Rectangle::Rectangle (double w, double h) : Shape(w,h) { /* nothing */ }
 
