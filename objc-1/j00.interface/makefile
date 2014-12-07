@@ -1,6 +1,14 @@
-CC=gcc -arch i386
-LDFLAGS=-lobjc
-CFLAGS=
+UNAME_S := $(shell uname -s)
+ifeq ($(UNAME_S),Linux)
+	CC= gcc
+	CCFLAGS += -Wall
+	LDFLAGS += -lobjc
+endif
+ifeq ($(UNAME_S),Darwin)
+	CC = gcc
+	CCFLAGS += -arch i386
+	LDFLAGS +=
+endif
 
 all: Demo
 Demo: Demo.o Shape.o Triangle.o Rectangle.o

@@ -1,16 +1,24 @@
-CC=gcc -arch i386
-LDFLAGS=-lobjc
-CFLAGS=
+UNAME_S := $(shell uname -s)
+ifeq ($(UNAME_S),Linux)
+	CC= gcc
+	CCFLAGS += -Wall
+	LDFLAGS += -lobjc
+endif
+ifeq ($(UNAME_S),Darwin)
+	CC = gcc
+	CCFLAGS += -arch i386
+	LDFLAGS +=
+endif
 
 all: Demo
 Demo: Demo.o Person.o
 	$(CC) $(LDFLAGS) -o Demo Demo.o Person.o
 Demo.o: Demo.m
-	$(CC) $(CFLAGS) -c Demo.m -o $@
+	$(CC) $(CCFLAGS) -c Demo.m -o $@
 Person.o: Person.m
-	$(CC) $(CFLAGS) -c Person.m -o $@
+	$(CC) $(CCFLAGS) -c Person.m -o $@
 
-run:
+run: all
 	./Demo
 
 clean:
