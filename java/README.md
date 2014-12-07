@@ -60,19 +60,19 @@ A basic makefile is included and has been tested on ***Heisenbug*** (Fedora 20) 
 
 Installing Oracle Java 7.
 
-#### Add Oracle Java Repository
+#### 1. Add Oracle Java Repository
 
 ```bash
 $ sudo apt-get install python-software-properties
 $ sudo add-apt-repository ppa:webupd8team/java
 ```
 
-#### Agree to License
+#### 2. Agree to License
 ```bash
 $ echo oracle-java7-installer shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections
 ```
 
-#### Install the Package
+#### 3. Install the Package
 ```bash
 $ sudo apt-get install oracle-java7-installer
 ```
