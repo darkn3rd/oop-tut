@@ -38,6 +38,8 @@ A basic makefile is included and has been tested on ***Heisenbug*** (Fedora 20) 
 
 ## Tested Systems
 
+* :dvd: _**Ubuntu 10.04 (Lucid Lynx)**_
+  * :package: Oracle Java 7 (webupd8team/java repo)
 * :dvd: _**Fedora 20 (Heisenbug)**_
   * :package: OpenJDK 1.8
   * :package: OpenJDK 1.7
@@ -49,3 +51,16 @@ A basic makefile is included and has been tested on ***Heisenbug*** (Fedora 20) 
   * :package: Oracle JDK 1.7
     * :beer: Ant 1.9.4 (homebrew)
     * :package: JUnit 4.1.1 (downloaded)
+
+## Install Notes
+
+# Lucid Lynx (Ubuntu 10.04)
+
+Installing Oracle Java 7
+
+```bash
+$ sudo apt-get install python-software-properties
+$ sudo add-apt-repository ppa:webupd8team/java
+$ echo oracle-java7-installer shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections
+$ sudo apt-get install oracle-java7-installer
+```

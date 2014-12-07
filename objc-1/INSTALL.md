@@ -80,3 +80,11 @@ $ gcc -lobjc hello1.m -o hello
 $ ./hello
 Hello World!
 ```
+## Lucid Lynx (Ubuntu 10.04)
+
+```
+$ sudo apt-get install gnustep-devel
+$ gcc -lobjc hello1.m -o hello
+$ ./hello
+Hello World!
+```
