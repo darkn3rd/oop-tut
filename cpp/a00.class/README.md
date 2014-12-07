@@ -7,7 +7,8 @@ This tutorial demonstrates the following lessons:
 
  1. Declaration a class
  2. Creating a class method
- 3. Creating a namespace
+ 3. Calling a class method
+ 4. Creating a namespace
 
 This lesson shows the mechanics creating a class and a class method.  
 
@@ -15,4 +16,4 @@ The demonstration shows how to call the class method.
 
 # Notes
 
-Namespaces are used to group all the code related to the `Person` class into a namespace called `Personspace`
+Namespaces are used to group code together, such as having all the code related to the `Person` class into a *namespace* called `Personspace`
