@@ -1,40 +1,43 @@
-# OOP Tutorial in Ruby
+# OOP Tutorial in Groovy
 **© 2014 by Joaquín Menchaca**
 
 ## Status
 
-This material is in its infancy.
-
-The exact lessons (use cases) are still being developed.
+Ignore this, needs tobe updated
 
 ## Lessons
 
 These are the current lessons devised thus far are the following
 
- 1. :green_book: Declaration and Instantiation
+ 1. :green_book: Declaring Class and Calling Class Method
+ 2. :green_book: Instantiating Object and Calling Instance Method
+ 3. :green_book: Accessor and Instance Variables
     * :page_facing_up: Properties
-    * :page_facing_up: Attribute Accessor Generator
- 2. :green_book: Initializer
-    * :page_facing_up: Default vs. Custom Initializer
- 3. :closed_book: Overloaded Constructors ***ALTERNATIVE***
- 4. :green_book: Class Variables
- 5. :closed_book: Immutability ***ALTERNATIVE***
- 6. :green_book: Inheritance
-    * :page_facing_up: Using parent methods
-    * :page_facing_up: Using `super()`
- 7. :green_book: Overriding Methods
+ 4. :green_book: Constructors
+    * :page_facing_up: Custom Constructors
+ 5. :green_book: Overloaded Constructors
+    * :page_facing_up: Delegated Constructor
+    * :page_facing_up: Dynamic Constructor
+ 6. :green_book: Class Variables
+ 7. :green_book: Immutability
+     * :page_facing_up: Readonly Properties
+ 8. :green_book: Inheritance
+    * :page_facing_up: Using `super()` constructor
+ 9. :green_book: Overriding Methods
+10. :green_book: Abstract Class and Method
+11. :green_book: Interfaces
+
 
 ## Usage
 
-* Running the Demonstration: `./demo.py`
+Groovy and Java need to be installed to run Groovy scripts.
+
+* Running the Demonstration: `./demo.groovy`
 
 ## Tested Systems
 
 * :dvd: *__OS X 10.8.5 (Mountain Lion)__*
-  * :package: Ruby 2.1.2p95 (`brew install ruby`)
+  * :beer: Groovy Version: 2.3.3 (homebrew)
+  * :package: Oracle Java 7 (JVM 1.7.0_60)
 
 ## Links
-
-* [Read Ruby by Matthias Richwin](http://readruby.io/)
-* [Abstract classes in Ruby - losing the security blanket](http://yakhairsurplus.com/abstract-classes-ruby-losing-security-blanket/)
-* [Abstract classes in Ruby](http://riccardotacconi.blogspot.com/2012/12/abstract-classes-in-ruby.html)
