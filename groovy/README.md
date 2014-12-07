@@ -3,7 +3,7 @@
 
 ## Status
 
-Ignore this, needs tobe updated
+Just added this.
 
 ## Lessons
 
@@ -41,3 +41,5 @@ Groovy and Java need to be installed to run Groovy scripts.
   * :package: Oracle Java 7 (JVM 1.7.0_60)
 
 ## Links
+
+[From Java to Groovy in a few easy steps](http://groovy.dzone.com/news/java-groovy-few-easy-steps)
