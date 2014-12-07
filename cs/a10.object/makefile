@@ -1,9 +1,9 @@
 CSC = mcs
 all: Demo.exe
-Demo.exe: demo.cs Person.cs
-	$(CSC) Person.cs demo.cs -out:$@
+Demo.exe: Demo.cs Person.cs
+	$(CSC) Person.cs Demo.cs -out:$@
 
-run:
+run: all
 	mono Demo.exe
 
 clean:
