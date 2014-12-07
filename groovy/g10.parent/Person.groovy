@@ -1,18 +1,8 @@
-#!/usr/bin/ruby
-# class declaration
-class Person
-  ###### Initializer ######
-  def initialize(name) # constructor
-    setName(name)      # call mutator
-  end
-  
-  ###### Mutators ######
-  def setName (name)
-    @name = name       # set instance data
-  end
-  
-  ###### Accessors ######
-  def getName
-    @name              # return instance data
-  end
-end
+// class declaration
+class Person {
+  /************ PROPERTIES ************/
+  def name
+
+  /******* CONSTRUCTORS *******/
+  def Person(name) {   this.name = name }
+}

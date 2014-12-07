@@ -1,7 +1,6 @@
-#!/usr/bin/ruby
-require 'Person'                 # include Person.rb
+#!/usr/bin/env groovy
 
-# instantiate three Person objects on the heap
-captain = Person.new "Jean-Luc", 48382
-officer = Person.new "Data", 38923
-ensign  = Person.new "Wesley", 48234
+// instantiate three Person objects
+captain = new Person("Jean-Luc", 48382)
+officer = new Person("Data", 38923)
+ensign  = new Person("Wesley", 48234)

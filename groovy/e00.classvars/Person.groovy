@@ -2,7 +2,7 @@
 // class declaration
 class Person {
   /******* CLASS VARIABLES *******/
-  static count = 0          // initialize initial class variable
+  static count = 0    // initialize initial class variable
 
   /************ PROPERTIES ************/
   def name
@@ -19,7 +19,7 @@ class Person {
 
   /******* METHODS *******/
   def info() {
-    println "[INFO] Person Object: '${this.name}' created."
+    println "[INFO] Person Object: '${name}' created."
   }
 
 }

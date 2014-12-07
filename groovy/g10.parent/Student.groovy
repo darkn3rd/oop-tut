@@ -1,19 +1,10 @@
-#!/usr/bin/ruby
-# class declaration
-class Student < Person
-  ###### Initializer ######
-  def initialize(name, gpa=0.0) # constructor
-    setName(name)      # call mutator
-    setGPA(gpa)        # call mutator
-  end
+// class declaration
+class Student extends Person {
+  /************ PROPERTIES ************/
+  def gpa
 
-  ###### Mutators ######
-  def setGPA (gpa=0.0)
-    @gpa = gpa         # set instance data
-  end
-  
-  ###### Accessors ######
-  def getGPA
-    @gpa               # return instance data
-  end
-end
+  /******* CONSTRUCTORS *******/
+  def Student(name)      { super(name) }
+  def Student(name, gpa) { super(name); this.gpa = gpa }
+
+}

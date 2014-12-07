@@ -1,5 +1,5 @@
 // class declaration
-class Shape {
+abstract class Shape implements Dimensionable {
   /************ PROPERTIES ************/
   def width
   def height
@@ -10,6 +10,4 @@ class Shape {
     this.height = height / 1.0 // convert to float
   }
 
-  /******* METHODS *******/
-  def calculateArea() { 0.0 }
 }

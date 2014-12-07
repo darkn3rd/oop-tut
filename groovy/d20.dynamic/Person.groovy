@@ -7,25 +7,25 @@ class Person {
 
   /************ CONSTRUCTOR ************/
   def Person(Object[] args) {
-    name = "(NULL)"
-    age  = -1
+    name = "(NULL)"  // default local name
+    age  = -1        // default local age
 
     if (args.size() > 0) {
       for (arg in args) {
-        //println "${arg} ${}"
+        // determine type of argument and set appropriately
         if (arg.getClass() == Integer) age = arg
         else name = arg
       }
     }
 
-    this.name = name
-    this.age = age
-    info()        // report info on object
+    this.name = name // set name to local name
+    this.age = age   // set age to local age
+    info()           // report info on object
   }
 
   /************ METHODS ************/
   def info () {
-    println "[INFO]: Person Object is created with age=\"${this.age}\"," +
-            "name=\"${this.name}\""
+    println "[INFO]: Person Object is created with age=\"${age}\"," +
+            "name=\"${name}\""
   }
 }

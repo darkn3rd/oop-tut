@@ -1,5 +1,5 @@
 // class declaration
-class Shape {
+abstract class Shape {
   /************ PROPERTIES ************/
   def width
   def height
@@ -11,5 +11,5 @@ class Shape {
   }
 
   /******* METHODS *******/
-  def calculateArea() { 0.0 }
+  abstract calculateArea()
 }
