@@ -56,13 +56,22 @@ A basic makefile is included and has been tested on ***Heisenbug*** (Fedora 20) 
 
 ## Install Notes
 
-# Lucid Lynx (Ubuntu 10.04)
+### Lucid Lynx (Ubuntu 10.04)
 
-Installing Oracle Java 7
+Installing Oracle Java 7.
+
+#### Add Oracle Java Repository
 
 ```bash
 $ sudo apt-get install python-software-properties
 $ sudo add-apt-repository ppa:webupd8team/java
+
+#### Agree to License
+```bash
 $ echo oracle-java7-installer shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections
+```
+
+#### Install the Package
+```bash
 $ sudo apt-get install oracle-java7-installer
 ```
