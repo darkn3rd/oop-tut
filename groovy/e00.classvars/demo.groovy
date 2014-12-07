@@ -1,13 +1,11 @@
-#!/usr/bin/ruby
-require 'Person'                 # include Person.rb
+#!/usr/bin/env groovy
+println "\n\tThe number of Persons is now: '${Person.getCount()}'.\n"
 
-puts "\n\tThe number of Persons is now: '#{Person.getCount}'.\n\n"
+println "Creating Persons...\n"
 
-puts "Creating Persons...\n\n"
+// instantiate three Person objects
+captain = new Person("Jean-Luc")
+officer = new Person("Data")
+ensign  = new Person("Wesley")
 
-# instantiate three Person objects
-captain = Person.new "Jean-Luc"
-officer = Person.new "Data"
-ensign  = Person.new "Wesley"
-
-puts "\n\tThe number of Persons is now: '#{Person.getCount}'.\n\n"
+println "\n\tThe number of Persons is now: '${Person.getCount()}'.\n"

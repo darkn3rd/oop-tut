@@ -1,33 +1,25 @@
-#!/usr/bin/ruby
-# class declaration
-class Person
-  ###### Class Variables ######
-  @@count = 0          # initialize initial class variable
+//!/usr/bin/ruby
+// class declaration
+class Person {
+  /******* CLASS VARIABLES *******/
+  static count = 0          // initialize initial class variable
 
-  ###### Initializer ######
-  def initialize(name) # constructor
-    setName(name)      # call mutator
-    @@count += 1       # increment class var count
+  /************ PROPERTIES ************/
+  def name
+
+  /******* CONSTRUCTORS *******/
+  def Person(name) {  // constructor
+    this.name = name  // call mutator
+    count += 1        // increment class var count
     info()
-  end
+  }
 
-  ###### Mutators ######
-  def setName (name)
-    @name = name       # set instance data
-  end
-  
-  ###### Accessors ######
-  def getName
-    @name              # return instance data
-  end
+  /******* ACCESSOR *******/
+  static def getCount() { count } // class method
 
-  def self.getCount    # class method
-    @@count
-  end
+  /******* METHODS *******/
+  def info() {
+    println "[INFO] Person Object: '${this.name}' created."
+  }
 
-  ###### Methods ######
-  def info()
-    puts "[INFO] Person Object: '#{getName}' created." 
-  end
-
-end
+}
