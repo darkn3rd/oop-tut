@@ -12,5 +12,3 @@ This tutorial demonstrates the following lessons:
 This lesson shows how to create an object, a process called instantiation, where an object is an instance of a class in memory.  An instance method is created and can only be called when after an object is created in memory.
 
 # Notes
-
-It is important to note that this newly created object is on the local stack, an not in memory (heap).  Once the calling function leaves scope, the object is destroyed.  In this case, once the `main` function ends, all the objects created on the stack will be destroyed.
