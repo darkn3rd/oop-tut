@@ -1,3 +1,5 @@
+package shape_space;
+
 public abstract class Shape implements Dimensionable {
    /******* FIELDS *******/
    protected Double width;

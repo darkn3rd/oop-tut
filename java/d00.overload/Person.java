@@ -1,3 +1,5 @@
+package person_space;
+
 public class Person
 {
     private String name = "";
@@ -7,13 +9,13 @@ public class Person
     public Person(String name)  { this.setName(name); }
     public Person(Integer age)  { this.setAge(age); }
 
-    public Person(String name, Integer age) 
-    { 
+    public Person(String name, Integer age)
+    {
         this.setName(name);
         this.setAge(age);
     }
-    
-    // Mutators - functions that set stuff	
+
+    // Mutators - functions that set stuff
     public void   setName(String name) { this.name = name; }
     public void   setAge(Integer age)  { this.age = age; }
 

@@ -1,3 +1,5 @@
+package shape_space;
+
 public class Triangle extends Shape {
     /******* CONSTRUCTORS *******/
     public Triangle(Double base, Double height)  { super(base, height); }

@@ -2,14 +2,19 @@ JC = javac
 JFLAGS = -d $(BUILD) -classpath $(BUILD) -sourcepath $(SRC)
 BUILD = build
 SRC = .
+RM = rm -frd
+RMDIR = rmdir
+MKDIR = mkdir -p
 
-all: Demo.java Person.java Student.java
-	mkdir -p $(BUILD)
+all: $(BUILD)/Demo.class
+$(BUILD)/Demo.class: Demo.java Person.java Student.java Build
 	$(JC) $(JFLAGS) Demo.java Person.java Student.java
+Build:
+	$(MKDIR) $(BUILD)
 
-run:
+run: all
 	java -classpath $(BUILD) Demo
 
 clean:
-	$(RM) $(BUILD)/*.class
-	rmdir $(BUILD)
+	$(RM) $(BUILD)/*
+	$(RMDIR) $(BUILD)

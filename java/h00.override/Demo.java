@@ -1,3 +1,7 @@
+import shape_space.Shape;
+import shape_space.Triangle;
+import shape_space.Rectangle;
+
 public class Demo {
   public static void main(String args[])
   {

@@ -1,3 +1,5 @@
+package shape_space;
+
 public abstract class Shape {
    /******* FIELDS *******/
    protected Double width;

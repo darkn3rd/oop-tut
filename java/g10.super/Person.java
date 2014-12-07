@@ -1,3 +1,5 @@
+package person_space;
+
 public class Person
 {
     private String name = "";

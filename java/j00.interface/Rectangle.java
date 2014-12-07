@@ -1,3 +1,5 @@
+package shape_space;
+
 public class Rectangle extends Shape {
    /******* CONSTRUCTORS *******/
    public Rectangle(Double length, Double width)  { super(length, width); }

@@ -1,6 +1,8 @@
+import person_space.Person;
+
 public class Demo {
     public static void main(String args[])
-    {   
+    {
         String name;
 
         System.out.println("Creating two objects:\n");
