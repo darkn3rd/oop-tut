@@ -7,8 +7,6 @@ These are ad-hoc notes and tasks to help keep track of where I am at.
 
 ## Topics
 
-
-
 ### Part III
 
 * :books: Sealing/Final Methods
@@ -31,6 +29,7 @@ These are ad-hoc notes and tasks to help keep track of where I am at.
   * **Override**: C++, C#, Java, Objective-C (Object), Python, Ruby
   * **Abstraction**: C++ (pure virtual function), C#, Java, Python
   * **Interface**: C#, Objective-C (protocol), Java
+  [x] Added Groovy
 
 ### Near Future
 
