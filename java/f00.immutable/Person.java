@@ -2,10 +2,11 @@ package person_space;
 
 public class Person
 {
+  /******* FIELDS *******/
   private String name = "";
   private final int id;
 
-  // Constructor
+  /******* CONSTRUCTORS *******/
   public Person(String name, int id)
   {
     this.id = id;
@@ -13,18 +14,17 @@ public class Person
     this.info();
   }
 
-  // Utility Method
+  /******* INSTANCE METHODS *******/
   private void info() {
     System.out.println(
       "[INFO] Person Object: '" + this.getName() + "' created.\n" +
       "[INFO] \tCitizen Id No.: " + this.getId() + "\n");
   }
 
-
-  // Mutators - functions that set stuff
+  /******* MUTATORS (SETTERS) *******/
   public void   setName(String name) { this.name = name; }
 
-  // Accessors - functions that get stuff
+  /******* ACCESSORS (GETTERS) *******/
   public String getName() { return name; }
   public int    getId()   { return id; }
 }

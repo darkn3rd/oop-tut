@@ -2,18 +2,18 @@ package person_space;
 
 public class Person
 {
+  /******* FIELDS *******/
   private String name = "";
   private static int count;
 
-
-  // Constructor
+  /******* CONSTRUCTORS *******/
   public Person(String name)  { this.setName(name); ++count; info(); }
 
-  // Finalizers
+  /******* FINALIZER *******/
   // Note: Garbage Collection is non-deterministic, so this cannot be tested.
   protected void finalize()   { --count; }
 
-  // Utility Method
+  /******* INSTANCE METHODS *******/
   private void info() {
       System.out.println(
         "[INFO] Person Object: '" +
@@ -21,10 +21,10 @@ public class Person
         "' created.");
   }
 
-  // Mutators - functions that set stuff
+  /******* MUTATORS (SETTERS) *******/
   public void   setName(String name) { this.name = name; }
 
-  // Accessors - functions that get stuff
+  /******* ACCESSORS (GETTERS) *******/
   public String getName()            { return name; }
   public static int getCount()       { return count; }
 
