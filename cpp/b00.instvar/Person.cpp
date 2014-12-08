@@ -2,10 +2,10 @@
 
 namespace PersonSpace {
 
-  /*********** Mutators - functions that set stuff ***********/
+  /******* MUTATORS (SETTERS) *******/
   void Person::setName(const char* n) { if (n) { name = string(n); } }
 
-  /*********** Accessors - functions that get stuff ***********/
+  /******* ACESSORS (GETTERS) *******/
   string Person::getName() { return name; }
 
 }

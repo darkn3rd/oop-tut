@@ -2,17 +2,17 @@
 
 namespace PersonSpace {
 
-  // ########## Constructors - initialize stuff ##########
+  /******* CONSTRUCTORS *******/
   Person::Person()                     { info(); }
   Person::Person(const char* n)        { setName(n); info(); }
   Person::Person(int a)                { setAge(a); info(); }
   Person::Person(const char *n, int a) { setName(n); setAge(a); info(); }
 
-  // ########## Mutators - functions that set stuff ##########
+  /******* MUTATORS (SETTERS) *******/
   void Person::setName(const char* n)  { if (n) { name = string(n); } }
   void Person::setAge(int a)           { age = a; }
 
-  // ########## Accessors - functions that get stuff ##########
+  /******* ACESSORS (GETTERS) *******/
   string Person::getName()             { return name; }
   int    Person::getAge()              { return age; }
 

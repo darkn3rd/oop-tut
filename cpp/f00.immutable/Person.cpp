@@ -1,22 +1,20 @@
 #include "Person.h"
 
 namespace PersonSpace {
+  /******* CONSTRUCTORS *******/
+  Person::Person(const char* n, int i) : id(i) { setName(n); info(); }
 
-// ########## Constructors - initialize stuff ##########
-Person::Person(const char* n, int i) : id(i) { setName(n); info(); }
+  /******* MEMBER FUNCTIONS *******/
+  void   Person::info()
+  {
+    cout << "[INFO] Person Object: '" << getName() << "' created." << endl;
+    cout << "[INFO] \tCitizen Id No.: " << getId() << endl << endl;
+  }
 
-// ########## Utility Member Functions ##########
-void   Person::info()
-{
-  cout << "[INFO] Person Object: '" << getName() << "' created." << endl;
-  cout << "[INFO] \tCitizen Id No.: " << getId() << endl << endl;
-}
+  /******* MUTATORS (SETTERS) *******/
+  void Person::setName(const char* n) { if (n) { name = string(n); } }
 
-// ########## Mutators - functions that set stuff ##########
-void Person::setName(const char* n) { if (n) { name = string(n); } }
-
-// ########## Accessors - functions that get stuff ##########
-string Person::getName() { return name; }
-int    Person::getId()   { return id; }
-
+  /******* ACESSORS (GETTERS) *******/
+  string Person::getName() { return name; }
+  int    Person::getId()   { return id; }
 }

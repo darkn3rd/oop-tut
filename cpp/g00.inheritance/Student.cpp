@@ -2,7 +2,9 @@
 
 namespace PersonSpace {
 
-  void   Student::setGPA(double g) { gpa = g; } // mutator
-  double Student::getGPA()         { return gpa; }   // accessor
-
+  /******* MUTATORS (SETTERS) *******/
+  void   Student::setGPA(double g) { gpa = g; }
+  /******* ACESSORS (GETTERS) *******/
+  double Student::getGPA() { return gpa; }
+  
 }

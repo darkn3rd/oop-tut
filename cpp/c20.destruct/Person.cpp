@@ -1,34 +1,34 @@
 #include "Person.h"
 
 namespace PersonSpace {
-
-Person::Person(const char* n)
-{
-  cout << endl;
-  cout << "[INFO]: Person Object is created with name=\"" << n << "\"" << endl;
-  cout << endl;
-  setName(n);
-}
-
-// Destructors
-Person::~Person()
-{
-    name.clear();
-
+  /******* CONSTRUCTORS *******/
+  Person::Person(const char* n)
+  {
     cout << endl;
-    cout << "[INFO]: Person Object is destroyed" << endl;
+    cout << "[INFO]: Person Object is created with name=\"" << n << "\"" << endl;
     cout << endl;
-}
+    setName(n);
+  }
 
-// Mutators - functions that set stuff
-void Person::setName(const char* n)
-{
-    if (n) {
-       name = string(n);
-    }
-}
+  /******* DESTRUCTORS *******/
+  Person::~Person()
+  {
+      name.clear();
 
-// Accessors - functions that get stuff
-string Person::getName() { return name; }
+      cout << endl;
+      cout << "[INFO]: Person Object is destroyed" << endl;
+      cout << endl;
+  }
+
+  /******* MUTATORS (SETTERS) *******/
+  void Person::setName(const char* n)
+  {
+      if (n) {
+         name = string(n);
+      }
+  }
+
+  /******* ACESSORS (GETTERS) *******/
+  string Person::getName() { return name; }
 
 }

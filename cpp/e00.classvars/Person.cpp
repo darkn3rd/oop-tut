@@ -2,32 +2,32 @@
 
 namespace PersonSpace {
 
-// ########## Initialize Class Data Members
-int Person::count = 0;
+  /******* CLASS DATA MEMBER *******/
+  int Person::count = 0;
 
-// ########## Constructors - initialize stuff ##########
-Person::Person()               { ++count; info(); }
-Person::Person(const char* n)  { setName(n); ++count; info(); }
+  /******* CONSTRUCTORS *******/
+  Person::Person()               { ++count; info(); }
+  Person::Person(const char* n)  { setName(n); ++count; info(); }
 
-// ########## Destructors ##########
-Person::~Person()
-{
-    name.clear();
-    --count;
-}
+  /******* DESSTRUCTORS *******/
+  Person::~Person()
+  {
+      name.clear();
+      --count;
+  }
 
-// ########## Utility Member Functions ##########
-void   Person::info()
-{
-  cout << "[INFO] Person Object: '" << getName() << "' created." << endl;
-}
+  /******* MEMBER FUNCTIONS *******/
+  void   Person::info()
+  {
+    cout << "[INFO] Person Object: '" << getName() << "' created." << endl;
+  }
 
-// ########## Mutators - functions that set stuff ##########
-void Person::setName(const char* n) { if (n) { name = string(n); } }
+  /******* MUTATORS (SETTERS) *******/
+  void Person::setName(const char* n) { if (n) { name = string(n); } }
 
-// ########## Accessors - functions that get stuff ##########
-string Person::getName()            { return name; }
-int    Person::getCount()           { return count; }
+  /******* ACESSORS (GETTERS) *******/
+  string Person::getName()            { return name; }
+  int    Person::getCount()           { return count; }
 
 
 }

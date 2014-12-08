@@ -15,8 +15,6 @@ namespace PersonSpace {
     private:
       string name;                   // data member
     public:
-      Person (const char*);  // constructor
-
       void   setName (const char*);  // mutator
       string getName ();             // accessor
   };

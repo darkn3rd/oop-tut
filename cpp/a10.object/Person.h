@@ -12,7 +12,7 @@ using namespace std;
 namespace PersonSpace {
   class Person {
     public:
-      void sayit ();
+      void sayit ();  // instance member function
   };
 }
 

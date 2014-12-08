@@ -10,10 +10,17 @@ extern "C" {
 using namespace std;
 
 namespace PersonSpace {
+
   class Person {
+    private:
+      string name;                   // data member
     public:
-      static void sayit ();  // class member function
+      Person (const char*);  // constructor
+
+      void   setName (const char*);  // mutator
+      string getName ();             // accessor
   };
+
 }
 
 #ifdef __cplusplus
