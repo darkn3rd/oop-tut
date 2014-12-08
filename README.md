@@ -16,8 +16,8 @@ These are the topics ironed out so far (still under development)
 This is a simple `Person` class and object with a method that says "HelloWorld".
 
 * :books:
-  * :green_book: Declaration and Class Method (A00)
-  * :green_book: Instantiation and Instance Method (A10)
+  * :green_book: Class Declaration and Class Method (A00)
+  * :green_book: Object Instantiation and Instance Method (A10)
 
 ### Part II Mechanics
 
@@ -36,8 +36,10 @@ This uses a `Person` and `Student` metaphor, where `Student` is a type of a `Per
 * :books: Class Variables
    * :green_book: Class Method (E10)
 * :books: Immutable Fields (F00)
-* :books: Inheritance (G00)
-  * :green_book: Parent's Constructor (G10)
+* :books: Inheritance
+  * :green_book: Parent Methods (G00)
+  * :green_book: Parent Fields (G10)
+  * :green_book: Parent Constructor (G20)
 
 ### Part III
 
