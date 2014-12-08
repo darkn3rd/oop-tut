@@ -1,32 +1,21 @@
 #!/usr/bin/ruby
 # class declaration
 class Person
-  ###### Initializer ######
+  ###### INITIALIZER ######
   def initialize(name, id) # constructor
-    setName(name)      # call mutator
-    @ID = id           # indicate we don't want it changed
+    self.name = name       # call setter
+    @id = id               # id set manually as no setter exists
     info()
   end
 
-  ###### Mutators ######
-  def setName (name)
-    @name = name       # set instance data
-  end
-  
-  ###### Accessors ######
-  def getName
-    @name              # return instance data
-  end
+  ###### PROPERTIES ######
+  attr_accessor :name
+  attr_reader :id
 
-  def getId
-    @ID              # return instance data
-  end
-
-  ###### Methods ######
+  ###### METHODS ######
   private
   def info()
-    puts "[INFO] Person Object: '#{getName}' created.\n"
-    puts "[INFO] \tCitizen Id No.: #{getId}\n\n"
+    puts "[INFO] Person Object: '#{self.name}' created.\n" # call getter
+    puts "[INFO] \tCitizen Id No.: #{self.id}\n\n"         # call getter
   end
-
 end

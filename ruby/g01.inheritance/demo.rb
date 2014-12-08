@@ -7,21 +7,21 @@ captain = Student.new
 officer = Student.new
 
 # set objects' name value
-captain.name = "Jean-Luc"
-officer.name = "Data"
+captain.setName "Jean-Luc"
+officer.setName "Data"
 
 # set objects' gpa value
-captain.gpa = 3.8
-officer.gpa = 4.0
+captain.setGPA  3.8
+officer.setGPA  4.0
 
 # retrieve data from captain object
-name   = captain.name
-age    = captain.gpa
+name   = captain.getName
+age    = captain.getGPA
 
 puts "Captain:\n\tName: #{name}\n\tGPA: #{age}"
 
 # retrieve data from officer object
-name   = officer.name
-age    = officer.gpa
+name   = officer.getName
+age    = officer.getGPA
 
 puts "Officer:\n\tName: #{name}\n\tGPA: #{age}"

@@ -3,8 +3,8 @@
 class Student < Person
   ###### INITIALIZER ######
   def initialize(name, gpa=0.0) # constructor
-    self.name = name      # call mutator
-    self.gpa  = gpa       # call mutator
+    super(name)        # super's initializer
+    self.gpa = gpa     # call mutator
   end
 
   ###### PROPERTIES ######

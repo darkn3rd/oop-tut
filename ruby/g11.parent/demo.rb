@@ -4,17 +4,17 @@ require 'Student'                # include Student.rb
 
 # create new objects and initialize data
 captain = Student.new "Jean-Luc"      # create obj w/ name
-captain.gpa = 3.8                     # set object's gpa
+captain.setGPA  3.8                   # set object's gpa
 officer = Student.new "Jean-Luc", 4.0 # create obj w/ name, gpa
 
 # retrieve data from captain object
-name   = captain.name
-age    = captain.gpa
+name   = captain.getName
+age    = captain.getGPA
 
 puts "Captain:\n\tName: #{name}\n\tGPA: #{age}"
 
 # retrieve data from officer object
-name   = officer.name
-age    = officer.gpa
+name   = officer.getName
+age    = officer.getGPA
 
 puts "Officer:\n\tName: #{name}\n\tGPA: #{age}"

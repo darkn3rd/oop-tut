@@ -9,19 +9,19 @@ ensign  = Person.new "Wesley", 15
 puts "\n"
 
 # retrieve string from captain object
-name   = captain.name    # accessor
-age    = captain.age     # accessor
+name   = captain.getName    # accessor
+age    = captain.getAge     # accessor
 
 puts "Captain:\n\tName: #{name}\n\tGPA: #{age}"
 
 # retrieve string from officer object
-name   = officer.name    # accessor
-age    = officer.age     # accessor
+name   = officer.getName    # accessor
+age    = officer.getAge     # accessor
 
 puts "Officer:\n\tName: #{name}\n\tGPA: #{age}"
 
 # retrieve string from ensign object
-name   = ensign.name    # accessor
-age    = ensign.age     # accessor
+name   = ensign.getName    # accessor
+age    = ensign.getAge     # accessor
 
 puts "Ensign:\n\tName: #{name}\n\tGPA: #{age}"

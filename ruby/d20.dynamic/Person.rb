@@ -1,7 +1,7 @@
 #!/usr/bin/ruby
 # class declaration
 class Person
-  ###### Initializer ######
+  ###### INITIALIZER ######
   def initialize(*args)
     name = "(NULL)"
     age  = -1
@@ -13,32 +13,18 @@ class Person
       end
     end
 
-    setName(name) # call mutator w. name
-    setAge(age)   # call mutator w. age
-    info()        # report info on object
+    self.name = name # use setter from property
+    self.age  = age  # use setter from property
+    info()           # report info on object
   end
 
-  ###### Methods ######
+  ###### PROPERTIES ######
+  attr_accessor :name, :age  # creates @name and @age
+
+  ###### METHODS ######
+  private
   def info ()
-    puts "[INFO]: Person Object is created with age=\"#{@age}\"," +
-            "name=\"#{@name}\""
-  end
-
-  ###### Mutators ######
-  def setName (name)
-    @name = name       # set instance data
-  end
-
-  def setAge (age)
-    @age = age       # set instance data
-  end
-
-  ###### Accessors ######
-  def getName
-    @name              # return instance data
-  end
-
-  def getAge
-    @age              # return instance data
+    puts "[INFO]: Person Object is created with age=\"#{self.age}\"," +
+            "name=\"#{self.name}\""
   end
 end

@@ -7,19 +7,19 @@ puts "Creating two objects:\n\n"
 captain = Person.new       # instantiate new object
 officer = Person.new       # instantiate new object
 # initialize data through mutator (set)
-captain.name = "Jean-Luc" # call setter
-officer.name = "Data"     # call setter
+captain.setName "Jean-Luc" # call mutator
+officer.setName "Data"     # call mutator
 
 puts "\nPrinting Results:\n\n"
 
 # retrieve string from captain object through accessor (get)
-name   = captain.name     # call getter
+name   = captain.getName   # call accessor
 
 # output results
 puts "  Name of the Captain:\n\t" + name
 
 # retrieve string from officer object through accessor (get)
-name   = officer.name     # call getter
+name   = officer.getName   # call accessor
 
 # output results
 puts "  Name of the Officer:\n\t" + name
