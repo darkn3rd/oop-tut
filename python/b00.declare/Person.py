@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # class declaration
 class Person:
-  # Mutators - functions that set stuff
+  ###### SETTERS ######    
   def setName (self,name):
     self.name = name      # set data
 
-  # Accessors - functions that get stuff
+  ###### GETTERS ######
   def getName(self):
     return self.name      # return data

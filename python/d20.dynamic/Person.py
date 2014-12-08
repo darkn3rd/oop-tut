@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # class declaration
 class Person:
-  ###### Initializer ######
+  ###### INITIALIZER ######
   def __init__(self,*args):
     name = "(NULL)" # default name
     age  = -1       # default age
@@ -14,25 +14,28 @@ class Person:
         if type(arg).__name__=='str':
           name  = arg
 
-    self.setName(name) # call mutator w. name
-    self.setAge(age)   # call mutator w. age
+    self.name = name
+    self.age = age
     self.info()        # report info on object
 
-  ###### Methods ######
+  ###### METHODS ######
   def info (self):
     print("[INFO]: Person Object is created with age=\"%d\", name=\"%s\"" \
             % (self.age, self.name))
 
-  ###### Mutators ######
-  def setName (self,name):
-    self.name = name      # set data
+  ###### PROPERTIES ######
+  @property
+  def name (self):
+    return self._name
 
-  def setAge (self,age):
-    self.age = age        # set data
+  @property
+  def age (self):
+    return self._age
 
-  ###### Accessors ######
-  def getName(self):
-    return self.name      # return data
+  @name.setter
+  def name (self, name):
+    self._name = name
 
-  def getAge(self):
-    return self.age       # return data
+  @name.setter
+  def name (self, age):
+    self._age = age

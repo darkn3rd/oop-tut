@@ -1,10 +1,11 @@
 #!/usr/bin/python
 # class declaration
 class Person:
-  ###### Mutators ######
-  def setName (self,name):
-    self.name = name      # set data
+  ###### PROPERTIES ######
+  @property
+  def name (self):
+    return self._name
 
-  ###### Accessors ######
-  def getName(self):
-    return self.name      # return data
+  @name.setter
+  def name (self, name):
+    self._name = name

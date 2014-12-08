@@ -3,15 +3,16 @@ from Person import Person    # include Person.py
 
 # class declaration
 class Student(Person):
-  ###### Initializer ######
+  ###### INITIALIZER ######
   def __init__(self, name, gpa=0.0):
-    self.setName(name)  # call parent's mutator
-    self.setGPA(gpa)    # call mutator
+    self.name = name  # call parent's mutator
+    self.gpa = gpa    # call mutator
 
-  ###### Mutators ######
-  def setGPA (self,gpa):
-    self.gpa = gpa      # set data
+  ###### PROPERTIES ######
+  @property
+  def name (self):
+    return self._gpa
 
-  ###### Accessors ######
-  def getGPA(self):
-    return self.gpa      # return data
+  @name.setter
+  def name (self, gpa):
+    self._gpa = gpa

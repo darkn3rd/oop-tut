@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # class declaration
 class Person(object):
-  ###### Initializer ######
+  ###### INITIALIZER ######
   def __init__(self,name):
     self.setName(name)    # call mutator
 

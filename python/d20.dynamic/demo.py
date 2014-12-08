@@ -9,22 +9,22 @@ ensign  = Person("Wesley", 15)
 print("")
 
 # retrieve string from captain object
-name   = captain.getName()    # accessor
-age    = captain.getAge()     # accessor
+name   = captain.name    # accessor
+age    = captain.age     # accessor
 
 # output results
 print("Captain:\n\tName: %s\n\tAge:  %d" % (name, age))
 
 # retrieve string from officer object
-name   = officer.getName()    # accessor
-age    = officer.getAge()     # accessor
+name   = officer.name    # accessor
+age    = officer.age     # accessor
 
 # output results
 print("Officer:\n\tName: %s\n\tAge:  %d" % (name, age))
 
 # retrieve string from ensign object
-name   = ensign.getName()    # accessor
-age    = ensign.getAge()     # accessor
+name   = ensign.name    # accessor
+age    = ensign.age     # accessor
 
 # output results
 print("Ensign:\n\tName: %s\n\tAge:  %d" % (name, age))
