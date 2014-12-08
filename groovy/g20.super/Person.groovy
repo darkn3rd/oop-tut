@@ -4,5 +4,5 @@ class Person {
   def name
 
   /******* CONSTRUCTORS *******/
-  def Person() { /* required default constructor */ }
+  def Person(name) { this.name = name }
 }

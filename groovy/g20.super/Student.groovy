@@ -4,7 +4,7 @@ class Student extends Person {
   def gpa
 
   /******* CONSTRUCTORS *******/
-  def Student(name)      { this.name = name }
-  def Student(name, gpa) { this.name = name; this.gpa = gpa }
+  def Student(name)      { super(name) }
+  def Student(name, gpa) { super(name); this.gpa = gpa }
 
 }
