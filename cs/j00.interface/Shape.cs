@@ -1,4 +1,4 @@
-public abstract class Shape : Shapeable {
+public abstract class Shape : Dimensionable {
    /******* FIELDS *******/
    protected double width;
    protected double height;
