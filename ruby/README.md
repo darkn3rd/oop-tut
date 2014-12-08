@@ -28,7 +28,8 @@ These are the current lessons devised thus far are the following
     * :page_facing_up: Read-only Property
  6. :green_book: Inheritance
     * :page_facing_up: Using parent methods
-    * :page_facing_up: Using `super()`
+    * :page_facing_up: Using parent field
+    * :page_facing_up: Using parent constructors (`super`)
  7. :green_book: Overriding Methods
 
 ## Usage
