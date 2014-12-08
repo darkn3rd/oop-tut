@@ -39,3 +39,5 @@ These are the current lessons devised thus far are the following
 ## Links
 
 * http://broken.build/2011/07/21/static-variables-and-methods-in-python/
+* [Python FAQ: Descriptors](http://eev.ee/blog/2012/05/23/python-faq-descriptors/)
+* [Introduction to Python descriptors](http://www.ibm.com/developerworks/library/os-pythondescriptors/)
