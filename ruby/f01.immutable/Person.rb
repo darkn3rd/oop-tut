@@ -3,19 +3,30 @@
 class Person
   ###### INITIALIZER ######
   def initialize(name, id) # constructor
-    self.name = name       # call setter
-    @id = id               # id set manually as no setter exists
+    setName(name)      # call mutator
+    @ID = id           # indicate we don't want it changed
     info()
   end
 
-  ###### PROPERTIES ######
-  attr_accessor :name
-  attr_reader :id
+  ###### ACCESSORS (SETTERS) ######
+  def setName (name)
+    @name = name       # set instance data
+  end
+
+  ###### ACCESSORS (GETTERS) ######
+  def getName
+    @name              # return instance data
+  end
+
+  def getId
+    @ID              # return instance data
+  end
 
   ###### METHODS ######
   private
   def info()
-    puts "[INFO] Person Object: '#{self.name}' created.\n" # call getter
-    puts "[INFO] \tCitizen Id No.: #{self.id}\n\n"         # call getter
+    puts "[INFO] Person Object: '#{getName}' created.\n"
+    puts "[INFO] \tCitizen Id No.: #{getId}\n\n"
   end
+
 end

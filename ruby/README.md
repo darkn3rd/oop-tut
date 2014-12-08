@@ -21,10 +21,13 @@ These are the current lessons devised thus far are the following
     * :page_facing_up: Properties
     * :page_facing_up: Attribute Accessor Generator
  2. :green_book: Initializer
-    * :page_facing_up: Default vs. Custom Initializer
+    * :page_facing_up: Default Initializer
+    * :page_facing_up: Custom Initializer
  3. :green_book: Dynamic Initializer
  4. :green_book: Class Variables
- 5. :closed_book: Immutability ***ALTERNATIVE***
+ 5. :closed_book: Immutability
+    * :page_facing_up: Constant Field (simulated)
+    * :page_facing_up: Read-only Property    
  6. :green_book: Inheritance
     * :page_facing_up: Using parent methods
     * :page_facing_up: Using `super()`
