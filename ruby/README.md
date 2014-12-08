@@ -3,13 +3,11 @@
 
 ## Status
 
-This material is in its infancy.
-
-The exact lessons (use cases) are still being developed.
+This material is in its infancy.  The exact lessons (use cases) are still being developed.
 
 ## Terminology
 
-The word ***accessor*** can mean either *retrieval* or *admittance*, and in the Ruby community, it is the later. In Ruby, an ***accessor*** gains *admittance* to *set* or *get* data from the class or object.  In order to distinguish between an *accessors* that *set* or *get* data, we can use the terms ***setters*** and ***getters***.
+The word ***accessor*** can mean either *retrieval* or *admittance*, and in the Ruby community, it is the later. In Ruby, an ***accessor*** gains *admittance* to *set* or *get* data from the class or object.  In order to distinguish between an *accessors* that either *sets* or *gets* data, we can use the terms ***setters*** and ***getters***.
 
 ## Lessons
 
@@ -27,7 +25,7 @@ These are the current lessons devised thus far are the following
  4. :green_book: Class Variables
  5. :closed_book: Immutability
     * :page_facing_up: Constant Field (simulated)
-    * :page_facing_up: Read-only Property    
+    * :page_facing_up: Read-only Property
  6. :green_book: Inheritance
     * :page_facing_up: Using parent methods
     * :page_facing_up: Using `super()`
