@@ -3,7 +3,7 @@
 
 ## Status
 
-Just added this.
+Just completed section for Groovy.  For me, this has been the easiest language to program these OOP concepts rapidlyThis is by far the easiest language to program in. 
 
 ## Lessons
 
