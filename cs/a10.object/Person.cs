@@ -1,9 +1,10 @@
 namespace PersonalSpace {
   public class Person
   {
-      public void sayit() {
-        System.Console.WriteLine("Hello World!");
-      }
+    /******* INSTANCE METHOD *******/
+    public void sayit() {
+      System.Console.WriteLine("Hello World!");
+    }
   }
 
 }

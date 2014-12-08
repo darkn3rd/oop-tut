@@ -1,23 +1,24 @@
 public class Person
 {
-    private string name;
+  /******* FIELDS *******/
+  private string name;
 
-    // Constructors
-    public Person() 
-    { 
-        System.Console.WriteLine("  [INFO]: Person Object is created"); 
+  /******* CONSTRUCTORS *******/
+  public Person()
+  {
+      System.Console.WriteLine("  [INFO]: Person Object is created");
+  }
+
+  /******* PROPERTIES *******/
+  public string Name {
+    // accessor - get data
+    get {
+      return name;
     }
 
-    // Properties
-    public string Name {
-        // accessor - get data
-        get { 
-            return name;
-        }    
-        
-        // mutator  - set data
-        set { 
-            name = value;
-        }   
+    // mutator  - set data
+    set {
+      name = value;
     }
+  }
 }

@@ -1,9 +1,10 @@
 public class Person
 {
+  /******* FIELDS *******/
   private string name;
   private readonly int id;
 
-  // ##### Constructor #####
+  /******* CONSTRUCTORS *******/
   public Person(string name, int id)
   {
       this.id = id;      // constructor can initialize readonly
@@ -11,14 +12,14 @@ public class Person
       this.info();       // report information
   }
 
-  // ##### Methods #####
+  /******* METHODS *******/
   private void info() {
       System.Console.WriteLine(
         "[INFO] Person Object: '{0}' created.\n" +
         "[INFO] \tCitizen Id No.: {1}\n", this.Name, this.Id);
   }
 
-  // ##### Properties #####
+  /******* PROPERTIES *******/
   public string Name {
       get { return name; }    // accessor - get data
       set { name = value; }   // mutator  - set data

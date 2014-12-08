@@ -1,10 +1,11 @@
 public class Person
 {
+  /******* FIELDS *******/
   private string name;
 
-  // ###### Mutators ######
+  /******* MUTATORS (SETTERS) *******/
   public void   setName(string name) { this.name = name; }
-  
-  // ###### Accessors ######
+
+  /******* ACCESSORS (GETTERS) *******/
   public string getName() { return name; }
 }
