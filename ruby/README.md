@@ -15,13 +15,15 @@ These are the current lessons devised thus far are the following
 
  1. :green_book: Class Declaration and Class Method
  2. :green_book: Object Instantiation and Instance Method
- 1. :green_book: Accessors and Instance Variables
+ 1. :green_book: Instance Variables
+    * :page_facing_up: Accessors (Getters and Setters)
     * :page_facing_up: Properties
     * :page_facing_up: Attribute Accessor Generator
  2. :green_book: Initializer
     * :page_facing_up: Default Initializer
     * :page_facing_up: Custom Initializer
- 3. :green_book: Dynamic Initializer
+ 3. :closed_book: Overloading
+    * :page_facing_up: Dynamic Initializer
  4. :green_book: Class Variables
  5. :closed_book: Immutability
     * :page_facing_up: Constant Field (simulated)
