@@ -1,7 +1,10 @@
 # ECMASCRIPT NOTES
 
+There are numerous engines out there that implement JavaScript based on ES3 (ECMA-262 3rd edition).  These notes are for some popular engines like Rhin (Java JVM) or SpiderMonkey.  
 
-## Installing JavaScript Engines
+Also, I wanted to explore some alternatives, like Coffee-Script, TypeScript, and Dart.  Essentially, I wanted to see what the fuss is about. :smile:
+
+## Install Notes for OS X 10.8.5 (Snow Leopard)
 
 ### SpiderMonkey
 
@@ -12,6 +15,8 @@ $ ls -l /usr/local/bin/js | tr -s ' ' | cut -d' ' -f9-11
 ```
 
 ### Rhino (JVM)
+
+***Prerequisite:*** Java Virtual Machine must be installed.
 
 ```
 $ brew install rhino
@@ -30,8 +35,9 @@ npm -> ../lib/node_modules/npm/bin/npm-cli.js
 
 ### CoffeeScript (NodeJS)
 
+***Prerequisite:*** NodeJS must be installed
+
 ```
-$ brew install nodejs
 $ npm install -g coffee-script
 $ ls -l /usr/local/bin | grep coffee | tr -s ' ' | cut -d' ' -f9-11
 cake -> ../lib/node_modules/coffee-script/bin/cake
@@ -40,8 +46,9 @@ coffee -> ../lib/node_modules/coffee-script/bin/coffee
 
 ### TypeScript (NodeJS)
 
+***Prerequisite:*** NodeJS must be installed
+
 ```
-$ brew install nodejs
 $ npm install -g typescript
 $ ls -l /usr/local/bin | grep typescript | tr -s ' ' | cut -d' ' -f9-11
 tsc -> ../lib/node_modules/typescript/bin/tsc
