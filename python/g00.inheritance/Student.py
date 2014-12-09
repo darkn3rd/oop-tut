@@ -3,10 +3,11 @@ from Person import Person    # include Person.py
 
 # class declaration
 class Student(Person):
-  ###### Mutators ######
-  def setGPA (self,gpa):
-    self.gpa = gpa      # set data
+  ###### PROPERTIES ######
+  @property
+  def name (self):
+    return self._gpa
 
-  ###### Accessors ######
-  def getGPA(self):
-    return self.gpa      # return data
+  @name.setter
+  def name (self, gpa):
+    self._gpa = gpa

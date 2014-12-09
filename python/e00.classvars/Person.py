@@ -1,29 +1,30 @@
 #!/usr/bin/python
 # class declaration
 class Person:
-  ###### Class Variables ######
+  ###### CLASS VARIABLE ######
   count = 0
 
-  ###### Initializer ######
+  ###### INITIALIZER ######
   def __init__(self,name):
-    self.setName(name)    # call mutator
+    self.name = name      # call mutator
     Person.count += 1     # incrememnt count
     self.__info()
 
   def __del__(self):
     Person.count -= 1     # decrement count
 
-  ###### Methods ######
+  ###### METHODS ######
   def __info(self):
-    print("[INFO] Person Object: '%s' created." % self.getName())
+    print("[INFO] Person Object: '%s' created." % self.name)
 
-  ###### Mutators ######
-  def setName(self,name):
-    self.name = name      # create/set instance variable
+  ###### PROPERTIES ######
+  @property
+  def name (self):
+    return self._name
 
-  ###### Accessors ######
-  def getName(self):
-    return self.name      # return instance variable
+  @name.setter
+  def name (self, name):
+    self._name = name
 
   @staticmethod
   def getCount():

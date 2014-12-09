@@ -6,21 +6,21 @@ captain = Student()
 officer = Student()
 
 # set object's name value
-captain.setName("Jean-Luc")
-officer.setName("Data")
+captain.name = "Jean-Luc"
+officer.name = "Data"
 
 # set object's gpa value
-captain.setGPA(3.8)
-officer.setGPA(4.0)
+captain.gpa = 3.8
+officer.gpa = 4.0
 
 # retrieve data from captain object
-name = captain.getName()
-gpa  = captain.getGPA()
+name = captain.name
+gpa  = captain.gpa
 
 print("Captain:\n\tName: %s\n\tGPA: %s" % (name, gpa))
 
 # retrieve data from officer object
-name = officer.getName()
-gpa  = officer.getGPA()
+name = officer.name
+gpa  = officer.gpa
 
 print("Officer:\n\tName: %s\n\tGPA: %s" % (name, gpa))

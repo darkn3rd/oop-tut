@@ -1,14 +1,15 @@
 #!/usr/bin/python
 # class declaration
 class Person:
-  ###### Initializer ######
+  ###### INITIALIZER ######
   def __init__(self,name):
-    self.setName(name)    # call mutator
+    self.name = name    # call mutator
 
-  ###### Mutators ######
-  def setName (self,name):
-    self.name = name      # set data
+  ###### PROPERTIES ######
+  @property
+  def name (self):
+    return self._name
 
-  ###### Accessors ######
-  def getName(self):
-    return self.name      # return data
+  @name.setter
+  def name (self, name):
+    self._name = name
