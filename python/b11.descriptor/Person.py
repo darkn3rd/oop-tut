@@ -1,11 +1,11 @@
 #!/usr/bin/python
-# descriptor declaraton
+###### DESCRIPTOR ######
 class Descriptor(object):
   def __get__(self, instance, owner):
     return self._name
   def __set__(self, instance, name):
     self._name = name.title()
 
-# class declaration
+###### CLASS DECLARATION ######
 class Person:
   name = Descriptor()
