@@ -1,0 +1,113 @@
+# ECMASCRIPT NOTES
+
+
+## Installing JavaScript Engines
+
+### SpiderMonkey
+
+```bash
+$ brew install spidermonkey
+$ ls -l /usr/local/bin/js | tr -s ' ' | cut -d' ' -f9-11
+/usr/local/bin/js -> ../Cellar/spidermonkey/1.8.5/bin/js
+```
+
+### Rhino (JVM)
+
+```
+$ brew install rhino
+$ ls -l /usr/local/bin/rhino | tr -s ' ' | cut -d' ' -f9-11
+/usr/local/bin/rhino -> ../Cellar/rhino/1.7R4/bin/rhino
+```
+
+### NodeJS
+
+```bash
+$ brew install nodejs
+$ ls -l /usr/local/bin/ | tr -s ' ' | cut -d' ' -f9-11 | grep -E '^node|npm'
+node -> ../Cellar/node/0.10.33_1/bin/node
+npm -> ../lib/node_modules/npm/bin/npm-cli.js
+```
+
+### CoffeeScript (NodeJS)
+
+```
+$ brew install nodejs
+$ npm install -g coffee-script
+$ ls -l /usr/local/bin | grep coffee | tr -s ' ' | cut -d' ' -f9-11
+cake -> ../lib/node_modules/coffee-script/bin/cake
+coffee -> ../lib/node_modules/coffee-script/bin/coffee
+```
+
+### TypeScript (NodeJS)
+
+```
+$ brew install nodejs
+$ npm install -g typescript
+$ ls -l /usr/local/bin | grep typescript | tr -s ' ' | cut -d' ' -f9-11
+tsc -> ../lib/node_modules/typescript/bin/tsc
+```
+
+### Dart
+
+Dart does not work on Mac OS X because of https://github.com/dartsim/homebrew-dart/issues/3.
+
+
+### Dart (Problems)
+
+```bash
+$ brew tap dartsim/dart
+$ brew tap homebrew/science
+$ brew install dartsim
+==> Installing dartsim from dartsim/homebrew-dart
+Cloning into '/usr/local/Library/Taps/ros/homebrew-deps'...
+remote: Counting objects: 32, done.
+remote: Total 32 (delta 0), reused 0 (delta 0)
+Unpacking objects: 100% (32/32), done.
+Checking connectivity... done.
+Warning: Could not create link for ros/deps/gtest, as it
+conflicts with dartsim/dart/gtest. You will need to use the
+fully-qualified name when referring this formula, e.g.
+brew install ros/deps/gtest
+Warning: Could not create link for ros/deps/openni2, as it
+conflicts with homebrew/science/openni2. You will need to use the
+fully-qualified name when referring this formula, e.g.
+brew install ros/deps/openni2
+Warning: Could not create link for ros/deps/pcl, as it
+conflicts with homebrew/science/pcl. You will need to use the
+fully-qualified name when referring this formula, e.g.
+brew install ros/deps/pcl
+Tapped 12 formulae
+==> Installing dependencies for dartsim: cmake, eigen, gtest, assimp, boost, homebrew/science/libccd, fcl, szip, hdf5, flann, tinyxml, tinyxml2, ros/deps/cons
+==> Installing dartsim dependency: cmake
+==> Downloading https://downloads.sf.net/project/machomebrew/Bottles/cmake-3.0.2.mountain_lion.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring cmake-3.0.2.mountain_lion.bottle.tar.gz
+🍺  /usr/local/Cellar/cmake/3.0.2: 1641 files, 28M
+==> Installing dartsim dependency: eigen
+==> Downloading https://downloads.sf.net/project/machomebrew/Bottles/eigen-3.2.2.mountain_lion.bottle.1.tar.gz
+######################################################################## 100.0%
+==> Pouring eigen-3.2.2.mountain_lion.bottle.1.tar.gz
+🍺  /usr/local/Cellar/eigen/3.2.2: 360 files, 4.1M
+==> Installing dartsim dependency: gtest
+==> Downloading https://googletest.googlecode.com/files/gtest-1.6.0.zip
+######################################################################## 100.0%
+==> cmake . -DCMAKE_INSTALL_PREFIX=/usr/local/Cellar/gtest/1.6.0 -DCMAKE_BUILD_TYPE=None -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
+Mon Dec 08 22:17:51 -0800 2014
+
+make install
+
+make: *** No rule to make target `install'.  Stop.
+
+READ THIS: http://git.io/brew-troubleshooting
+If reporting this issue please do so at (not Homebrew/homebrew):
+https://github.com/dartsim/homebrew-dart/issues
+$ brew install https://raw.github.com/dartsim/homebrew-dart/master/fcl.rb
+
+
+```
+
+```
+$ brew install https://raw.github.com/dartsim/homebrew-dart/master/fcl.rb
+$ brew install https://raw.github.com/dartsim/homebrew-dart/master/gtest.rb
+```
