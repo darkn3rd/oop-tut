@@ -7,5 +7,3 @@ class Person {
 
 var mary = new Person('Mary');
 mary.speak();
-
-console.log("buttkiss");
