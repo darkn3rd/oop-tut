@@ -49,6 +49,11 @@ This uses an abstract `Shape` and concrete `Triangle` and `Rectangle` to illustr
 * :books: Abstraction (I00)
 * :books: Interface (J00)
 
+### Other Sections
+
+freezing, sealing, mix-ins
+
+
 ## Status
 
 I am making a ad-hoc task list [TASK.MD](TASKS.MD) to track my research and activities of this project.
