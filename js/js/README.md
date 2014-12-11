@@ -3,7 +3,7 @@
 
 ## Status
 
-These lessons will test JavaScript based on the ECMA-262 (ECMAScript) version 3.  There may some lessons that show alternatives in ECMA-262 version 5.
+These lessons will test JavaScript based on the ECMA-262 (ECMAScript) version 3.  There may some lessons that show alternatives in ECMA-262 version 5, such as a new getter and setter mechanism.
 
 These scripts will be tested with Mozilla Spidermonkey and Mozilla Rhino.
 
@@ -29,6 +29,8 @@ TBA
 ## Install Notes
 
 ### OS X 10.8.5 (*Mountain Lion*)
+
+These instructions were tested on December 10, 2014.
 
 #### SpiderMonkey
 
