@@ -9,7 +9,8 @@ These scripts will be tested with Mozilla Spidermonkey and Mozilla Rhino.
 
 ## Lessons
 
-TBA
+1. :green_book: Declaration and Class Method
+2. :green_book: Instantiation and Instance Method
 
 ## Usage
 
@@ -24,7 +25,9 @@ TBA
 
 ## Tested Systems
 
-TBA
+* :dvd: *__OS X 10.8.5 (Mountain Lion)__*
+  * :beer: Rhino 1.7R4 (homebrew: `brew install rhino`)
+    * :package: Oracle JDK 1.8
 
 ## Install Notes
 
@@ -52,7 +55,6 @@ $ ls -l /usr/local/bin/rhino | tr -s ' ' | cut -d' ' -f9-11
 /usr/local/bin/rhino -> ../Cellar/rhino/1.7R4/bin/rhino
 ```
 
-
 ## Links
 
-TBA
+* (Introduction to Object-Oriented JavaScript)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript]
