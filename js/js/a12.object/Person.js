@@ -1,7 +1,7 @@
 /******* OBJECT DECLARATION *******/
 var Person = (function () {
   /******* CONSTRUCTORS *******/
-  function Person() {} // create Person object
+  function Person() {} // dummy constructor
 
   /******* INSTANCE METHODS *******/
   Person.prototype.sayit = function () {

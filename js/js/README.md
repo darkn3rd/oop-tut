@@ -7,6 +7,14 @@ These lessons will test JavaScript based on the ECMA-262 (ECMAScript) version 3.
 
 These scripts will be tested with Mozilla Spidermonkey and Mozilla Rhino.
 
+## Prototype-based Object Oriented Programming
+
+JavaScript is a *prototype-based object-oriented* language. This means that there is no notion of a class, the definition or blueprint of an object.  
+
+In JavaScript, to achieve similar results as *class-based object-oriented languages*, a generic object that serve as a prototype is cloned to create implementations of the object, where the objects' properties may be set to values other than the defaults.
+
+Inheritance is performed by cloning the object serving as prototype, and then adding additional properties.  Other objects would then be cloned from this as well.
+
 ## Lessons
 
 1. :green_book: Declaration and Class Method

@@ -3,11 +3,16 @@ var Person = (function () {
   /******* FIELDS *******/
   var _name;
 
-  /******* CONSTRUCTORS *******/
-  function Person () { };  // create initial object
+  function Person () { }  // dummy constructor
 
-  get name(){ return this._name };
-  set name(val){ this._name = name };
+  Object.defineProperty(this, "name", {
+    get: function(){ return _name },
+    set: function(v) { _name = v },
+    configurable: true
+  });
 
   return Person;
 })();
+
+/******* CONSTRUCTORS *******/
+//function Person () { }  // create initial object
