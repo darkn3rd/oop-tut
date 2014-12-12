@@ -1,18 +1,13 @@
 /******* CLASS DEFINITION *******/
 var Person = (function () {
-  /******* FIELDS *******/
-  var _name;
+  /******* CONSTRUCTORS *******/
+  function Person () {  }  // dummy constructor
 
-  function Person () { }  // dummy constructor
-
-  Object.defineProperty(this, "name", {
+  /******* PROPERTIES *******/
+  Object.defineProperty(Person.prototype, "name", {
     get: function(){ return _name },
-    set: function(v) { _name = v },
-    configurable: true
+    set: function(value) { _name = value }
   });
 
   return Person;
 })();
-
-/******* CONSTRUCTORS *******/
-//function Person () { }  // create initial object

@@ -4,7 +4,7 @@ var Person = (function () {
   var name;
 
   /******* CONSTRUCTORS *******/
-  function Person () { }  // create initial object
+  function Person () { }  // dummy constructor
 
   /******* INSTANCE METHODS *******/
   Person.prototype.getName = function(){
