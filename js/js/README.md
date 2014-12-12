@@ -27,6 +27,7 @@ These scripts will be tested with Mozilla Spidermonkey and Mozilla Rhino.
 * :dvd: *__OS X 10.8.5 (Mountain Lion)__*
   * :beer: Rhino 1.7R4 (homebrew source: `brew install rhino`)
     * :package: Oracle JDK 1.7
+  * :beer: Rhino 1.7R4 (homebrew source: `brew install rhino`)
     * :package: Oracle JDK 1.8
   * :beer: SpiderMonkey 1.8.5 (homebrew bottle: `brew install spidermonkey`)
     * :beer: NSPR 4.10.6 (homebrew bottle)
