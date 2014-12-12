@@ -1,5 +1,5 @@
-/******* CLASS DEFINITION *******/
+/******* OBJECT DECLARATION *******/
 function Person () { }
 
-/******* CLASS METHODS *******/
+/******* OBJECT METHOD *******/
 Person.sayit = function(){ print("Hello World!\n") }

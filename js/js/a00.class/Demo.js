@@ -1,3 +1,3 @@
 load ('Person.js');
 
-Person.sayit(); // call class method
+Person.sayit(); // call method

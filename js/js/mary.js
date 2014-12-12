@@ -3,7 +3,7 @@ var Person = (function () {
         this.name = name;
     }
     Person.prototype.speak = function () {
-        console.log(this.name + ' says: "Hello world!"');
+        print(this.name + ' says: "Hello world!"');
     };
     return Person;
 })();
