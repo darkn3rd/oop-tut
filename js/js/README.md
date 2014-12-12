@@ -22,12 +22,15 @@ These scripts will be tested with Mozilla Spidermonkey and Mozilla Rhino.
 
 * Running the Demonstration: `rhino demo.js`
 
-
 ## Tested Systems
 
 * :dvd: *__OS X 10.8.5 (Mountain Lion)__*
-  * :beer: Rhino 1.7R4 (homebrew: `brew install rhino`)
+  * :beer: Rhino 1.7R4 (homebrew source: `brew install rhino`)
+    * :package: Oracle JDK 1.7
     * :package: Oracle JDK 1.8
+  * :beer: SpiderMonkey 1.8.5 (homebrew bottle: `brew install spidermonkey`)
+    * :beer: NSPR 4.10.6 (homebrew bottle)
+    * :beer: readline 6.3.6 (hombrew bottle as keg-only)
 
 ## Install Notes
 
@@ -57,4 +60,4 @@ $ ls -l /usr/local/bin/rhino | tr -s ' ' | cut -d' ' -f9-11
 
 ## Links
 
-* (Introduction to Object-Oriented JavaScript)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript]
+* [Introduction to Object-Oriented JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
