@@ -82,6 +82,9 @@ Here are some random links I have come across in pursuit of learning this materi
 
 * [JavaScript Garden](http://bonsaiden.github.io/JavaScript-Garden/)
 
+Specification
+* [ECMAScript Language Specification - 5.1 Edition / June 2011](http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf)
+
 Test Frameworks
 * [Jasmine](http://jasmine.github.io/) - BDD test harness
 * [Mocha](http://mochajs.org/)
