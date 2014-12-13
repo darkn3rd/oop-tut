@@ -20,7 +20,7 @@ $ ls -l /usr/local/bin/js | tr -s ' ' | cut -d' ' -f9-11
 
 ```
 $ brew install rhino
-$ ls -l /usr/local/bin/rhino | tr -s ' ' | cut -d' ' -f9-11
+$ ls -l /usr/local/bin/rhino | tr -s ' ' | cut -d' ' -f9-11 | sed 's|\.\.|/usr/local|'
 /usr/local/bin/rhino -> ../Cellar/rhino/1.7R4/bin/rhino
 ```
 
@@ -39,9 +39,9 @@ npm -> ../lib/node_modules/npm/bin/npm-cli.js
 
 ```
 $ npm install -g coffee-script
-$ ls -l /usr/local/bin | grep coffee | tr -s ' ' | cut -d' ' -f9-11
-cake -> ../lib/node_modules/coffee-script/bin/cake
-coffee -> ../lib/node_modules/coffee-script/bin/coffee
+$ ls -l /usr/local/bin | grep coffee | tr -s ' ' | cut -d' ' -f9-11 | sed 's|\.\.|/usr/local|'
+cake -> /usr/local/lib/node_modules/coffee-script/bin/cake
+coffee -> /usr/local/lib/node_modules/coffee-script/bin/coffee
 ```
 
 ### TypeScript (NodeJS)
@@ -50,7 +50,7 @@ coffee -> ../lib/node_modules/coffee-script/bin/coffee
 
 ```
 $ npm install -g typescript
-$ ls -l /usr/local/bin | grep typescript | tr -s ' ' | cut -d' ' -f9-11
+$ ls -l /usr/local/bin | grep typescript | tr -s ' ' | cut -d' ' -f9-11 | sed 's|\.\.|/usr/local|'
 tsc -> ../lib/node_modules/typescript/bin/tsc
 ```
 

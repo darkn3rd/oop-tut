@@ -3,7 +3,7 @@
 
 ## Status
 
-TypeScript is a reference implementation (or suggestion) of what JavaScript can look like ongoing development of ECMA-262 (ECMAScript) version 6.  TypeScript will compile typescript code (`.ts` files) into JavaScript, either using ECMAScript version 3 or ECMAScript version 5.
+TypeScript is a reference implementation (or suggestion) of what JavaScript can look like for the ongoing development of ECMA-262 (ECMAScript) version 6.  TypeScript will compile typescript code (`.ts` files) into JavaScript, either using ECMAScript version 3 or ECMAScript version 5.
 
 ## Lessons
 
@@ -12,9 +12,9 @@ TypeScript is a reference implementation (or suggestion) of what JavaScript can 
 
 ## Usage
 
-* Compiling: `tsc demo.ts`
-* Running using SpiderMonkey: `js demo.js`
-* Running using Rhino: `rhino demo.js`
+* Compiling: `tsc Demo.ts Person.ts`
+* Running using SpiderMonkey: `js Demo.js`
+* Running using Rhino: `rhino Demo.js`
 
 ## Tested Systems
 
@@ -36,9 +36,9 @@ Using Homebrew, you can install Node.js through the following:
 
 ```bash
 $ brew install nodejs
-$ ls -l /usr/local/bin/ | tr -s ' ' | cut -d' ' -f9-11 | grep -E '^node|npm'
-node -> ../Cellar/node/0.10.33_1/bin/node
-npm -> ../lib/node_modules/npm/bin/npm-cli.js
+$ ls -l /usr/local/bin/ | tr -s ' ' | cut -d' ' -f9-11 | grep -E '^node|npm' | sed 's|\.\.|/usr/local|'
+node -> /usr/local/Cellar/node/0.10.33_1/bin/node
+npm -> /usr/local/lib/node_modules/npm/bin/npm-cli.js
 ```
 
 #### Typescript
@@ -47,8 +47,8 @@ With Node.js installed, you can do the following to install TypeScript:
 
 ```
 $ npm install -g typescript
-$ ls -l /usr/local/bin | grep typescript | tr -s ' ' | cut -d' ' -f9-11
-tsc -> ../lib/node_modules/typescript/bin/tsc
+$ ls -l /usr/local/bin | grep typescript | tr -s ' ' | cut -d' ' -f9-11 | sed 's|\.\.|/usr/local|'
+tsc -> /usr/local/lib/node_modules/typescript/bin/tsc
 ```
 
 ## Links

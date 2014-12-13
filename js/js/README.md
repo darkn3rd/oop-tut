@@ -55,8 +55,8 @@ Using Homebrew, you can do the following:
 
 ```
 $ brew install spidermonkey
-$ ls -l /usr/local/bin/js | tr -s ' ' | cut -d' ' -f9-11
-/usr/local/bin/js -> ../Cellar/spidermonkey/1.8.5/bin/js
+$ ls -l /usr/local/bin/js | tr -s ' ' | cut -d' ' -f9-11 | sed 's|\.\.|/usr/local|'
+/usr/local/bin/js -> /usr/local/Cellar/spidermonkey/1.8.5/bin/js
 ```
 
 #### Rhino
@@ -65,8 +65,8 @@ Using Homebrew, you can do the following:
 
 ```
 $ brew install rhino
-$ ls -l /usr/local/bin/rhino | tr -s ' ' | cut -d' ' -f9-11
-/usr/local/bin/rhino -> ../Cellar/rhino/1.7R4/bin/rhino
+$ ls -l /usr/local/bin/rhino | tr -s ' ' | cut -d' ' -f9-11 | sed 's|\.\.|/usr/local|'
+/usr/local/bin/rhino -> /usr/local/Cellar/rhino/1.7R4/bin/rhino
 ```
 
 ## Links
