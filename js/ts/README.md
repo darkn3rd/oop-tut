@@ -3,14 +3,25 @@
 
 ## Overview
 
-TypeScript is a reference implementation (or suggestion) of what JavaScript can look like for the ongoing development of ECMA-262 (ECMAScript) version 6.  TypeScript will compile typescript code (`.ts` files) into JavaScript, either using ECMAScript version 3 or ECMAScript version 5.
+TypeScript is a reference implementation (or suggestion) of what JavaScript can look like for the ongoing development of ECMA-262 (ECMAScript) version 6.  TypeScript will not run typescript code, but rather translate typescript code (`.ts` files) into JavaScript code (`.js` files).  It can target JavaScript that implements the ECMAScript version 3 standard (default), or the newer features in ECMAScript version 5.
 
-### SpiderMonkey and Rhino
+### The Compiler Itself
 
-TypeScript seems to be only a compiler, which outputs JavaScript.  This output is tested with Mozilla Rhino and Mozilla Spidermonkey with some challenges.  Functions not recognized by TypeScript had to be declared with the `declare`, such as `print()`.  The `load('your_javascript')` mechanism had to be explicitly included for Spidermonkey and Rhino to fully work with the resulting files.
+In looking that the TypeScript source code, it seems that TypeScript itself will run under the Node.js environment or the Windows WSH (Windows Script Host) environment using JScript.  Internally, it has a robust library for itself to work in either of these environments.
 
+However, despite this rich library, the Typescript Compiler (`tsc`) only supports a pure web scripting environment that supports the Web DOM (Document Object Model).
 
-Tye problem
+### Rhino and SpiderMonkey Glue
+
+TypeScript can be made to work in SpiderMonkey and Rhino environments for the purposes of these demoes. This has been setup for these tutorials.
+
+For anyone interested, this compatibility is achieved by using `declare` to create mock up libraries that TypeScript does not recognize.  Also to support classes defined in other script files, this technique can be used:
+
+```TypeScript
+///<reference path='YourCode.ts' />
+declare function load(str);
+load('YourCode.js');
+```
 
 ## Lessons
 
@@ -69,4 +80,4 @@ Specification
 * [TypeScript Language Specification - Version 1.3 - Sept 2014](http://www.typescriptlang.org/Content/TypeScript%20Language%20Specification.pdf)
 
 Type Script Critisism
-* [Why TypeScript Isn't the Answer](http://www.walkercoderanger.com/blog/2014/02/typescript-isnt-the-answer/) - author makes the argument that TypeScript solves the wrong problem where classless prototype language is a bad idea, and the author submits the real problem is that JavaScirpt is a bad implementation of a good idea.  Thus TypeScript is flaw in trying to solve the wrong problem.
+* [Why TypeScript Isn't the Answer](http://www.walkercoderanger.com/blog/2014/02/typescript-isnt-the-answer/) - author makes the argument that TypeScript solves the wrong problem where the wrong problem is that classless prototype language is a bad idea, and the author submits the real problem is that JavaScirpt is a bad implementation of a good idea.  Thus TypeScript is flawed in trying to solve the wrong problem.
