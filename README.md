@@ -1,9 +1,13 @@
 # Object-Oriented-Programming Tutorial
 **© 2014 by Joaquín Menchaca**
 
-Welcome to my material for tutoring OOP concepts.  This material extracts common OOP concepts and functionality from [C++](http://en.cppreference.com/), [C#](http://msdn.microsoft.com/en-us/vstudio/hh341490.aspx), and [Java](https://www.oracle.com/java/index.html) programming languages.  Then I see how I could apply these concepts to [Objective-C](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html), [Python](https://www.python.org/), and [Ruby](https://www.ruby-lang.org/en/).  
+Welcome to my material for tutoring OOP concepts.  This material extracts common clased-based OOP concepts and functionality from [C++](http://en.cppreference.com/), [C#](http://msdn.microsoft.com/en-us/vstudio/hh341490.aspx), and [Java](https://www.oracle.com/java/index.html) programming languages.  
 
-In the future, maybe some other languages could be added later like JavaScript ([Dart](https://www.dartlang.org/tools/sdk/), [CoffeeScript](http://coffeescript.org/), [TypeScript](http://www.typescriptlang.org/)), [Go](https://golang.org/), [Rust](http://www.rust-lang.org/), or [Groovy](http://groovy.codehaus.org/).
+Then I see how I could apply these concepts to more dynamic and inspection oriented languages like [Objective-C](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html), [Groovy](http://groovy.codehaus.org/), [Python](https://www.python.org/), and [Ruby](https://www.ruby-lang.org/en/).  
+
+I will also work towards JavaScript, a prototype OOP language, and explore related languages of  [Dart](https://www.dartlang.org/tools/sdk/), [CoffeeScript](http://coffeescript.org/), and [TypeScript](http://www.typescriptlang.org/).
+
+Beyond this, I thought of dabbling with [Go](https://golang.org/) as this is becoming popular and take a look at [Rust](http://www.rust-lang.org/), and maybe others.
 
 ***Last Update***: November 30th, 2014
 
@@ -51,7 +55,12 @@ This uses an abstract `Shape` and concrete `Triangle` and `Rectangle` to illustr
 
 ### Other Sections
 
-freezing, sealing, mix-ins
+There are some other components that are not touched yet, but may add them later.  This includes *operator overloading*, *copy constructors*, *type casting*, *templates*, *metaprogramming*.  A few designated targets include:
+
+* :books: MixIns (K00)
+* :books: Sealing (L00)
+* :books: Freezing (M00)
+
 
 
 ## Status

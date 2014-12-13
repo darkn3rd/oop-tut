@@ -3,7 +3,9 @@
 
 ## Status
 
-These lessons will test JavaScript based on the ECMA-262 (ECMAScript) version 3.  There may some lessons that show alternatives in ECMA-262 version 5, such as a new getter and setter mechanism.
+These lessons will test JavaScript based on the ECMA-262 (ECMAScript) version 3.  There may some lessons that show alternatives in ECMA-262 version 5, such as a new getter and setter mechanism.  
+
+JavaScript is a prototype-based OOP language (see below), and these lessons are oriented toward class-based OOP language.  Thus the nature of these lessons will be toward simulating similar functionality of a class-based OOP in JavaScript.
 
 These scripts will be tested with Mozilla Spidermonkey and Mozilla Rhino.
 
