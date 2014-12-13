@@ -9,7 +9,7 @@ JavaScript is a prototype-based OOP language (see below), and these lessons are 
 
 These scripts will be tested with Mozilla Spidermonkey and Mozilla Rhino.
 
-## Prototype-based Object Oriented Programming
+### Prototype-based Object Oriented Programming
 
 JavaScript is a *prototype-based object-oriented* language. This means that there is no notion of a class, the definition or blueprint of an object.  
 
@@ -53,7 +53,7 @@ These instructions were tested on December 10, 2014.
 
 Using Homebrew, you can do the following:
 
-```
+```bash
 $ brew install spidermonkey
 $ ls -l /usr/local/bin/js | tr -s ' ' | cut -d' ' -f9-11 | sed 's|\.\.|/usr/local|'
 /usr/local/bin/js -> /usr/local/Cellar/spidermonkey/1.8.5/bin/js
@@ -63,7 +63,7 @@ $ ls -l /usr/local/bin/js | tr -s ' ' | cut -d' ' -f9-11 | sed 's|\.\.|/usr/loca
 
 Using Homebrew, you can do the following:
 
-```
+```bash
 $ brew install rhino
 $ ls -l /usr/local/bin/rhino | tr -s ' ' | cut -d' ' -f9-11 | sed 's|\.\.|/usr/local|'
 /usr/local/bin/rhino -> /usr/local/Cellar/rhino/1.7R4/bin/rhino

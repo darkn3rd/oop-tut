@@ -5,7 +5,7 @@
 
 TypeScript is a reference implementation (or suggestion) of what JavaScript can look like for the ongoing development of ECMA-262 (ECMAScript) version 6.  TypeScript will compile typescript code (`.ts` files) into JavaScript, either using ECMAScript version 3 or ECMAScript version 5.
 
-## SpiderMonkey and Rhino
+### SpiderMonkey and Rhino
 
 TypeScript seems to be only a compiler, which outputs JavaScript.  This output is tested with Mozilla Rhino and Mozilla Spidermonkey with some challenges.  Functions not recognized by TypeScript had to be declared with the `declare`, such as `print()`.  The `load('your_javascript')` mechanism had to be explicitly included for Spidermonkey and Rhino to fully work with the resulting files.
 
