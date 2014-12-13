@@ -19,8 +19,8 @@ TypeScript is a reference implementation (or suggestion) of what JavaScript can 
 ## Tested Systems
 
 * :dvd: *__OS X 10.8.5 (Mountain Lion)__*
-  * :beer: Node v0.10.29  (homebrew bottle: `brew install nodejs`)
-    * :package: TypeScript 1.3 (npm: `npm install -g typescript`)
+  * :package: TypeScript 1.3 (npm: `npm install -g typescript`)
+    * :beer: Node v0.10.29  (homebrew bottle: `brew install nodejs`)
 
 Note: For testing the JavaScript, similar platforms were used with JavaScript.
 
