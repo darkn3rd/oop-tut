@@ -69,6 +69,18 @@ $ ls -l /usr/local/bin/rhino | tr -s ' ' | cut -d' ' -f9-11
 
 ## Links
 
+Here are some random links I have come across in pursuit of learning this material.
+
 * [Introduction to Object-Oriented JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
 * [The Basics of Object-Oriented JavaScript](http://code.tutsplus.com/tutorials/the-basics-of-object-oriented-javascript--net-7670)
 * [OOP In JavaScript: What You NEED to Know](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)
+* [Methods Within Constructor vs Prototype in Javascript](http://thecodeship.com/web-development/methods-within-constructor-vs-prototype-in-javascript/)
+* [3 ways to define a JavaScript class](http://www.phpied.com/3-ways-to-define-a-javascript-class/)
+* [OOP in JS, Part 1 : Public/Private Variables and Methods](http://phrogz.net/JS/classes/OOPinJS.html)
+
+* [JavaScript Garden](http://bonsaiden.github.io/JavaScript-Garden/)
+
+Test Frameworks
+* [Jasmine](http://jasmine.github.io/) - BDD test harness
+* [Mocha](http://mochajs.org/)
+* [QUnit](http://qunitjs.com/)
