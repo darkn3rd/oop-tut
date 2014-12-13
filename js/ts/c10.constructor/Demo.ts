@@ -7,11 +7,8 @@ load('Person.js');
 print("Creating two objects:\n");
 
 // create two objects
-var captain = new Person();       // instantiate new object
-var officer = new Person();       // instantiate new object
-// initialize data through mutator (set)
-captain.name = "Jean-Luc"; // call mutator
-officer.name = "Data";     // call mutator
+var captain = new Person("Jean-Luc");       // instantiate new object
+var officer = new Person("Data");       // instantiate new object
 
 print("\nPrinting Results:\n");
 

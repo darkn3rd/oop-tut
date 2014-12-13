@@ -4,7 +4,11 @@ declare function print(str);
 class Person {
   private _name: string;
 
-  constructor() { print("  [INFO]: Person Object is created"); }
+  constructor(name: string) {
+    this.name = name;  // save name using property
+    // retrieve name using property
+    print("  [INFO]: Person Object is created \"" + this.name + "\"");
+  }
 
   /******* PROPERTIES *******/
   get name(): string { return this._name; }     // getter
