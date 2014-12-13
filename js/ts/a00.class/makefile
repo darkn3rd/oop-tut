@@ -17,7 +17,7 @@ Demo.js: Demo.ts
 Person.js: Person.ts
 	$(TSC) $(TSFLAGS) Person.ts
 
-run:
+run: all
 	$(RUN) Demo.js
 
 clean:
