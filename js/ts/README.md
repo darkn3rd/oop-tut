@@ -3,17 +3,19 @@
 
 ## Overview
 
-TypeScript is a reference implementation (or suggestion) of what JavaScript can look like for the ongoing development of ECMA-262 (ECMAScript) version 6.  TypeScript will not run typescript code, but rather translate typescript code (`.ts` files) into JavaScript code (`.js` files).  It can target JavaScript that implements the ECMAScript version 3 standard (default), or the newer features in ECMAScript version 5.
+The [TypeScript Language](http://www.typescriptlang.org/) is a reference implementation (or suggestion) of what JavaScript can look like for the ongoing development of [ECMA-262 (ECMAScript) version 6](https://people.mozilla.org/~jorendorff/es6-draft.html).  
+
+TypeScript is not an interpreter, so it cannot run TypeScript code (`.ts`) files.  Instead, the TypeScript compiler (`tsc`) translates TypeScript code to JavaScript code (`.js`) files.  The compiler can target JavaScript that implements the [ECMAScript version 3 standard](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf) (default), or the newer features in [ECMAScript version 5](http://www.ecma-international.org/ecma-262/5.1/).
 
 ### The Compiler Itself
 
-In looking that the TypeScript source code, it seems that TypeScript itself will run under the Node.js environment or the Windows WSH (Windows Script Host) environment using JScript.  Internally, it has a robust library for itself to work in either of these environments.
+In looking that the TypeScript source code, it seems that TypeScript itself will run under the Node.js environment or the Windows WSH ([Windows Script Host](http://en.wikipedia.org/wiki/Windows_Script_Host)) environment using [JScript](http://en.wikipedia.org/wiki/JScript).  Internally, it has a robust library for itself to work in either of these environments.
 
-However, despite this rich library, the Typescript Compiler (`tsc`) only supports a pure web scripting environment that supports the Web DOM (Document Object Model).
+However, despite this rich library, the Typescript Compiler (`tsc`) only supports a pure web scripting environment that supports the [Document Object Model](http://en.wikipedia.org/wiki/Document_Object_Model).
 
 ### Rhino and SpiderMonkey Glue
 
-TypeScript can be made to work in SpiderMonkey and Rhino environments for the purposes of these demoes. This has been setup for these tutorials.
+TypeScript can be made to work in [SpiderMonkey](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey) and [Rhino](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino) environments for the purposes of these demoes. This has been setup for these tutorials.
 
 For anyone interested, this compatibility is achieved by using `declare` to create mock up libraries that TypeScript does not recognize.  Also to support classes defined in other script files, this technique can be used:
 
@@ -30,7 +32,7 @@ load('YourCode.js');
 
 ## Usage
 
-* Compiling: `tsc Demo.ts Person.ts`
+* Compiling: `make`
 * Running using SpiderMonkey: `js Demo.js`
 * Running using Rhino: `rhino Demo.js`
 
@@ -63,7 +65,7 @@ npm -> /usr/local/lib/node_modules/npm/bin/npm-cli.js
 
 With Node.js installed, you can do the following to install TypeScript:
 
-```
+```bash
 $ npm install -g typescript
 $ ls -l /usr/local/bin | grep typescript | tr -s ' ' | cut -d' ' -f9-11 | sed 's|\.\.|/usr/local|'
 tsc -> /usr/local/lib/node_modules/typescript/bin/tsc
