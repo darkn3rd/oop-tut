@@ -12,16 +12,16 @@ puts "\n"
 name   = captain.name    # accessor
 age    = captain.age     # accessor
 
-puts "Captain:\n\tName: #{name}\n\tGPA: #{age}"
+puts "Captain:\n\tName: #{name}\n\tAge: #{age}"
 
 # retrieve string from officer object
 name   = officer.name    # accessor
 age    = officer.age     # accessor
 
-puts "Officer:\n\tName: #{name}\n\tGPA: #{age}"
+puts "Officer:\n\tName: #{name}\n\tAge: #{age}"
 
 # retrieve string from ensign object
 name   = ensign.name    # accessor
 age    = ensign.age     # accessor
 
-puts "Ensign:\n\tName: #{name}\n\tGPA: #{age}"
+puts "Ensign:\n\tName: #{name}\n\tAge: #{age}"

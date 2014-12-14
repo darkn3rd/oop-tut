@@ -12,16 +12,16 @@ println ""
 name   = captain.name // accessor
 age    = captain.age  // accessor
 // output results
-println "Captain:\n\tName: ${name}\n\tGPA: ${age}"
+println "Captain:\n\tName: ${name}\n\tAge: ${age}"
 
 // retrieve string from officer object
 name   = officer.name // accessor
 age    = officer.age  // accessor
 
-println "Officer:\n\tName: ${name}\n\tGPA: ${age}"
+println "Officer:\n\tName: ${name}\n\tAge: ${age}"
 
 // retrieve string from ensign object
 name   = ensign.name // accessor
 age    = ensign.age  // accessor
 
-println "Ensign:\n\tName: ${name}\n\tGPA: ${age}"
+println "Ensign:\n\tName: ${name}\n\tAge: ${age}"
