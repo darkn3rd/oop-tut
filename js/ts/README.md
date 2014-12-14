@@ -35,6 +35,8 @@ load('YourCode.js');
 6. :green_book: Constructor with Parameters
 7. :green_book: Dynamic Constructor
 8. :green_book: Class Variable
+9. :closed_book: Immutability
+
 
 ## Usage
 
@@ -84,6 +86,7 @@ tsc -> /usr/local/lib/node_modules/typescript/bin/tsc
 * Reference:
   * [TypeDoc: A documentation generator for TypeScript projects.](http://typedoc.io/)
   * [TypeScript Handbook](http://www.typescriptlang.org/Handbook)
+  * [TypeScript クイックガイド](http://phyzkit.net/typescript/)
 * Specification
   * [TypeScript Language Specification - Version 1.3 - Sept 2014](http://www.typescriptlang.org/Content/TypeScript%20Language%20Specification.pdf)
 * Type Script Criticism
