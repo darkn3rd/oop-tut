@@ -33,6 +33,8 @@ load('YourCode.js');
 4. :green_book: Properties
 5. :green_book: Constructor
 6. :green_book: Constructor with Parameters
+7. :green_book: Dynamic Constructor
+8. :green_book: Class Variable
 
 ## Usage
 
@@ -77,13 +79,14 @@ tsc -> /usr/local/lib/node_modules/typescript/bin/tsc
 
 ## Links
 
-* [TypeDoc: A documentation generator for TypeScript projects.](http://typedoc.io/)
-* [TypeScript Handbook](http://www.typescriptlang.org/Handbook)
 
-* [TypeScript Cookbook: Using JavaScript Libraries](http://igeekcode.com/2013/05/02/typescript-cookbook-using-javascript-libraries/)
 
-Specification
-* [TypeScript Language Specification - Version 1.3 - Sept 2014](http://www.typescriptlang.org/Content/TypeScript%20Language%20Specification.pdf)
-
-Type Script Critisism
-* [Why TypeScript Isn't the Answer](http://www.walkercoderanger.com/blog/2014/02/typescript-isnt-the-answer/) - author makes the argument that TypeScript solves the wrong problem where the wrong problem is that classless prototype language is a bad idea, and the author submits the real problem is that JavaScirpt is a bad implementation of a good idea.  Thus TypeScript is flawed in trying to solve the wrong problem.
+* Articles and Blogs:
+  * [TypeScript Cookbook: Using JavaScript Libraries](http://igeekcode.com/2013/05/02/typescript-cookbook-using-javascript-libraries/)
+* Reference:
+  * [TypeDoc: A documentation generator for TypeScript projects.](http://typedoc.io/)
+  * [TypeScript Handbook](http://www.typescriptlang.org/Handbook)
+* Specification
+  * [TypeScript Language Specification - Version 1.3 - Sept 2014](http://www.typescriptlang.org/Content/TypeScript%20Language%20Specification.pdf)
+* Type Script Critisism
+  * [Why TypeScript Isn't the Answer](http://www.walkercoderanger.com/blog/2014/02/typescript-isnt-the-answer/) - author makes the argument that TypeScript solves the wrong problem where the wrong problem is that classless prototype language is a bad idea, and the author submits the real problem is that JavaScirpt is a bad implementation of a good idea.  Thus TypeScript is flawed in trying to solve the wrong problem.
