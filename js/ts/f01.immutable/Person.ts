@@ -10,8 +10,8 @@ class Person {
   /******* CONSTRUCTOR *******/
   constructor(name: string, id: number) {
     this.name = name; // save name using property
-    this.ID = id;
-    this.info();           // report information about class
+    this.ID = id;     // indicate we want this to be a const 
+    this.info();      // report information about class
   }
 
   /******* PROPERTIES *******/

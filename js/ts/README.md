@@ -83,14 +83,18 @@ tsc -> /usr/local/lib/node_modules/typescript/bin/tsc
 
 * Articles and Blogs:
   * [TypeScript Cookbook: Using JavaScript Libraries](http://igeekcode.com/2013/05/02/typescript-cookbook-using-javascript-libraries/)
+  * [TypeScript クイックガイド](http://phyzkit.net/typescript/)
+  * [TypeScript Classes and Interfaces – Part 3](http://www.johnpapa.net/typescriptpost3/)
+  * [Arrow function expressions in TypeScript](http://piotrwalat.net/arrow-function-expressions-in-typescript/)
 * Reference:
   * [TypeDoc: A documentation generator for TypeScript projects.](http://typedoc.io/)
   * [TypeScript Handbook](http://www.typescriptlang.org/Handbook)
-  * [TypeScript クイックガイド](http://phyzkit.net/typescript/)
 * Specification
   * [TypeScript Language Specification - Version 1.3 - Sept 2014](http://www.typescriptlang.org/Content/TypeScript%20Language%20Specification.pdf)
+  * [Typescript 1.4 Features](https://github.com/Microsoft/TypeScript/wiki/What%27s-new-in-TypeScript%3F#typescript-14)
 * Type Script Criticism
   * [Why TypeScript Isn't the Answer](http://www.walkercoderanger.com/blog/2014/02/typescript-isnt-the-answer/) - author makes the argument that TypeScript solves the wrong problem where the wrong problem is that classless prototype language is a bad idea, and the author submits the real problem is that JavaScirpt is a bad implementation of a good idea.  Thus TypeScript is flawed in trying to solve the wrong problem.
   * [TypeScript exposes some irrational Microsoft hatred](https://cockneycoder.wordpress.com/2012/10/02/typescript-exposes-some-irrational-microsoft-hatred/)
 * Videos
   * [Anders Hejlsberg, Steve Lucco, and Luke Hoban: Inside TypeScript](http://channel9.msdn.com/posts/Anders-Hejlsberg-Steve-Lucco-and-Luke-Hoban-Inside-TypeScript)
+  * [Anders Hejlsberg: Introducing TypeScript](http://channel9.msdn.com/posts/Anders-Hejlsberg-Introducing-TypeScript)
