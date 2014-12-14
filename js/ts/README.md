@@ -37,7 +37,7 @@ load('YourCode.js');
 8. :green_book: Class Variable
 9. :closed_book: Immutability
 10. :green_book: Inheritance
-11. :green_book:
+11. :green_book: Inheritance (super constructor)
 
 
 ## Usage
