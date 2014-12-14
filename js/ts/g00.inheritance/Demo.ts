@@ -2,6 +2,9 @@
 /******* RHINO/SPIDERMONKEY SUPPORT *******/
 load('Student.js');
 /******* MAIN SECTION *******/
+var name : string;
+var gpa : number;
+
 // create new objects
 var captain = new Student();
 var officer = new Student();
