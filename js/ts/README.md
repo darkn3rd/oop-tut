@@ -3,7 +3,7 @@
 
 ## Overview
 
-The [TypeScript Language](http://www.typescriptlang.org/) is a reference implementation (or suggestion) of what JavaScript can look like for the ongoing development of [ECMA-262 (ECMAScript) version 6](https://people.mozilla.org/~jorendorff/es6-draft.html).  
+The [TypeScript Language](http://www.typescriptlang.org/) described as a typed superset of JavaScript with the purpose to make it easy to have a maintainable large scalable application, and strives to maintain alignment with the on going development [ECMA-262 (ECMAScript) version 6](https://people.mozilla.org/~jorendorff/es6-draft.html).  It's a typed superset of JavaScript with the purpose to make it easy to have a maintainable large scalable application.
 
 TypeScript is not an interpreter, so it cannot run TypeScript code (`.ts`) files.  Instead, the TypeScript compiler (`tsc`) translates TypeScript code to JavaScript code (`.js`) files.  The compiler can target JavaScript that implements the [ECMAScript version 3 standard](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf) (default), or the newer features in [ECMAScript version 5](http://www.ecma-international.org/ecma-262/5.1/).
 
@@ -79,8 +79,6 @@ tsc -> /usr/local/lib/node_modules/typescript/bin/tsc
 
 ## Links
 
-
-
 * Articles and Blogs:
   * [TypeScript Cookbook: Using JavaScript Libraries](http://igeekcode.com/2013/05/02/typescript-cookbook-using-javascript-libraries/)
 * Reference:
@@ -88,5 +86,8 @@ tsc -> /usr/local/lib/node_modules/typescript/bin/tsc
   * [TypeScript Handbook](http://www.typescriptlang.org/Handbook)
 * Specification
   * [TypeScript Language Specification - Version 1.3 - Sept 2014](http://www.typescriptlang.org/Content/TypeScript%20Language%20Specification.pdf)
-* Type Script Critisism
+* Type Script Criticism
   * [Why TypeScript Isn't the Answer](http://www.walkercoderanger.com/blog/2014/02/typescript-isnt-the-answer/) - author makes the argument that TypeScript solves the wrong problem where the wrong problem is that classless prototype language is a bad idea, and the author submits the real problem is that JavaScirpt is a bad implementation of a good idea.  Thus TypeScript is flawed in trying to solve the wrong problem.
+  * [TypeScript exposes some irrational Microsoft hatred](https://cockneycoder.wordpress.com/2012/10/02/typescript-exposes-some-irrational-microsoft-hatred/)
+* Videos
+  * [Anders Hejlsberg, Steve Lucco, and Luke Hoban: Inside TypeScript](http://channel9.msdn.com/posts/Anders-Hejlsberg-Steve-Lucco-and-Luke-Hoban-Inside-TypeScript)
