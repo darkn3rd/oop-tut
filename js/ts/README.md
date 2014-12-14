@@ -29,6 +29,10 @@ load('YourCode.js');
 
 1. :green_book: Declaration and Class Method
 2. :green_book: Instantiation and Instance Method
+3. :green_book: Instance Variable
+4. :green_book: Properties
+5. :green_book: Constructor
+6. :green_book: Constructor with Parameters
 
 ## Usage
 
