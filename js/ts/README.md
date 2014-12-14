@@ -3,7 +3,7 @@
 
 ## Overview
 
-The [TypeScript Language](http://www.typescriptlang.org/) described as a typed superset of JavaScript with the purpose to make it easy to have a maintainable large scalable application, and strives to maintain alignment with the on going development [ECMA-262 (ECMAScript) version 6](https://people.mozilla.org/~jorendorff/es6-draft.html).  It's a typed superset of JavaScript with the purpose to make it easy to have a maintainable large scalable application.
+The [TypeScript Language](http://www.typescriptlang.org/) described as a typed superset of JavaScript with the purpose to make it easy to have a maintainable large scalable application, and strives to maintain alignment with the on going development [ECMA-262 (ECMAScript) version 6](https://people.mozilla.org/~jorendorff/es6-draft.html).
 
 TypeScript is not an interpreter, so it cannot run TypeScript code (`.ts`) files.  Instead, the TypeScript compiler (`tsc`) translates TypeScript code to JavaScript code (`.js`) files.  The compiler can target JavaScript that implements the [ECMAScript version 3 standard](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf) (default), or the newer features in [ECMAScript version 5](http://www.ecma-international.org/ecma-262/5.1/).
 
