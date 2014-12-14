@@ -16,12 +16,12 @@ officer.gpa = 4.0
 
 # retrieve data from captain object
 name   = captain.name
-age    = captain.gpa
+gpa    = captain.gpa
 
-puts "Captain:\n\tName: #{name}\n\tGPA: #{age}"
+puts "Captain:\n\tName: #{name}\n\tGPA: #{gpa}"
 
 # retrieve data from officer object
 name   = officer.name
-age    = officer.gpa
+gpa    = officer.gpa
 
-puts "Officer:\n\tName: #{name}\n\tGPA: #{age}"
+puts "Officer:\n\tName: #{name}\n\tGPA: #{gpa}"

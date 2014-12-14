@@ -14,12 +14,12 @@ officer.gpa = 4.0
 
 // retrieve data from captain object
 name = captain.name
-age  = captain.gpa
+gpa  = captain.gpa
 
-println "Captain:\n\tName: ${name}\n\tGPA: ${age}"
+println "Captain:\n\tName: ${name}\n\tGPA: ${gpa}"
 
 // retrieve data from officer object
 name   = officer.name
-age    = officer.gpa
+gpa    = officer.gpa
 
-println "Officer:\n\tName: ${name}\n\tGPA: ${age}"
+println "Officer:\n\tName: ${name}\n\tGPA: ${gpa}"

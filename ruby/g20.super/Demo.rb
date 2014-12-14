@@ -9,12 +9,12 @@ officer = Student.new "Jean-Luc", 4.0 # create obj w/ name, gpa
 
 # retrieve data from captain object
 name   = captain.name
-age    = captain.gpa
+gpa    = captain.gpa
 
-puts "Captain:\n\tName: #{name}\n\tGPA: #{age}"
+puts "Captain:\n\tName: #{name}\n\tGPA: #{gpa}"
 
 # retrieve data from officer object
 name   = officer.name
-age    = officer.gpa
+gpa    = officer.gpa
 
-puts "Officer:\n\tName: #{name}\n\tGPA: #{age}"
+puts "Officer:\n\tName: #{name}\n\tGPA: #{gpa}"
