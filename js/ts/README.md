@@ -36,6 +36,8 @@ load('YourCode.js');
 7. :green_book: Dynamic Constructor
 8. :green_book: Class Variable
 9. :closed_book: Immutability
+10. :green_book: Inheritance
+11. :green_book:
 
 
 ## Usage
@@ -86,6 +88,7 @@ tsc -> /usr/local/lib/node_modules/typescript/bin/tsc
   * [TypeScript クイックガイド](http://phyzkit.net/typescript/)
   * [TypeScript Classes and Interfaces – Part 3](http://www.johnpapa.net/typescriptpost3/)
   * [Arrow function expressions in TypeScript](http://piotrwalat.net/arrow-function-expressions-in-typescript/)
+  * [CodeBelt: TypeScript Articles](http://www.codebelt.com/category/typescript/)
 * Reference:
   * [TypeDoc: A documentation generator for TypeScript projects.](http://typedoc.io/)
   * [TypeScript Handbook](http://www.typescriptlang.org/Handbook)
