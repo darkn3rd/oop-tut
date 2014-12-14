@@ -1,4 +1,4 @@
-# OOP Tutorial in JavaScript
+# OOP Tutorial in TypeScript
 **© 2014 by Joaquín Menchaca**
 
 ## Overview
