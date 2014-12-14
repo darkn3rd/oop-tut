@@ -4,10 +4,15 @@ load('Person.js');
 
 /******* MAIN SECTION *******/
 
+var age : number;
+var name : string;
+
 // create three objects
 var captain = new Person("Jean-Luc");
 var officer = new Person(21);
 var ensign  = new Person("Wesley", 15);
+
+print("");
 
 // retrieve string from captain object
 name = captain.name; // accessor
