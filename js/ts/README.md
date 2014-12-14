@@ -38,6 +38,7 @@ load('YourCode.js');
 9. :closed_book: Immutability
 10. :green_book: Inheritance
 11. :green_book: Inheritance (parent constructor)
+12. :green_book: Overriding Methods
 
 
 ## Usage
