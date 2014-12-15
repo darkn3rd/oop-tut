@@ -57,6 +57,14 @@ The standalone application [Dart Editor](https://www.dartlang.org/docs/tutorials
 
 ## Links
 
-* [Why Dart Isn't the Answer](http://www.walkercoderanger.com/blog/2014/03/dart-isnt-the-answer/)
-* [What Is Dart, and Why Should You Care?](http://code.tutsplus.com/articles/what-is-dart-and-why-should-you-care--active-11233)
-* [Dart Is Not the Language You Think It Is](http://radar.oreilly.com/2013/05/dart-is-not-the-language-you-think-it-is.html)
+* Articles
+  * [Why Dart Isn't the Answer](http://www.walkercoderanger.com/blog/2014/03/dart-isnt-the-answer/)
+  * [What Is Dart, and Why Should You Care?](http://code.tutsplus.com/articles/what-is-dart-and-why-should-you-care--active-11233)
+  * [Dart Is Not the Language You Think It Is](http://radar.oreilly.com/2013/05/dart-is-not-the-language-you-think-it-is.html)
+  * [Dart: a New Web Programming Experience](http://www.linuxjournal.com/content/dart-new-web-programming-experience) - class-based OOP enthusiast introduces Dart as his choice for web client programming over JavaScript.
+  * [Google Dart – overview and comments](http://www.2ality.com/2011/10/dart-launch.html) - article claims that Dart is not a replacement for JavaScript, but a replacement for Java.
+
+* Criticisms
+  * [JavaScript Doesn't Need Class](http://www.i-programmer.info/programming/javascript/3354-javascript-doesnt-need-class.html) - author questions the need to have class based OOP for web client programming.
+  * [Why Dart Isn't the Answer](http://www.walkercoderanger.com/blog/2014/03/dart-isnt-the-answer/) - author explains how Dart is not the solution for the current problems found in JavaScript.
+  * [Why Dart is not the language of the future](http://blogs.perl.org/users/rafael_garcia-suarez/2011/10/why-dart-is-not-the-language-of-the-future.html) - shows many points including how Dart's class based OOP reintroduces many of the anti-patterns popularized in late 1990s, lack of type conversion, bizarre boolean logic, and other issues.

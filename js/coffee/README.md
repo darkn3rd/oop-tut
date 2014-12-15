@@ -25,3 +25,9 @@ $ ls -l /usr/local/bin | grep coffee | tr -s ' ' | cut -d' ' -f9-11 | sed 's|\.\
 cake -> /usr/local/lib/node_modules/coffee-script/bin/cake
 coffee -> /usr/local/lib/node_modules/coffee-script/bin/coffee
 ```
+
+## Links
+
+* [Why I'm Ditching CoffeeScript](http://toshokelectric.com/blog/2013/04/04/why-im-ditching-coffeescript/)
+* [What I Think CoffeeScript Should Have Been](http://www.walkercoderanger.com/blog/2014/04/what-coffeescript-should-have-been/)
+* [Why CoffeeScript Isn't the Answer](http://www.walkercoderanger.com/blog/2014/03/coffeescript-isnt-the-answer/) - shows how CoffeeScript is still plagued by problems with JavaScript, but yet introduces new problems, some unavoidable, when using CoffeeScript.
