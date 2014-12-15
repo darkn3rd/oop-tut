@@ -3,12 +3,35 @@
 
 ## Overview
 
-TBA
+Dart is an open-source web programming language by Google developers Lars Bak and Kasper Lund.  It was released in 2013.  Dart is positioned as an alternative to JavaScript.  Naturally, this has not been well received or supported, given that JavaScript is current the standard for web client programming.  
+
+Unlike JavaScript, Dart language is a class-based OOP and so will be similar to C#, C++, Java and other class-based programming languages.  This itself is also a point of contention, as class based OOP has widespread criticism, and with JavaScript taking a different approach through prototype-based OOP.
+
+### Discoveries
+
+These are some things I discovered alone the way in making these lessons:
+
+* No ***overloading constructors*** - constructors cannot be overloaded and thus cannot respond to different variety of parameters passed to the constructor.  Instead, there are are explicit named constructors that can respond to different types or quantities of parameters.
+* No support for ***variable arguments*** - only an explicit number of parameters can be passed to a function, which is a big departure from JavaScript and other scripting languages.
+* Variables not ***automatically converted to strings*** when concatenated to a string.  Many scripting languages can automatically convert a variable to a string representation if it detects it is used as a string.  In Dart, you must explicitly use the `toString()` method to convert it.
+* Constructors cannot initialize immutable fields.  This is a common well used feature that is not supported in Dart, the ability to initialize a field that will remain read-only after initialization.
 
 ## Lessons
 
-TBA
+1. :green_book: Declaration and Class Method
+2. :green_book: Instantiation and Instance Method
+3. :green_book: Instance Variable
+4. :green_book: Properties
+5. :green_book: Constructor
+6. :green_book: Constructor with Parameters
+7. :closed_book: Multiple Constructors (alternative to overloarding)
+8. :green_book: Class Variable
+9. :closed_book: Immutability
+10. :green_book: Inheritance
+11. :green_book: Inheritance (parent constructor)
+12. :green_book: Overriding Methods
 
+Dart supports abstraction and interfaces.  These will be added later.
 
 ## Usage
 
