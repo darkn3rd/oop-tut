@@ -29,8 +29,8 @@ These are ad-hoc notes and tasks to help keep track of where I am at.
   * **Override**: C++, C#, Java, Objective-C (Object), Python, Ruby
   * **Abstraction**: C++ (pure virtual function), C#, Java, Python
   * **Interface**: C#, Objective-C (protocol), Java
-  [x] Added Groovy
-  [x] Started JavaScript, TypeScript, Dart, and CoffeeScript
+* [x] Added Groovy
+* [x] Started JavaScript, TypeScript, Dart, and CoffeeScript
 
 ### Near Future
 
