@@ -1,0 +1,2 @@
+######## MAIN SECTION ########
+Person.sayit()
