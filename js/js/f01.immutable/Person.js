@@ -1,13 +1,10 @@
 /******* CLASS DEFINITION *******/
 var Person = (function () {
-  /******* CLASS VARIABLE *******/
-  Person.count = 0;
-
   /******* CONSTRUCTOR *******/
-  function Person(name) {
-    this.name = name;
-    Person.count += 1;
-    this.info();
+  function Person(name, id) {
+    this.name = name; // save name using property
+    this.ID = id;     // indicate we want this to be a const
+    this.info();      // report information about class
   }
 
   /******* PROPERTIES *******/
@@ -16,14 +13,14 @@ var Person = (function () {
     set: function(value) { this._name = value },
   });
 
-  /******* CLASS METHOD *******/
-  Person.getCount = function () {
-    return Person.count;
-  };
+  Object.defineProperty(Person.prototype, "id", {
+    get: function(){ return this.ID },
+  });
 
   /******* METHOD *******/
   Person.prototype.info = function () {
     print("[INFO] Person Object: '" + this.name + "' created.");
+    print("[INFO] \tCitizen Id No.: " + this.id + "\n");
   };
 
   return Person;
