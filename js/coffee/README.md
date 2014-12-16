@@ -1,3 +1,10 @@
+# OOP Tutorial in CoffeeScript
+**© 2014 by Joaquín Menchaca**
+
+## Overview
+
+CoffeeScript is a scripting language that transcompiles into JavaScript. The initial CoffeeScript 1.0 was released in 2010 by Jeremy Ashkenas.  The language combines a lot of syntax sugar from Ruby, Python, and Haskell and automates a lot of tedious and verbose tasks and patterns in JavaScript.  It also adds some new features like list comprehension and pattern matching.
+
 ## Install Notes
 
 ### OS X 10.8.5 (*Mountain Lion*)
@@ -28,6 +35,14 @@ coffee -> /usr/local/lib/node_modules/coffee-script/bin/coffee
 
 ## Links
 
-* [Why I'm Ditching CoffeeScript](http://toshokelectric.com/blog/2013/04/04/why-im-ditching-coffeescript/)
-* [What I Think CoffeeScript Should Have Been](http://www.walkercoderanger.com/blog/2014/04/what-coffeescript-should-have-been/)
-* [Why CoffeeScript Isn't the Answer](http://www.walkercoderanger.com/blog/2014/03/coffeescript-isnt-the-answer/) - shows how CoffeeScript is still plagued by problems with JavaScript, but yet introduces new problems, some unavoidable, when using CoffeeScript.
+* Homepage
+  * http://coffeescript.org/
+* Articles
+  * [Should You Learn CoffeeScript?](http://code.tutsplus.com/articles/should-you-learn-coffeescript--net-23206)
+  * [CoffeeScript Coding Style](http://docs.buildbot.net/latest/developer/coffeescript-style.html)
+* Criticism
+  * [Why I'm Ditching CoffeeScript](http://toshokelectric.com/blog/2013/04/04/why-im-ditching-coffeescript/)
+  * [What I Think CoffeeScript Should Have Been](http://www.walkercoderanger.com/blog/2014/04/what-coffeescript-should-have-been/)
+  * [Why CoffeeScript Isn't the Answer](http://www.walkercoderanger.com/blog/2014/03/coffeescript-isnt-the-answer/) - shows how CoffeeScript is still plagued by problems with JavaScript, but yet introduces new problems, some unavoidable, when using CoffeeScript.
+* Reference
+  * [Coding Style](https://github.com/styleguide/javascript)
