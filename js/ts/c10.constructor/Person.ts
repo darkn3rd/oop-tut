@@ -1,4 +1,5 @@
 /******* RHINO/SPIDERMONKEY SUPPORT *******/
+declare function load(str);
 declare function print(str);
 /******* CLASS DECLARATION *******/
 class Person {
