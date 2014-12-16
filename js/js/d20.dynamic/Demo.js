@@ -8,8 +8,6 @@ var captain = new Person("Jean-Luc");
 var officer = new Person(21);
 var ensign  = new Person("Wesley", 15);
 
-print("DEBUG: " + JSON.stringify(captain));
-
 print("");
 
 // retrieve string from captain object

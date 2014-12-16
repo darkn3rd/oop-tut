@@ -5,8 +5,7 @@ var Person = (function () {
     var name = "(NULL)";
     var age = -1;
 
-    //print("DEBUG: arguments: " + arguments)
-    var args = Array.prototype.slice.call(arguments);
+    var args = [].slice.call(arguments);
 
     args.forEach(function (arg) {
       if (typeof arg == "number") { age = arg; }
@@ -22,13 +21,13 @@ var Person = (function () {
 
   /******* PROPERTIES *******/
   Object.defineProperty(Person.prototype, "name", {
-    get: function(){ return _name },
-    set: function(value) { _name = value },
+    get: function(){ return this._name },
+    set: function(value) { this._name = value },
   });
 
   Object.defineProperty(Person.prototype, "age", {
-    get: function(){ return _age },
-    set: function(value) { _age = value },
+    get: function(){ return this._age },
+    set: function(value) { this._age = value },
   });
 
   /******* METHODS *******/
@@ -39,5 +38,3 @@ var Person = (function () {
 
   return Person;
 })();
-
-;
