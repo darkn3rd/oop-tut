@@ -1,9 +1,17 @@
 # Object-Oriented-Programming Tutorial
 **© 2014 by Joaquín Menchaca**
 
+## Overview
+
 Welcome to my material for tutoring OOP concepts.  This material covers popular ***class-based*** *invocation-oriented* OOP that was popularized by languages like: [C++](http://en.cppreference.com/), [Objective-C](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html),  [C#](http://msdn.microsoft.com/en-us/vstudio/hh341490.aspx), and [Java](https://www.oracle.com/java/index.html) programming languages.  
 
-Then see how these concepts are applied in *inspection-oriented* OOP languages like [Groovy](http://groovy.codehaus.org/), [Python](https://www.python.org/), and [Ruby](https://www.ruby-lang.org/en/), and how they are applied to *prototype-based* OOP language of [JavaScript](http://en.wikipedia.org/wiki/JavaScript), and related alternatives of [Dart](https://www.dartlang.org/tools/sdk/), [CoffeeScript](http://coffeescript.org/), and [TypeScript](http://www.typescriptlang.org/).
+Then see how these concepts are applied in *inspection-oriented* OOP languages like [Groovy](http://groovy.codehaus.org/), [Python](https://www.python.org/), and [Ruby](https://www.ruby-lang.org/en/).
+
+### Experimentation
+
+I am working on seeing how these concepts can be applied to *prototype-based* OOP language of [JavaScript](http://en.wikipedia.org/wiki/JavaScript), and related alternatives of [Dart](https://www.dartlang.org/tools/sdk/), [CoffeeScript](http://coffeescript.org/), and [TypeScript](http://www.typescriptlang.org/). These are currently (Dec 15, 2014) under experimentation, as JavaScript is a little tricky.
+
+### Future
 
 After this, I may dabble with languages like [Go](https://golang.org/),  [Rust](http://www.rust-lang.org/), and [Swift](https://developer.apple.com/library/mac/documentation/Swift/Conceptual/Swift_Programming_Language/index.html).
 

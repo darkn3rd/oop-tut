@@ -1,7 +1,7 @@
 # OOP Tutorial in JavaScript
 **© 2014 by Joaquín Menchaca**
 
-## Status
+## Overview
 
 These lessons will test JavaScript based on the ECMA-262 (ECMAScript) version 3.  There may some lessons that show alternatives in ECMA-262 version 5, such as a new getter and setter mechanism.  
 
@@ -16,6 +16,22 @@ JavaScript is a *prototype-based object-oriented* language. This means that ther
 In JavaScript, to achieve similar results as *class-based object-oriented languages*, a generic object that serve as a prototype is cloned to create implementations of the object, where the objects' properties may be set to values other than the defaults.
 
 Inheritance is performed by cloning the object serving as prototype, and then adding additional properties.  Other objects would then be cloned from this as well.
+
+## Status and Challenges
+
+This alone with other related JavaScript languages are still at the experimental stage (December 15th).  JavaScript is a prototype OOP, as so has no notion of an initial class, only live instantiated objects.  There is a way to create a class by having an initial class with empty values for properties.  The copies of the initial class will set it's properties appropriately.  
+
+There needs to be care to make sure that functions designated as instance methods, are not copied to every object.  This happens because functions are a property (variable) in an object, and so it is copied like other properties unless it set as a prototype.
+
+One challenge I am still trying to understand, is that all properties can be mutable, meaning their reference can be copied, replaced, or new ones can be added.  For example, if a variable in an object called `name` is set from outside the object, is a `name` variable being added to the object, or will it go through a setter route and set as the already existing `_name`.  
+
+Also, if a variable representing a function is set to a variable that is outside the object, how do you manage the `this` variable, as it points now to a different context other than the object, so now it cannot find it's internal parts because this points to another object.
+
+The biggest challenge is inheritance, and being able to access the parent object's parts and child object parts as one contiguous unit.
+
+These problems are understood in the advanced users in JavaScript community, but it's solutions are varied and complex to very complex, especially in the area of inheritance, while other proposed solutions either flat out do not work, or only work in a narrow context, which limits reusability.
+
+Note that these problems are also challenges for TypeScript and CoffeeScript, as these transcompile into JavaScript, and thus share the same problems.
 
 ## Lessons
 
@@ -79,7 +95,6 @@ Here are some random links I have come across in pursuit of learning this materi
 * [Methods Within Constructor vs Prototype in Javascript](http://thecodeship.com/web-development/methods-within-constructor-vs-prototype-in-javascript/)
 * [3 ways to define a JavaScript class](http://www.phpied.com/3-ways-to-define-a-javascript-class/)
 * [OOP in JS, Part 1 : Public/Private Variables and Methods](http://phrogz.net/JS/classes/OOPinJS.html)
-
 * [JavaScript Garden](http://bonsaiden.github.io/JavaScript-Garden/)
 
 Specification
