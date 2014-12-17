@@ -4,7 +4,7 @@ class Student extends Person
   constructor: (name, @gpa=0.0) ->
     super name
   ######## PROPERTIES ########
-  Object.defineProperty Person.prototype, "gpa",
+  Object.defineProperty Student.prototype, "gpa",
     get: -> @_gpa
     set: (value) -> @_gpa = value
 
