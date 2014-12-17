@@ -1,17 +1,8 @@
 load('Student.js');
 /******* MAIN SECTION *******/
-var name, gpa;
-// create new objects
-var captain = new Student();
-var officer = new Student();
-
-// set objects' name value
-captain.name = "Jean-Luc";
-officer.name = "Data";
-
-// set objects' gpa value
-captain.gpa = 3.8;
-officer.gpa = 4.0;
+var captain = new Student("Jean-Luc");  // create obj w/ name
+captain.gpa = 3.8;                      // set object's gpa
+var officer = new Student("Data", 4.0); // create obj w/ name, gpa
 
 // retrieve data from captain object
 name = captain.name;
