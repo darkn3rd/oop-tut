@@ -34,7 +34,7 @@ With Node.js installed, you can do the following to install CoffeeScript:
 
 ```
 $ npm install -g coffee-script
-$ $ coffee -v
+$ coffee -v
 CoffeeScript version 1.8.0
 $ ls -l /usr/local/bin | grep coffee | tr -s ' ' | cut -d' ' -f9-11 | sed 's|\.\.|/usr/local|'
 cake -> /usr/local/lib/node_modules/coffee-script/bin/cake
