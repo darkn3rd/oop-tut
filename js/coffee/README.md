@@ -5,6 +5,12 @@
 
 CoffeeScript is a scripting language that transcompiles into JavaScript. The initial CoffeeScript 1.0 was released in 2010 by Jeremy Ashkenas.  The language combines a lot of syntax sugar from Ruby, Python, and Haskell and automates a lot of tedious and verbose tasks and patterns in JavaScript.  It also adds some new features like list comprehension and pattern matching.
 
+## Tested Systems
+
+* :dvd: *__OS X 10.8.5 (Mountain Lion)__*
+  * :package: Coffee 1.8.0 (npm: `npm install -g coffee-script`)
+    * :beer: Node v0.10.29  (homebrew bottle: `brew install nodejs`)
+
 ## Install Notes
 
 ### OS X 10.8.5 (*Mountain Lion*)
@@ -28,6 +34,8 @@ With Node.js installed, you can do the following to install CoffeeScript:
 
 ```
 $ npm install -g coffee-script
+$ $ coffee -v
+CoffeeScript version 1.8.0
 $ ls -l /usr/local/bin | grep coffee | tr -s ' ' | cut -d' ' -f9-11 | sed 's|\.\.|/usr/local|'
 cake -> /usr/local/lib/node_modules/coffee-script/bin/cake
 coffee -> /usr/local/lib/node_modules/coffee-script/bin/coffee
