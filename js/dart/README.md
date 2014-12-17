@@ -15,8 +15,8 @@ These are some things I discovered alone the way in making these lessons:
 
 * No ***overloading constructors*** - constructors cannot be overloaded and thus cannot respond to different variety of parameters passed to the constructor.  Instead, there are are explicit named constructors that can respond to different types or quantities of parameters.
 * No support for ***variable arguments*** - only an explicit number of parameters can be passed to a function, which is a big departure from JavaScript and other scripting languages.
-* No ***automatic type conversion***.  Thus for concatenating non-strings, you have to explicitly call the `toString()` method to convert it the variable.  Popular scripting languages, such as the most popular web scripting language, JavaScript, do this automatically.
-* Constructors cannot initialize immutable fields.  This is a common well used feature that is not supported in Dart, the ability to initialize a field that will remain read-only after initialization.
+* No ***automatic type conversion***.  Thus for concatenating non-strings, you have to explicitly call the `toString()` method to convert it the variablem, which shares company with langauges like Java, but differs from popular scripting languages, such as JavaScript.
+* Constructors cannot initialize ***immutable fields***.  This is a common well used feature that is not supported in Dart, the ability to initialize a field that will remain read-only after initialization.
 
 ## Lessons
 
