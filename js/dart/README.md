@@ -26,7 +26,7 @@ These are some things I discovered alone the way in making these lessons:
 4. :green_book: Properties
 5. :green_book: Constructor
 6. :green_book: Constructor with Parameters
-7. :closed_book: Multiple Constructors (alternative to overloarding)
+7. :closed_book: Multiple Constructors (alternative to overloading)
 8. :green_book: Class Variable
 9. :closed_book: Immutability
 10. :green_book: Inheritance
