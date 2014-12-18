@@ -5,6 +5,13 @@
 
 CoffeeScript is a scripting language that transcompiles into JavaScript. The initial CoffeeScript 1.0 was released in 2010 by Jeremy Ashkenas.  The language combines a lot of syntax sugar from Ruby, Python, and Haskell and automates a lot of tedious and verbose tasks and patterns in JavaScript.  It also adds some new features like list comprehension and pattern matching.
 
+## Discoveries
+
+CoffeeScript has a lot of excellent syntax sugar that automates extremely tedious, verbose, and gnarly code in JavaScript.  I would generally prefer to code in CoffeeScript, but there's are a few issues that may cause CoffeeScript to become unusable:
+
+* CoffeeScript automatically creates `var` statements for any variables initially defined.  There are some patterns in JavaScript where this is undesirable, such as calling a method that might indirectly create these in your object, and so explicitly creating variables will cause such methods to fail.
+* CoffeeScript automatically creates return block, where your last line of a function is a return.  There are numerous patterns in JavaScript that require explicit control over crafting the return block, including not returning things.
+
 ## Tested Systems
 
 * :dvd: *__OS X 10.8.5 (Mountain Lion)__*
@@ -45,6 +52,9 @@ coffee -> /usr/local/lib/node_modules/coffee-script/bin/coffee
 
 * Homepage
   * http://coffeescript.org/
+* Resources
+  * [Smooth Coffee Script](http://autotelicum.github.io/Smooth-CoffeeScript/)
+  * [CoffeeScript Cookbook](http://coffeescriptcookbook.com/)
 * Articles
   * [Should You Learn CoffeeScript?](http://code.tutsplus.com/articles/should-you-learn-coffeescript--net-23206)
   * [CoffeeScript Coding Style](http://docs.buildbot.net/latest/developer/coffeescript-style.html)
