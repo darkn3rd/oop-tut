@@ -7,6 +7,8 @@ CoffeeScript is a scripting language that transcompiles into JavaScript. The ini
 
 ## Discoveries
 
+I am new to CoffeeScript (3 days), and this is what I have noticed so far, as a newbie...
+
 CoffeeScript has a lot of excellent syntax sugar that automates extremely tedious, verbose, and gnarly code in JavaScript.  I would generally prefer to code in CoffeeScript, but there's are a few issues that may cause CoffeeScript to become unusable:
 
 * CoffeeScript automatically creates `var` statements for any variables initially defined.  There are some patterns in JavaScript where this is undesirable, such as calling a method that might indirectly create these in your object, and so explicitly creating variables will cause such methods to fail.
@@ -39,7 +41,7 @@ npm -> /usr/local/lib/node_modules/npm/bin/npm-cli.js
 
 With Node.js installed, you can do the following to install CoffeeScript:
 
-```
+```bash
 $ npm install -g coffee-script
 $ coffee -v
 CoffeeScript version 1.8.0
@@ -51,7 +53,7 @@ coffee -> /usr/local/lib/node_modules/coffee-script/bin/coffee
 ## Links
 
 * Homepage
-  * http://coffeescript.org/
+  * [CoffeeScript Homepage](http://coffeescript.org/)
 * Resources
   * [Smooth Coffee Script](http://autotelicum.github.io/Smooth-CoffeeScript/)
   * [CoffeeScript Cookbook](http://coffeescriptcookbook.com/)
