@@ -7,7 +7,7 @@ These are ad-hoc notes and tasks to help keep track of where I am at.
 
 ## Topics
 
-### Part III
+### Part III Ideas
 
 * :books: Sealing/Final Methods
 * :books: Method Hiding
@@ -16,6 +16,28 @@ These are ad-hoc notes and tasks to help keep track of where I am at.
    * :green_book: Methods
    * :green_book: Operators
    * :green_book: Type Coercion
+
+## Plans: Version .4
+
+This is an adjustment for Part II, from initial .3 version to .4 version.
+
+Additions:
+
+* :green_book: + Privacy and Publicity (B10) - private age, public name
+* :green_book: + Properties (B20) - automate setters/getters
+* :green_book: + Universal (Static) Constructors (E20) - reconfigure class value
+* :green_book: + Copy Constructors (C30)
+
+Adjustments:
+
+* :green_book: Delegated Constructor (D10) >> Delegated Constructor (D20)
+* :green_book: Dynamic Constructor (D20) >> Delegated Constructor (D30)
+* :green_book: + Multiple Constructors (D10)
+
+### Notes
+
+* Objective-C and Dart have multiple named constructors/initializers, these can be delegated like overloaded constructors
+* Ruby, Python, JavaScript can support a dynamic constructor to handle different types of parameters passed into the constructors.
 
 ## Tasks
 
@@ -34,7 +56,7 @@ These are ad-hoc notes and tasks to help keep track of where I am at.
 
 ### Near Future
 
-* [ ] Explore Modules, Mix-ins (Python, Ruby)
+* [ ] Explore Modules, Mix-ins (Python, Ruby, JavaScript)
 * [ ] Explore Namespace, Packages (C#, C++, Java)
 * [ ] Explore Copying Objects, e.g. copy constructors, `copyWithZone`
   * [ ] single class copy with `Person` [D30]
