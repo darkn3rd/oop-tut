@@ -5,10 +5,12 @@ var Student = (function () {
   function Student () { }
 
   /******* PROPERTIES *******/
-  Object.defineProperty(Student.prototype, "gpa", {
-    get: function(){ return gpa._gpa },
-    set: function(value) { gpa._gpa = value + 100 }
+  Object.defineProperty(Person.prototype, "gpa", {
+    get: function(){ return this._gpa },
+    set: function(value) { this._gpa = value  }
   });
 
   return Student;
 })(Person);
+
+Student.prototype = new Person(); 

@@ -37,16 +37,31 @@ Note that these problems are also challenges for TypeScript and CoffeeScript, as
 
 1. :green_book: Declaration and Class Method
 2. :green_book: Instantiation and Instance Method
+3. :green_book: Instance Variable
+4. :green_book: Properties
+5. :green_book: Constructors
+6. :green_book: Custom Constructors
+7. :green_book: Dynamic Constructors
+8. :green_book: Class Variables
+9. :closed_book: Immutable Fields
+10. :green_book: Inheritance
+11. :green_book: Parent's Fields
+12. :green_book: Parent's Constructor
 
 ## Usage
 
 ### Spider Monkey
 
-* Running the Demonstration: `js demo.js`
+* Running the Demonstration: `js Demo.js`
 
 ### Rhino
 
-* Running the Demonstration: `rhino demo.js`
+* Running the Demonstration: `rhino Demo.js`
+
+### Node.js
+
+Node.js can be used, but you'll need to add `print = console.log;`, so that all the `print()` will call the equivalent `console.log()` instead under node.  After you can just do `node Demo.js`
+
 
 ## Tested Systems
 
