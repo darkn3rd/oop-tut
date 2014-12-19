@@ -1,6 +1,6 @@
 /******* OBJECT DECLARATION *******/
-function Person () { }
+function Person () { }  // create Person object
 
 /******* OBJECT METHOD *******/
-// All instances of Person will share the same sayit() 
+// add a sayit() method - all future instances of sayit use same method
 Person.sayit = function(){ print("Hello World!\n") }
