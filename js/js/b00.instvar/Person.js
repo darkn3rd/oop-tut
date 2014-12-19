@@ -1,10 +1,10 @@
 /******* CLASS DEFINITION *******/
 var Person = (function () {
   /******* FIELDS *******/
-  var name;
+  var name; // private field, accessible to anonymous function
 
   /******* CONSTRUCTORS *******/
-  function Person () { }  // dummy constructor
+  function Person () { }  // empty inner object
 
   /******* INSTANCE METHODS *******/
   Person.prototype.getName = function(){
@@ -15,5 +15,5 @@ var Person = (function () {
     this.name = name;
   };
 
-  return Person;
+  return Person;  // return object with two methods
 })();
