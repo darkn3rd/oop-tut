@@ -15,5 +15,5 @@ var Person = (function () {
     this.name = name;
   };
 
-  return Person;  // return object with two methods
+  return Person;  // return inner object with two methods
 })();

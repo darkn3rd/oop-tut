@@ -1,7 +1,7 @@
 /******* CLASS DEFINITION *******/
 var Person = (function () {
   /******* CONSTRUCTORS *******/
-  function Person () {  }  // dummy constructor
+  function Person () {  }  // empty inner object
 
   /******* PROPERTIES *******/
   Object.defineProperty(Person.prototype, "name", {
@@ -9,5 +9,5 @@ var Person = (function () {
     set: function(value) { _name = value }
   });
 
-  return Person;
+  return Person; // return inner object with property
 })();

@@ -10,5 +10,5 @@ var Person = (function () {
     print("Hello World!\n");
   };
 
-  return Person; // return empty inner object
+  return Person; // return empty inner object with one method
 })();

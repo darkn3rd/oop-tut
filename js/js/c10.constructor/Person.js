@@ -12,5 +12,5 @@ var Person = (function () {
     set: function(value) { this._name = value },
   });
 
-  return Person;
+  return Person; // return object with constructor and property
 })();
