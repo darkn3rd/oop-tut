@@ -56,7 +56,7 @@ I crafted some make scripts that can be used to run these demoes using Node.js:
 * Running: `make run`
 * Cleaning: `make clean`
 
-**Requirements**: *GNU Sed* is utilize to convert Spidermonkey compatible JavaScript to Node.js compatible JavaScript.
+**Requirements**: *GNU Sed* is utilized to convert Spidermonkey compatible JavaScript into Node.js compatible JavaScript.
 
 ## Tested Systems
 
@@ -69,7 +69,7 @@ I crafted some make scripts that can be used to run these demoes using Node.js:
     * :beer: NSPR 4.10.6 (homebrew bottle)
     * :beer: readline 6.3.6 (hombrew bottle as keg-only)
   * :beer: Node.js v0.10.29  (homebrew bottle: `brew install nodejs`)
-  * :beer: V8 3.25.30 (homebrew bottle: `brew install v8`)
+  * :beer: V8 3.25.30 (homebrew source/svn: `brew install v8`)
 
 ## Install Notes
 
@@ -83,8 +83,10 @@ Using Homebrew, you can do the following:
 
 ```bash
 $ brew install spidermonkey
-$ ls -l /usr/local/bin/js | tr -s ' ' | cut -d' ' -f9-11 | sed 's|\.\.|/usr/local|'
+$ ls -l /usr/local/bin/ | grep spidermonkey | tr -s ' ' | cut -d' ' -f9-11 | sed 's|\.\.|/usr/local|'
 /usr/local/bin/js -> /usr/local/Cellar/spidermonkey/1.8.5/bin/js
+js -> /usr/local/Cellar/spidermonkey/1.8.5/bin/js
+js-config -> /usr/local/Cellar/spidermonkey/1.8.5/bin/js-config
 ```
 
 #### Rhino
@@ -95,6 +97,18 @@ Using Homebrew, you can do the following:
 $ brew install rhino
 $ ls -l /usr/local/bin/rhino | tr -s ' ' | cut -d' ' -f9-11 | sed 's|\.\.|/usr/local|'
 /usr/local/bin/rhino -> /usr/local/Cellar/rhino/1.7R4/bin/rhino
+```
+
+#### V8
+
+```bash
+$ brew install v8
+$ ls -l /usr/local/bin | grep v8 | tr -s ' ' | cut -d' ' -f9-11 | sed 's|\.\.|/usr/local|'
+d8 -> /usr/local/Cellar/v8/3.25.30/bin/d8
+lineprocessor -> /usr/local/Cellar/v8/3.25.30/bin/lineprocessor
+mksnapshot.x64 -> /usr/local/Cellar/v8/3.25.30/bin/mksnapshot.x64
+process -> /usr/local/Cellar/v8/3.25.30/bin/process
+v8 -> /usr/local/Cellar/v8/3.25.30/bin/v8
 ```
 
 #### Node.js
@@ -112,8 +126,11 @@ The make scripts for these tutorials utilize GNU Sed, not the challenged BSD Sed
 
 ```bash
 $ brew install gnu-sed
-$ ls -l /usr/local/bin/sed | tr -s ' ' | cut -d' ' -f9-11 | sed 's|\.\.|/usr/local|'
-/usr/local/bin/sed -> /usr/local/Cellar/gnu-sed/4.2.2/bin/gsed
+$ ls -l /usr/local/bin/ | grep sed | tr -s ' ' | cut -d' ' -f9-11 | sed 's|\.\.|/usr/local|'
+gsed -> /usr/local/Cellar/gnu-sed/4.2.2/bin/gsed
+$ ln -s /usr/local/bin/gsed /usr/local/bin/sed
+$ sed --version | head -1
+sed (GNU sed) 4.2.2
 ```
 
 ## Links
