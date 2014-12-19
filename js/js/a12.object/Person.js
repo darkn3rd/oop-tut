@@ -1,14 +1,7 @@
 /******* OBJECT DECLARATION *******/
-var Person = (function () {
-  /******* CONSTRUCTORS *******/
-  function Person() {} // empty inner object
+function Person () { }  // create initial object
 
-  /******* INSTANCE METHODS *******/
-  // Attach a method to Person.prototype
-  //  This way, only one sayit() for all instances
-  Person.prototype.sayit = function () {
-    print("Hello World!\n");
-  };
-
-  return Person; // return empty inner object with one method
-})();
+/******* INSTANCE METHODS *******/
+// Attach a method to Person.prototype
+//  This way, only one sayit() for all instances
+Person.prototype.sayit = function(){ print("Hello World!\n") }

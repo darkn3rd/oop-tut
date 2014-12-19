@@ -12,7 +12,15 @@ These scripts will be tested with [Mozilla Spidermonkey](https://developer.mozil
 ## Lessons
 
 1. :green_book: Declaration and Class Method
+    * :page_facing_up: Literal Notation
+    * :page_facing_up: Constructor Notation with Array Notation
+    * :page_facing_up: Constructor Notation with Dot Notation
+    * :page_facing_up: Anonymous Function
 2. :green_book: Instantiation and Instance Method
+    * :page_facing_up: Literal Notation
+    * :page_facing_up: Constructor Notation
+    * :page_facing_up: Prototype
+    * :page_facing_up: Anonymous Function with Prototype
 3. :green_book: Instance Variable
 4. :green_book: Properties
 5. :green_book: Constructors
@@ -36,6 +44,10 @@ These scripts will be tested with [Mozilla Spidermonkey](https://developer.mozil
 
 **Requirements**: *Java Virtual Machine* as Rhino is a Java application.
 
+### V8 Engine
+
+* Running the Demonstration: `v8 Demo.js`
+
 ### Node.js
 
 I crafted some make scripts that can be used to run these demoes using Node.js:
@@ -56,7 +68,8 @@ I crafted some make scripts that can be used to run these demoes using Node.js:
   * :beer: SpiderMonkey 1.8.5 (homebrew bottle: `brew install spidermonkey`)
     * :beer: NSPR 4.10.6 (homebrew bottle)
     * :beer: readline 6.3.6 (hombrew bottle as keg-only)
-  * :beer: Node v0.10.29  (homebrew bottle: `brew install nodejs`)
+  * :beer: Node.js v0.10.29  (homebrew bottle: `brew install nodejs`)
+  * :beer: V8 3.25.30 (homebrew bottle: `brew install v8`)
 
 ## Install Notes
 
