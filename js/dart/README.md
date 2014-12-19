@@ -47,7 +47,7 @@ These programs were edited in [Dart editor](https://www.dartlang.org/tools/downl
 
 ## Install Notes
 
-These instructions were tested on December 10, 2014.
+These instructions were tested on December 10, 2014 using Homebrew with XCode 5.1.1.
 
 ### OS X 10.8.5 (*Mountain Lion*)
 

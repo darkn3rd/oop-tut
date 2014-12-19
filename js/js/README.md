@@ -75,7 +75,7 @@ I crafted some make scripts that can be used to run these demoes using Node.js:
 
 ### OS X 10.8.5 (*Mountain Lion*)
 
-These instructions were tested on December 10, 2014.
+These instructions were tested on December 10, 2014 using Homebrew with XCode 5.1.1.
 
 #### SpiderMonkey
 
