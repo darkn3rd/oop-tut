@@ -1,10 +1,18 @@
-CSC = mcs
+ifeq ($(OS),Windows_NT)
+    CSC = csc
+    CSFLAGS = /out:$@ /target:exe
+else
+    CSC = mcs
+    CSFLAGS = -out:$@
+    RUN = mono
+endif
+
 all: Demo.exe
-Demo.exe: Demo.cs Person.cs
-	$(CSC) Person.cs Demo.cs -out:$@
+Demo.exe: Person.cs Demo.cs
+	$(CSC) $(CSFLAGS) $^
 
 run: all
-	mono Demo.exe
+	$(RUN) Demo.exe
 
 clean:
 	$(RM) Demo.exe

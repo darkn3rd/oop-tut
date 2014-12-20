@@ -4,7 +4,7 @@ ifeq ($(OS),Windows_NT)
 else
     CSC = mcs
     CSFLAGS = -out:$@
-		RUN = mono
+    RUN = mono
 endif
 
 all: Demo.exe
