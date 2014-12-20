@@ -4,14 +4,15 @@ ifeq ($(OS),Windows_NT)
 else
     CSC = mcs
     CSFLAGS = -out:$@
+		RUN = mono
 endif
 
 all: Demo.exe
-Demo.exe: Demo.cs Person.cs
-	$(CSC) $(CSFLAGS) Person.cs Demo.cs
+Demo.exe: Person.cs Demo.cs
+	$(CSC) $(CSFLAGS) $^
 
 run: all
-	mono Demo.exe
+	$(RUN) Demo.exe
 
 clean:
 	$(RM) Demo.exe
