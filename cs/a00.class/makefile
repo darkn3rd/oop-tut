@@ -1,4 +1,9 @@
-CSC = mcs
+ifeq ($(OS),Windows_NT)
+    CSC = csc
+else
+    CSC = mcs
+endif
+
 all: Demo.exe
 Demo.exe: Demo.cs Person.cs
 	$(CSC) Person.cs Demo.cs -out:$@
