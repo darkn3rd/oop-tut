@@ -51,7 +51,7 @@ These are the current lessons devised thus far are the following
 
 ## Usage
 
-A basic makefile is included and has been tested on ***Heisenbug*** (Fedora 20) and ***Mountain Lion*** (OS X 10.8.5).  On these systems, simply do the following:
+A basic makefile is included and has been tested on ***Heisenbug*** (Fedora 20) and ***Mountain Lion*** (OS X 10.8.5), and Windows 7 (WinNT 6.1).  On these systems, simply do the following:
 
 * Compiling Code: `make`
 * Running the Demonstration: `make run`
@@ -65,8 +65,12 @@ A basic makefile is included and has been tested on ***Heisenbug*** (Fedora 20) 
   * :beetle: Nant 0.92 (compiled from source) ***core dumps***
 * :dvd: _**OS X 10.8.5 (Mountain Lion)**_
   * :package: Mono 3.4 (downloaded and package install)
-  * :beer: Nant 0.92 (`brew install nant`)
+  * :beer: Nant 0.92 (Homebrew: `brew install nant`)
     * :beer: pkg-config 0.28
+* :dvd: _**Windows 7 (WinNT 6.1) 64-bit**_
+  * :cd: Visual C# 2008 Compiler v. 3.5.30729.5420 (bundled: `%WINDIR%\Microsoft.NET\Framework64\v3.5\csc.exe`)
+  * :package: GNU Make 3.81 (downloaded: http://gnuwin32.sourceforge.net/packages/make.htm)
+  * :package: Git-1.9.2-preview20140411 with Bash 3.1 (download: http://git-scm.com/download/win)
 
 ## Links
 
