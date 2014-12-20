@@ -1,11 +1,26 @@
 # OOP Tutorial in C#
 **© 2014 by Joaquín Menchaca**
 
-## Status
+## Overview
 
-This material is in its infancy. A basic makefile is included that is tested with clang.
+The C# language was developed as apart of Microsoft's .NET initiative in 2002 and is standardized as [ECMA-334](http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-334.pdf) and [ISO/IEC 23270:2006](http://standards.iso.org/ittf/PubliclyAvailableStandards/c042926_ISO_IEC_23270_2006(E).zip).  C# is one of several languages designed for the [Common Language Infrastructure](http://en.wikipedia.org/wiki/Common_Language_Infrastructure).
 
-The exact lessons (use cases) are still being developed.
+There are two popular platforms for running C# and CLI platform: [Microsoft .NET](http://www.microsoft.com/net) and [Mono Project](http://www.mono-project.com/).
+
+### Common Langauge Infrastructure
+
+The Common Language Infrastructure is a set of technologies that are similar in some ways to the Java Platform, where Java source code is compiled to an intermediary Java Bytecode, which is executed by a Java Virtual Machine.  In Common Language Infrastructure, source code is compiled into bytecode called CIL ([Common Intermediate Language](http://en.wikipedia.org/wiki/Common_Intermediate_Language)).  This bytecode is executed by an application virtual machine called CLR (Common Language Runtime).  The Common Language Infrastructure was designed to support multiple languages.  
+
+### Impetus Behind CLI
+
+One of the driving reasons at Microsoft behind developing .NET was that at Microsoft there were numerous runtime engines, such as Visual C++, MFC, and Visual Basic.  It was difficult to share resources, as code and libraries were incompatible between the runtime engines.  Microsoft developed COM ([Componnent Object Model](http://en.wikipedia.org/wiki/Component_Object_Model)) as a means to create sharable libraries, but this was limited, complex, proprietary, and not ubiquitous.
+
+The .NET implementation provides one runtime engine, the CLR virtual machine that can host numerous programming languages, e.g. Java (J#), C#, C++, VB (VB.NET), etc.  The code between languages is fully interchangeable as they all compile into CIL bytecode.  Thus, as an example, a Student class created in VB.NET could be derived from a Person class created in C#.
+
+### Market Value and Cool Stuff
+
+Naturally, any work on Windows will undoubtedly involve Microsoft's .NET.  There are growing number of companies that use ASP.NET as web-application platform for [SaaS](http://en.wikipedia.org/wiki/Software_as_a_service).
+
 
 ## Lessons
 
