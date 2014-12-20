@@ -35,19 +35,23 @@ There's a package management system for .NET libraries out there called [NuGet](
 
 These are the current lessons devised thus far are the following
 
- 1. :green_book: Declaration and Instantiation
+ 1. :green_book: Class Declaration and Class Method
+ *  :green_book: Object Instantiation and Instance Method
+ * :green_book: Instance Variable
     * :page_facing_up: Properties
- 2. :green_book: Constructors
-     * :page_facing_up: Default Constructors vs. Custom Constructors
- 3. :green_book: Overloading Constructors
+    * :page_facing_up: Properties Automation
+ * :green_book: Constructors
+    * :page_facing_up: Custom Constructors
+ * :green_book: Overloading Constructors
     * :page_facing_up: Constructor Chaining
- 4. :green_book: Class Variables (`static`)
- 5. :green_book: Immutability (`readonly`)
- 6. :green_book: Inheritance
+ * :green_book: Class Variables (`static`)
+ * :green_book: Immutability (`readonly`)
+ * :green_book: Inheritance
+    * :page_facing_up: Accessing Parent's Fields
     * :page_facing_up: Calling Parent's Constructor (`base`)
- 7. :green_book: Virtual Methods (Overriding)
- 8. :green_book: Abstract Methods
- 9. :green_book: Interface
+ * :green_book: Virtual Methods (`override`)
+ * :green_book: Abstract Class and Abstract Methods
+ * :green_book: Interface
 
 ## Usage
 
