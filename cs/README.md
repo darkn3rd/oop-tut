@@ -9,7 +9,7 @@ There are two popular platforms for running C# and CLI platform: [Microsoft .NET
 
 ### Common Langauge Infrastructure
 
-The Common Language Infrastructure is a set of technologies that are similar in some ways to the Java Platform, where Java source code is compiled to an intermediary Java Bytecode, which is executed by a Java Virtual Machine.  In Common Language Infrastructure, source code is compiled into bytecode called CIL ([Common Intermediate Language](http://en.wikipedia.org/wiki/Common_Intermediate_Language)).  This bytecode is executed by an application virtual machine called CLR (Common Language Runtime).  The Common Language Infrastructure was designed to support multiple languages.  
+The Common Language Infrastructure is a set of technologies that are similar in some ways to the Java Platform, where Java source code is compiled to an intermediary Java Bytecode, which is executed by a Java Virtual Machine that runs natively on the operating system.  In Common Language Infrastructure, source code is compiled into bytecode called CIL ([Common Intermediate Language](http://en.wikipedia.org/wiki/Common_Intermediate_Language)).  This bytecode is executed by an application virtual machine called CLR (Common Language Runtime).  The Common Language Infrastructure was designed to support multiple languages multiple languages in mind.  
 
 ### Impetus Behind CLI
 
@@ -17,10 +17,19 @@ One of the driving reasons at Microsoft behind developing .NET was that at Micro
 
 The .NET implementation provides one runtime engine, the CLR virtual machine that can host numerous programming languages, e.g. Java (J#), C#, C++, VB (VB.NET), etc.  The code between languages is fully interchangeable as they all compile into CIL bytecode.  Thus, as an example, a Student class created in VB.NET could be derived from a Person class created in C#.
 
-### Market Value and Cool Stuff
+As Microsoft branches into other processor architectures with smart phones, game consoles, and other devices, it will be easy to port and develop applications for those environments, as long as there's .NET.
 
-Naturally, any work on Windows will undoubtedly involve Microsoft's .NET.  There are growing number of companies that use ASP.NET as web-application platform for [SaaS](http://en.wikipedia.org/wiki/Software_as_a_service).
+### The Market
 
+Naturally, any work on Windows will undoubtedly involve Microsoft's .NET.  There are growing number of companies that use ASP.NET as web-application platform for [SaaS](http://en.wikipedia.org/wiki/Software_as_a_service) solutions.  For client programming on smart phones, like iPhone or Androids, there's the [Xamarin platform](http://xamarin.com/platform) that is quite popular.
+
+### The Cool Stuff
+
+Windows will have free compilers found in `%WINDIR%\Microsoft.NET\` directories.  For example, a 64-bit C# compiler for .NET 3.5 is found in `%WINDIR%\Microsoft.NET\Framework64\v3.5\csc.exe`.  For other operating systems like OS X and Linux, the [Mono Project](http://www.mono-project.com/) has compilers with packages for various flavors of Linux and OS X.
+
+For robust graphical development tools, Microsoft has Visual Studio Express for Windows, but there's also [MonoDevelop](http://www.monodevelop.com/) and [SharpDevelop](http://www.icsharpcode.net/OpenSource/SD/Default.aspx).
+
+There's a package management system for .NET libraries out there called [NuGet](https://www.nuget.org/).  This can be used to install libraries such as [log4net](https://www.nuget.org/packages/log4net/), [RestSharp](https://www.nuget.org/packages/RestSharp/), [NUnit](https://www.nuget.org/packages/NUnit), [NHibernate](https://www.nuget.org/packages/NHibernate/)to name a few.
 
 ## Lessons
 
@@ -58,3 +67,13 @@ A basic makefile is included and has been tested on ***Heisenbug*** (Fedora 20) 
   * :package: Mono 3.4 (downloaded and package install)
   * :beer: Nant 0.92 (`brew install nant`)
     * :beer: pkg-config 0.28
+
+## Links
+
+* Integrated Development Environments
+  * [VisualStudio Express](go.microsoft.com/fwlink/?linkid=244366)
+  * [SharpDevelop](http://www.icsharpcode.net/OpenSource/SD/Default.aspx)
+  * [MonoDevelop](http://www.monodevelop.com/)
+* Platforms and Compilers
+  * [Mono Project](http://www.mono-project.com/)  
+  * [Microsoft .NET](http://www.microsoft.com/net)
