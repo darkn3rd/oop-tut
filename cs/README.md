@@ -21,7 +21,7 @@ As Microsoft branches into other processor architectures with smart phones, game
 
 ### The Market
 
-Naturally, any work on Windows will undoubtedly involve Microsoft's .NET.  There are growing number of companies that use ASP.NET as web-application platform for [SaaS](http://en.wikipedia.org/wiki/Software_as_a_service) solutions.  For client programming on smart phones, like iPhone or Androids, there's the [Xamarin platform](http://xamarin.com/platform) that is quite popular.
+Naturally, any work on Windows will undoubtedly involve Microsoft's .NET.  There are growing number of companies that use ASP.NET as a web-application platform for [SaaS](http://en.wikipedia.org/wiki/Software_as_a_service) solutions.  For client programming on smart phones, like iPhone or Androids, there's the [Xamarin platform](http://xamarin.com/platform) that is quite popular.
 
 ### The Cool Stuff
 
@@ -29,7 +29,7 @@ Windows will have free compilers found in `%WINDIR%\Microsoft.NET\` directories.
 
 For robust graphical development tools, Microsoft has Visual Studio Express for Windows, but there's also [MonoDevelop](http://www.monodevelop.com/) and [SharpDevelop](http://www.icsharpcode.net/OpenSource/SD/Default.aspx).
 
-There's a package management system for .NET libraries out there called [NuGet](https://www.nuget.org/).  This can be used to install libraries such as [log4net](https://www.nuget.org/packages/log4net/), [RestSharp](https://www.nuget.org/packages/RestSharp/), [NUnit](https://www.nuget.org/packages/NUnit), [NHibernate](https://www.nuget.org/packages/NHibernate/)to name a few.
+There's a package management system for .NET libraries out there called [NuGet](https://www.nuget.org/).  This can be used to install libraries such as [log4net](https://www.nuget.org/packages/log4net/), [RestSharp](https://www.nuget.org/packages/RestSharp/), [NUnit](https://www.nuget.org/packages/NUnit), [NHibernate](https://www.nuget.org/packages/NHibernate/) to name a few.
 
 ## Lessons
 
