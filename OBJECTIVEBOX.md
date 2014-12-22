@@ -16,12 +16,14 @@ Additionally, you should have intermediate programming skills for class-based OO
 
 These scripts have been tested sporadically on the following operating systems:
 
+* Linux
+  * :dvd: **Cent OS 6.5**
+  * :dvd: **Fedora 20 (*Heisenbug*)**
+  * :dvd: **Ubuntu 12.04 LTS (*Precise Pangolin*)**.
+  * :dvd: **Ubuntu 14.04 LTS (*Trusty Tahr*)**
 * :dvd: **Mac OS X 10.8.5 (*Snow Leopard*)**
-* :dvd: **Cent OS 6.5**
 * :dvd: **Windows 7 (*Windows NT 6.1*)**.  
-* :dvd: **Fedora 20 (*Heisenbug*)**
-* :dvd: **Ubuntu 12.04 LTS (*Precise Pangolin*)**.
-* :dvd: **Ubuntu 14.04 LTS (*Trusty Tahr*)**
+
 
 ## Required Packages
 
