@@ -60,7 +60,7 @@ sed (GNU sed) 4.2.2
 
 #### CoffeeScript
 
-**Prerequisite**: Node.js
+**Prerequisite**: Node.js, JavaScript
 
 CoffeeScript can be installed using NPM (Node Package Manager):
 
@@ -174,7 +174,7 @@ The Objective-C compiler is called `gcc` and can be installed using XCode Develo
 
 #### TypeScript
 
-**Prerequisite**: Node.js
+**Prerequisite**: Node.js, JavaScript
 
 TypeScript can be installed using NPM (Node Package Manager):
 
@@ -184,14 +184,12 @@ $ ls -l /usr/local/bin | grep typescript | tr -s ' ' | cut -d' ' -f9-11 | sed 's
 tsc -> /usr/local/lib/node_modules/typescript/bin/tsc
 ```
 
-This requires that Node is installed (See JavaScript) previously to have NPM available.  Also, JavaScript is needed is required to run the final script.
-
 #### Python
 
 Python can be installed using Homebrew:
 
 ```bash
-brew install python
+$ brew install python
 ```
 
 #### Ruby
@@ -199,5 +197,5 @@ brew install python
 Ruby can be installed using RVM (https://rvm.io/) or through Homebrew:
 
 ```bash
-brew install ruby
+$ brew install ruby
 ```
