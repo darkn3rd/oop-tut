@@ -35,9 +35,12 @@ These scripts have been tested sporadically on the following operating systems:
   * Nant (optional)
 * Command Line Tools
   * awk
+  * command
   * cut
   * grep
+  * head
   * sed (GNU)
+  * tail
   * tr
 * Application Virtual Machine
   * Mono or .NET
@@ -49,3 +52,84 @@ These scripts have been tested sporadically on the following operating systems:
   * Dart
   * Ruby
   * Python
+
+## Installation Notes
+
+### Mac OS X 10.8.5 (Snow Leopard)
+
+Components by Langauge
+
+#### Prerequisites
+
+Mac OS X has the needed tools with exception of GNU Sed.  This can be added to the environment through this:
+
+```bash
+$ brew install gnu-sed
+$ ln -s /usr/local/bin/gsed /usr/local/bin/sed
+$ sed --version | head -1
+sed (GNU sed) 4.2.2
+```
+
+#### CoffeeScript
+
+CoffeeScript can be installed using NPM (Node Package Manager): `npm install -g coffee-script`
+
+This requires that Node is installed (See JavaScript) previously to have NPM available. Also, JavaScript is needed is required to run the final script.
+
+#### C++
+
+The C++ compiler is called `clang` and can be installed using XCode Developer Tools: https://developer.apple.com/xcode/downloads/.
+
+#### C#
+
+On Mac OS X, Mono can be used to get the compiler `mcs`: http://www.mono-project.com/download/.
+
+For building scripts, Nant can be use: `brew install nant`
+
+#### Dart
+
+Dart can be installed through the Dart-Lang Homebrew repository.  It can be installed using this:
+
+```bash
+$ brew tap dart-lang/dart
+$ brew install dart
+```
+
+#### Groovy
+
+Groovy can be installed using GVM (http://gvmtool.net/) or through HomeBrew: `brew install groovy`.
+
+Not that Groovy requires that Java JDK is installed, JDK7 or higher.
+
+#### Java
+
+Java can be installed from Apple's distribution for JDK6: http://support.apple.com/kb/DL1572.
+
+Later versions of JDK can be downloaded from Oracle: http://www.oracle.com/technetwork/java/javase/downloads/index.html.
+
+#### JavaScript
+
+There are a few choices for running JavaScript:
+
+* Node.js: `brew install node `
+* Rhino: `brew install rhino`
+* SpiderMonkey `brew install spidermonkey`
+* V8 `brew install v8`
+
+#### Objective-C
+
+The Objective-C compiler is called `gcc` and can be installed using XCode Developer Tools: https://developer.apple.com/xcode/downloads/.
+
+#### TypeScript
+
+TypeScript can be installed using NPM (Node Package Manager): `npm install -g typescript`
+
+This requires that Node is installed (See JavaScript) previously to have NPM available.  Also, JavaScript is needed is required to run the final script.
+
+#### Python
+
+Python can be installed using Homebrew: `brew install python`
+
+#### Ruby
+
+Ruby can be installed using RVM (https://rvm.io/) or through Homebrew: `brew install ruby`
