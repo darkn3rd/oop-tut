@@ -1,0 +1,25 @@
+<project default="compile">
+
+  <target name="compile">
+    <csc target="exe" output="Demo.exe">
+      <sources>
+        <include name="*.cs" />
+      </sources>
+    </csc>
+  </target>
+
+  <target name="clean" >
+    <delete>
+      <fileset>
+        <include name="Demo.exe" />
+      </fileset>
+    </delete>
+  </target>
+
+  <target name="run" depends="compile">
+    <exec program="mono">
+      <arg value="Demo.exe" />
+    </exec>
+  </target>
+
+</project>
