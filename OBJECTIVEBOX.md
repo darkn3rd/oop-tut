@@ -32,7 +32,9 @@ These scripts have been tested sporadically on the following operating systems:
 * **Package Management Tools**: npm
 * **Build Tools**: GNU make, Ant (optional), Nant (optional)
 * **Command Line Tools**: awk, command, cut, grep, head, sed, tail, tr
-* **Application Virtual Machine**: Mono or .NET, Open JDK or Oracle JDK
+* **Application Virtual Machine**:
+  * Mono or .NET,
+  * Open JDK or Oracle JDK
 * **Frameworks, Compilers, Runtime Engines**
   * GNUStep or Cocoa
   * Node.js, SpiderMonkey, Rhino, or V8
@@ -58,13 +60,18 @@ sed (GNU sed) 4.2.2
 
 #### CoffeeScript
 
+**Prerequisite**: Node.js
+
 CoffeeScript can be installed using NPM (Node Package Manager):
 
+```bash
+$ npm install -g coffee-script
+$ coffee -v
+CoffeeScript version 1.8.0
+$ ls -l /usr/local/bin | grep coffee | tr -s ' ' | cut -d' ' -f9-11 | sed 's|\.\.|/usr/local|'
+cake -> /usr/local/lib/node_modules/coffee-script/bin/cake
+coffee -> /usr/local/lib/node_modules/coffee-script/bin/coffee
 ```
-npm install -g coffee-script
-```
-
-This requires that Node is installed (See JavaScript) previously to have NPM available. Also, JavaScript is needed is required to run the final script.
 
 #### C++
 
@@ -87,11 +94,26 @@ Dart can be installed through the Dart-Lang Homebrew repository.  It can be inst
 ```bash
 $ brew tap dart-lang/dart
 $ brew install dart
+$ dart --version
+Dart VM version: 1.8.0 (Thu Nov 27 00:59:46 2014) on "macos_ia32"
+$ ls -l /usr/local/bin | grep dart | tr -s ' ' | cut -d' ' -f9-11 | sed 's|\.\.|/usr/local|'
+dart -> /usr/local/Cellar/dart/1.8.3/bin/dart
+dart2js -> /usr/local/Cellar/dart/1.8.3/bin/dart2js
+dartanalyzer -> /usr/local/Cellar/dart/1.8.3/bin/dartanalyzer
+dartdocgen -> /usr/local/Cellar/dart/1.8.3/bin/dartdocgen
+dartfmt -> /usr/local/Cellar/dart/1.8.3/bin/dartfmt
+docgen -> /usr/local/Cellar/dart/1.8.3/bin/docgen
+pub -> /usr/local/Cellar/dart/1.8.3/bin/pub
 ```
 
 #### Groovy
 
-Groovy can be installed using GVM (http://gvmtool.net/) or through HomeBrew: `brew install groovy`.
+**Prerequisite**: Java JDK
+
+Groovy can be installed using GVM (http://gvmtool.net/) or through HomeBrew:
+```Bash
+$ brew install groovy
+```
 
 Not that Groovy requires that Java JDK is installed, JDK7 or higher.
 
@@ -103,12 +125,48 @@ Later versions of JDK can be downloaded from Oracle: http://www.oracle.com/techn
 
 #### JavaScript
 
-There are a few choices for running JavaScript:
+There are a few choices for running JavaScript: Node.js, Rhino, SpiderMonkey, and V8.
 
-* Node.js: `brew install node `
-* Rhino: `brew install rhino`
-* SpiderMonkey `brew install spidermonkey`
-* V8 `brew install v8`
+##### Node.js
+
+```bash
+$ brew install nodejs
+$ ls -l /usr/local/bin/ | tr -s ' ' | cut -d' ' -f9-11 | grep -E '^node|npm' | sed 's|\.\.|/usr/local|'
+node -> /usr/local/Cellar/node/0.10.33_1/bin/node
+npm -> /usr/local/lib/node_modules/npm/bin/npm-cli.js
+```
+
+##### Rhino
+
+**Prerequisite**: Java JDK
+
+```bash
+$ brew install rhino
+$ ls -l /usr/local/bin/rhino | tr -s ' ' | cut -d' ' -f9-11 | sed 's|\.\.|/usr/local|'
+/usr/local/bin/rhino -> /usr/local/Cellar/rhino/1.7R4/bin/rhino
+```
+
+##### SpiderMonkey
+
+```bash
+$ brew install spidermonkey
+$ ls -l /usr/local/bin/ | grep spidermonkey | tr -s ' ' | cut -d' ' -f9-11 | sed 's|\.\.|/usr/local|'
+/usr/local/bin/js -> /usr/local/Cellar/spidermonkey/1.8.5/bin/js
+js -> /usr/local/Cellar/spidermonkey/1.8.5/bin/js
+js-config -> /usr/local/Cellar/spidermonkey/1.8.5/bin/js-config
+```
+
+##### V8
+
+```bash
+$ brew install v8
+$ ls -l /usr/local/bin | grep v8 | tr -s ' ' | cut -d' ' -f9-11 | sed 's|\.\.|/usr/local|'
+d8 -> /usr/local/Cellar/v8/3.25.30/bin/d8
+lineprocessor -> /usr/local/Cellar/v8/3.25.30/bin/lineprocessor
+mksnapshot.x64 -> /usr/local/Cellar/v8/3.25.30/bin/mksnapshot.x64
+process -> /usr/local/Cellar/v8/3.25.30/bin/process
+v8 -> /usr/local/Cellar/v8/3.25.30/bin/v8
+```
 
 #### Objective-C
 
@@ -116,14 +174,30 @@ The Objective-C compiler is called `gcc` and can be installed using XCode Develo
 
 #### TypeScript
 
-TypeScript can be installed using NPM (Node Package Manager): `npm install -g typescript`
+**Prerequisite**: Node.js
+
+TypeScript can be installed using NPM (Node Package Manager):
+
+```bash
+$ npm install -g typescript
+$ ls -l /usr/local/bin | grep typescript | tr -s ' ' | cut -d' ' -f9-11 | sed 's|\.\.|/usr/local|'
+tsc -> /usr/local/lib/node_modules/typescript/bin/tsc
+```
 
 This requires that Node is installed (See JavaScript) previously to have NPM available.  Also, JavaScript is needed is required to run the final script.
 
 #### Python
 
-Python can be installed using Homebrew: `brew install python`
+Python can be installed using Homebrew:
+
+```bash
+brew install python
+```
 
 #### Ruby
 
-Ruby can be installed using RVM (https://rvm.io/) or through Homebrew: `brew install ruby`
+Ruby can be installed using RVM (https://rvm.io/) or through Homebrew:
+
+```bash
+brew install ruby
+```
