@@ -21,31 +21,19 @@ These scripts have been tested sporadically on the following operating systems:
   * :dvd: **Fedora 20 (*Heisenbug*)**
   * :dvd: **Ubuntu 12.04 LTS (*Precise Pangolin*)**.
   * :dvd: **Ubuntu 14.04 LTS (*Trusty Tahr*)**
-* :dvd: **Mac OS X 10.8.5 (*Snow Leopard*)**
-* :dvd: **Windows 7 (*Windows NT 6.1*)**.  
+* ***Mac OS X***
+  * :dvd: **Mac OS X 10.8.5 (*Snow Leopard*)**
+* ***Windows***
+  * :dvd: **Windows 7 (*Windows NT 6.1*)**.  
 
 
 ## Required Packages
 
-* Package Management Tools
-  * npm
-* Build Tools
-  * GNU make
-  * Ant (optional)
-  * Nant (optional)
-* Command Line Tools
-  * awk
-  * command
-  * cut
-  * grep
-  * head
-  * sed (GNU)
-  * tail
-  * tr
-* Application Virtual Machine
-  * Mono or .NET
-  * Open JDK or Oracle JDK
-* Frameworks, Compilers, Runtime Engines
+* **Package Management Tools**: npm
+* **Build Tools**: GNU make, Ant (optional), Nant (optional)
+* **Command Line Tools**: awk, command, cut, grep, head, sed, tail, tr
+* **Application Virtual Machine**: Mono or .NET, Open JDK or Oracle JDK
+* **Frameworks, Compilers, Runtime Engines**
   * GNUStep or Cocoa
   * Node.js, SpiderMonkey, Rhino, or V8
   * GNU compilers, CLang, or Visual C++
@@ -56,8 +44,6 @@ These scripts have been tested sporadically on the following operating systems:
 ## Installation Notes
 
 ### Mac OS X 10.8.5 (Snow Leopard)
-
-Components by Langauge
 
 #### Prerequisites
 
@@ -72,7 +58,11 @@ sed (GNU sed) 4.2.2
 
 #### CoffeeScript
 
-CoffeeScript can be installed using NPM (Node Package Manager): `npm install -g coffee-script`
+CoffeeScript can be installed using NPM (Node Package Manager):
+
+```
+npm install -g coffee-script
+```
 
 This requires that Node is installed (See JavaScript) previously to have NPM available. Also, JavaScript is needed is required to run the final script.
 
@@ -84,7 +74,11 @@ The C++ compiler is called `clang` and can be installed using XCode Developer To
 
 On Mac OS X, Mono can be used to get the compiler `mcs`: http://www.mono-project.com/download/.
 
-For building scripts, Nant can be use: `brew install nant`
+For building scripts, Nant can be use:
+
+```
+brew install nant
+```
 
 #### Dart
 
