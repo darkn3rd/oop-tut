@@ -17,6 +17,12 @@ After this, I may dabble with languages like [Go](https://golang.org/),  [Rust](
 
 ***Last Update***: December 15th, 2014
 
+## Installation
+
+Currently I am working on a cumulative installation guide called ***Objective Box***:
+
+* https://github.com/darkn3rd/oop-tut/blob/master/OBJECTIVEBOX.md
+
 ## Topics
 
 These are the topics ironed out so far (still under development)
