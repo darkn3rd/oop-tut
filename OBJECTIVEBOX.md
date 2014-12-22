@@ -43,11 +43,11 @@ These scripts have been tested sporadically on the following operating systems:
   * Ruby
   * Python
 
-## Installation Notes
+# Installation Notes
 
-### Mac OS X 10.8.5 (Snow Leopard)
+## Mac OS X 10.8.5 (Snow Leopard)
 
-#### Prerequisites
+### Prerequisites
 
 Mac OS X has the needed tools with exception of GNU Sed.  This can be added to the environment through this:
 
@@ -58,7 +58,7 @@ $ sed --version | head -1
 sed (GNU sed) 4.2.2
 ```
 
-#### CoffeeScript
+### CoffeeScript
 
 **Prerequisite**: Node.js, JavaScript
 
@@ -73,11 +73,11 @@ cake -> /usr/local/lib/node_modules/coffee-script/bin/cake
 coffee -> /usr/local/lib/node_modules/coffee-script/bin/coffee
 ```
 
-#### C++
+### C++
 
 The C++ compiler is called `clang` and can be installed using XCode Developer Tools: https://developer.apple.com/xcode/downloads/.
 
-#### C#
+### C#
 
 On Mac OS X, Mono can be used to get the compiler `mcs`: http://www.mono-project.com/download/.
 
@@ -87,7 +87,7 @@ For building scripts, Nant can be use:
 brew install nant
 ```
 
-#### Dart
+### Dart
 
 Dart can be installed through the Dart-Lang Homebrew repository.  It can be installed using this:
 
@@ -106,7 +106,7 @@ docgen -> /usr/local/Cellar/dart/1.8.3/bin/docgen
 pub -> /usr/local/Cellar/dart/1.8.3/bin/pub
 ```
 
-#### Groovy
+### Groovy
 
 **Prerequisite**: Java JDK
 
@@ -117,17 +117,17 @@ $ brew install groovy
 
 Not that Groovy requires that Java JDK is installed, JDK7 or higher.
 
-#### Java
+### Java
 
 Java can be installed from Apple's distribution for JDK6: http://support.apple.com/kb/DL1572.
 
 Later versions of JDK can be downloaded from Oracle: http://www.oracle.com/technetwork/java/javase/downloads/index.html.
 
-#### JavaScript
+### JavaScript
 
 There are a few choices for running JavaScript: Node.js, Rhino, SpiderMonkey, and V8.
 
-##### Node.js
+#### Node.js
 
 ```bash
 $ brew install nodejs
@@ -136,7 +136,7 @@ node -> /usr/local/Cellar/node/0.10.33_1/bin/node
 npm -> /usr/local/lib/node_modules/npm/bin/npm-cli.js
 ```
 
-##### Rhino
+#### Rhino
 
 **Prerequisite**: Java JDK
 
@@ -146,7 +146,7 @@ $ ls -l /usr/local/bin/rhino | tr -s ' ' | cut -d' ' -f9-11 | sed 's|\.\.|/usr/l
 /usr/local/bin/rhino -> /usr/local/Cellar/rhino/1.7R4/bin/rhino
 ```
 
-##### SpiderMonkey
+#### SpiderMonkey
 
 ```bash
 $ brew install spidermonkey
@@ -156,7 +156,7 @@ js -> /usr/local/Cellar/spidermonkey/1.8.5/bin/js
 js-config -> /usr/local/Cellar/spidermonkey/1.8.5/bin/js-config
 ```
 
-##### V8
+#### V8
 
 ```bash
 $ brew install v8
@@ -168,11 +168,11 @@ process -> /usr/local/Cellar/v8/3.25.30/bin/process
 v8 -> /usr/local/Cellar/v8/3.25.30/bin/v8
 ```
 
-#### Objective-C
+### Objective-C
 
 The Objective-C compiler is called `gcc` and can be installed using XCode Developer Tools: https://developer.apple.com/xcode/downloads/.
 
-#### TypeScript
+### TypeScript
 
 **Prerequisite**: Node.js, JavaScript
 
@@ -184,7 +184,7 @@ $ ls -l /usr/local/bin | grep typescript | tr -s ' ' | cut -d' ' -f9-11 | sed 's
 tsc -> /usr/local/lib/node_modules/typescript/bin/tsc
 ```
 
-#### Python
+### Python
 
 Python can be installed using Homebrew:
 
@@ -192,7 +192,7 @@ Python can be installed using Homebrew:
 $ brew install python
 ```
 
-#### Ruby
+### Ruby
 
 Ruby can be installed using RVM (https://rvm.io/) or through Homebrew:
 
