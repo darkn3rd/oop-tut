@@ -16,7 +16,7 @@ Additionally, you should have intermediate programming skills for class-based OO
 
 These scripts have been tested sporadically on the following operating systems:
 
-* Linux
+* ***Linux***
   * :dvd: **Cent OS 6.5**
   * :dvd: **Fedora 20 (*Heisenbug*)**
   * :dvd: **Ubuntu 12.04 LTS (*Precise Pangolin*)**.
