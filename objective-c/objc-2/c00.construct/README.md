@@ -9,7 +9,7 @@ This tutorial has the following lessons:
    * an initializer
 * Instantiate a new object
 * Call the initializer
-* Initialize data through property (setter)
+* Initialzier data through property (setter)
 
 In this lesson, the default initializer, the `init` method, will not initialize any data, but instead just report information.  The instance data will be initialized through the implicit `setName` setter using a property.
 

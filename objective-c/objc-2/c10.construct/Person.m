@@ -13,7 +13,7 @@ void NSPrint(NSString *str)
 
   if (self = [super init]) {
       NSPrint(@" [INFO]: Person Object is created\n");
-      _name = name;
+      self.name = name;  // use property
   }
 
   return self;

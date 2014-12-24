@@ -15,14 +15,14 @@ int main (int argc, const char * argv[])
   NSPrint(@"\nPrinting Results:\n\n");
 
   // retrieve string from captain object
-  name = captain.name;      // call accessor
+  name = captain.name;      // use property
 
   // output results
   NSPrint(@" Name of the Captain:\n");
   NSPrint([NSString stringWithFormat: @"\t%@\n", name]);
 
   // retrieve string from captain object
-  name = officer.name;      // call accessor
+  name = officer.name;      // use property
 
   // output results
   NSPrint(@" Name of the Officer:\n");
