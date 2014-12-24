@@ -10,4 +10,4 @@ This tutorial has the following lessons:
 * Instantiate a new object
 * Initialize instance variables through initializer
 
-In this lesson, the default initializer, the `init` method accepts data that it will use to initialize the instant variable.  The initializer passes that data to the implicit `setName` using the property.
+Here the initializer will handle initializing instance variable data.
