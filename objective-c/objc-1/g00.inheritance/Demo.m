@@ -1,4 +1,4 @@
-*import "Student.h"
+#import "Student.h"
 
 int main (int argc, const char * argv[])
 {

@@ -1,7 +1,6 @@
 #import "Person.h"
 
-@interface Student : Person
-{
+@interface Student : Person {
   double _gpa;
 }
 
