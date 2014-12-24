@@ -1,7 +1,8 @@
 #import "Person.h"
 
 @implementation Person
-// ###### Initializers ######
+
+/********* INITIALIZERS ********/
 - (Person *) init {
     self = [super init];
     if (self) { [self info]; }
@@ -26,13 +27,13 @@
     return self;
 }
 
-// ###### Methods ######
+/*********** METHODS ***********/
 -  (void) info {
     printf("  [INFO]: Person Object is created with age=\"%d\"", self.age);
     printf(", name=\"%s\"\n", self.name);
 }
 
-// ###### Properties ######
+/********** PROPERTIES **********/
 @synthesize name = _name;
 @synthesize age = _age;
 

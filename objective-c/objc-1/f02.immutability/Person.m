@@ -2,7 +2,7 @@
 
 @implementation Person
 
-// ###### Constructors ######
+/********* INITIALIZERS ********/
 - (Person *) initWithName: (const char *) n id: (int) i {
     self = [super init];
     if (self) {
@@ -14,13 +14,13 @@
     return self;
 }
 
-// ###### Methods ######
+/*********** METHODS ***********/
 - (void) info {
   printf("[INFO] Person Object: '%s' created.\n", self.name);
   printf("[INFO] \tCitizen Id No.: %d.\n\n", self.id);
 }
 
-// ###### Properties ######
+/********** PROPERTIES **********/
 @synthesize name = _name;
 @synthesize id = _id;
 

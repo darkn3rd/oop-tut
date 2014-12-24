@@ -3,11 +3,13 @@
 #import <string.h>
 #import <stdio.h>
 
+/****** CLASS DECLARATOIN ******/
 @interface Person : Object
 {
-  char* name;
+  const char* name;
 }
 
+/*********** ACESSORS **********/
 - (void)   setName: (const char *) n;
 - (const char *) getName;
 @end

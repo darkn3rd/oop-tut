@@ -3,18 +3,17 @@
 #import <string.h>
 #import <stdio.h>
 
-@interface Person : Object
-{
+@interface Person : Object {
   const char* _name;
   int   _id;
 }
 
-// ###### Constructors ######
+/********* INITIALIZERS ********/
 - (Person *) initWithName: (const char *) n id: (int) i;
-// ###### Properties ######
+/********** PROPERTIES **********/
 @property const char *name;
 @property (readonly) int id;
-// ###### Methods ######
+/*********** METHODS ***********/
 - (void) info;
 
 @end

@@ -2,7 +2,7 @@
 
 @implementation Person
 
-// Initializers - functions that initialize fields to default state
+/********* INITIALIZERS ********/
 - (Person *) init: (const char *) n
 {
     self = [super init];
@@ -16,7 +16,7 @@
     return self;
 }
 
-// ###### Properties ######
+/********** PROPERTIES **********/
 @synthesize name = _name;
 
 @end

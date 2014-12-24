@@ -2,7 +2,7 @@
 
 @implementation Person
 
-// Mutators - functions that set stuff
+/****** ACESSORS (SETTERS) *****/
 - (void) setName: (const char *) n
 {
     if (n) {
@@ -12,7 +12,7 @@
     }
 }
 
-// Accessors - functions that get stuff
+/****** ACESSORS (GETTERS) *****/
 - (const char *) getName
 {
   return name;

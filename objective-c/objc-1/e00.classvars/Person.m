@@ -1,10 +1,10 @@
 #import "Person.h"
 
-// ###### Class Variable ######
+/******* CLASS VARIABLE ********/
 static int count = 0;
 
 @implementation Person
-// ###### Constructors ######
+/********* INITIALIZERS ********/
 - (Person *) init {
     self = [super init];
     if (self) { ++count; [self info]; }
@@ -17,15 +17,15 @@ static int count = 0;
     return self;
 }
 
-// ###### Methods ######
+/*********** METHODS ***********/
 -  (void) info {
     printf("[INFO] Person Object: name='%s' created.\n", self.name);
 }
 
-// ###### Properties ######
+/********** PROPERTIES **********/
 @synthesize name = _name;
 
-// ###### Accessors ######
+/****** ACESSORS (GETTERS) *****/
 + (int) getCount { return count; }
 
 

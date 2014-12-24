@@ -3,11 +3,12 @@
 #import <string.h>
 #import <stdio.h>
 
-// ###### Objects ######
+/****** CLASS DECLARATOIN ******/
 @interface Person : Object {
   char *_name;
 }
 
+/********** PROPERTIES **********/
 @property char *name;
 
 @end

@@ -4,17 +4,18 @@
 #import <string.h>
 
 @interface Person : Object {
-  // ###### Instance Variables ######
-  char* _name;
+  /****** INSTANCE VARIABLE ******/
+  const char* _name;
 }
 
+/********** PROPERTIES **********/
 @property const char *name;
 
-// ###### Constructors ######
+/********* INITIALIZERS ********/
 - (Person *) init;
 - (Person *) initWithName: (const char *) n;
-// ###### Methods ######
+/*********** METHODS ***********/
 - (void) info;
-// ###### Accessors ######
+/****** ACESSORS (GETTERS) *****/
 + (int) getCount;
 @end
