@@ -17,10 +17,7 @@ int main (int argc, const char * argv[])
 
   // set object's gpa value
   captain.gpa = @3.8;
-  officer.gpa = @4.0;
-
-//[captain setGpa: @3.8];
-//  [officer setGpa: @4.0];
+  officer.gpa = @4;
 
   // ########## TEST CAPTAIN OBJECT ##########
   name = captain.name; // accessor
