@@ -2,4 +2,7 @@
 
 @implementation Person
 
+/********* PROPERTIES **********/
+@synthesize name = _name;
+
 @end

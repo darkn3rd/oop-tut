@@ -11,11 +11,10 @@ int main (int argc, const char * argv[])
     // istantiate new object
     Person *captain = [[Person alloc] init]; // instantiate new object
     // initialize data
-    [captain setName:@"Jean-Luc"];           // send message to set name
+    captain.name = @"Jean-Luc";    // mutator - set name
 
     // retrieve string from person object
-    NSString *name = [captain name];         // send message to get name
-
+    NSString *name = captain.name; // accessor - get name
     // output results
     NSPrint([NSString stringWithFormat: @"Name of the Person:\n\t%@\n", name]);
 

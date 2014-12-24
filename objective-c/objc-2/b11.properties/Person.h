@@ -1,9 +1,11 @@
 #import <Foundation/Foundation.h>
 #import <stdlib.h>
 
-@interface Person : NSObject
+@interface Person : NSObject {
+  NSString *_name;  // instance variable
+}
 
 /********* PROPERTIES **********/
-@property (assign) NSString *name;
+@property (retain) NSString *name;
 
 @end
