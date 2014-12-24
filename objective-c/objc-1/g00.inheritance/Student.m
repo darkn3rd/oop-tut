@@ -4,5 +4,4 @@
 
 @synthesize gpa = _gpa;
 
-
 @end

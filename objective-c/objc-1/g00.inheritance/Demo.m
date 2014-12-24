@@ -1,8 +1,8 @@
-#import "Student.h"
+*import "Student.h"
 
 int main (int argc, const char * argv[])
 {
-  // ########## INITIALIZE DATA ##########
+  // ********** INITIALIZE DATA **********
   const char *name;
   double gpa;
 
@@ -18,13 +18,13 @@ int main (int argc, const char * argv[])
   captain.gpa = 3.8;
   officer.gpa = 4.0;
 
-  // ########## TEST CAPTAIN OBJECT ##########
+  // ********** TEST CAPTAIN OBJECT **********
   name = captain.name; // accessor
   gpa  = captain.gpa;  // accessor
 
   printf("Captain:\n\tName: %s\n\tGPA: %.1f\n", name, gpa);
 
-  // ########## TEST OFFICER OBJECT ##########
+  // ********** TEST OFFICER OBJECT **********
   name = officer.name; // accessor
   gpa  = officer.gpa;  // accessor
 
