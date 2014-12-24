@@ -22,7 +22,7 @@ In some OOP languages, like Objective-C and Ruby, an ***accessor*** can be eithe
 
 ### Linguistics
 
-The mixed usage in terminology may stem from the ambiguity in the word **access**, where access can mean either (1) *permission for entrance* or *ability for entrance* or it could mean more narrowly (2) *retrieval*, which is what one typically does when **accessing** something.
+The mixed usage in terminology may stem from the ambiguity in today's use of the word **access**, where access can mean either (1) *permission for entrance* or *ability for entrance* or it could mean more narrowly (2) *retrieval*, which is what one typically does when **accessing** something.
 
 ## Tested Systems
 
