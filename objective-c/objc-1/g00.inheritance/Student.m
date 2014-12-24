@@ -2,10 +2,7 @@
 
 @implementation Student
 
-// ###### Mutators ######
-- (void) gpa: (double) g { gpa = g; }
+@synthesize gpa = _gpa;
 
-// ###### Accessors ######
-- (double) gpa { return gpa; }
 
 @end

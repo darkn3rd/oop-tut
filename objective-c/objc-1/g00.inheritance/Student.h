@@ -2,9 +2,9 @@
 
 @interface Student : Person
 {
-  double gpa;
+  double _gpa;
 }
 
-- (void)   gpa: (double) g;
-- (double) gpa;
+@property double gpa;
+
 @end
