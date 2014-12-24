@@ -1,26 +1,22 @@
 UNAME_S := $(shell uname -s)
 ifeq ($(UNAME_S),Linux)
 	CC= gcc
-	CCFLAGS += -Wall
+	CFLAGS += -Wall
 	LDFLAGS += -lobjc
 endif
 ifeq ($(UNAME_S),Darwin)
 	CC = clang
-	CCFLAGS += -fobjc-arc
+	CFLAGS += -fobjc-arc
 	LDFLAGS += -framework Foundation
 endif
+
+.SUFFIXES: .m .o
 
 all: Demo
 Demo: Demo.o Shape.o Triangle.o Rectangle.o
 	$(CC) $(LDFLAGS) -o Demo Demo.o Shape.o Triangle.o Rectangle.o
-Demo.o: Demo.m
-	$(CC) $(CFLAGS) -c Demo.m -o $@
-Shape.o: Shape.m
-	$(CC) $(CFLAGS) -c Shape.m -o $@
-Triangle.o: Triangle.m
-	$(CC) $(CFLAGS) -c Triangle.m -o $@
-Rectangle.o: Rectangle.m
-	$(CC) $(CFLAGS) -c Rectangle.m -o $@
+.m.o:
+	$(CC) $(CFLAGS) -c $< -o $@
 
 run: all
 	./Demo

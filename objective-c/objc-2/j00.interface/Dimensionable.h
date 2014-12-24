@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-@protocol Shapeable
+@protocol Dimensionable
 
   - (NSNumber *) calculateArea;
 
