@@ -7,8 +7,9 @@
     const char* _name;
 }
 
+/********** PROPERTIES **********/
 @property const char *name;
-
+/********* INITIALIZERS ********/
 - (Person *) init;
 
 @end
