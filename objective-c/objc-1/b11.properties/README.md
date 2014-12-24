@@ -1,21 +1,18 @@
-# A.0.3 Declaration
+# B.1.1 Instance Variable and Properties
 **© 2014 by Joaquín Menchaca**
 
 ## Purpose
 
 This tutorial demonstrates the following lessons:
 
- 1. Declare a class
-    * Create a field (instance variable)
-    * Create a property
- 2. Create an object (Instantiation)
- 3. Initialize object data using `object.name =` notation
- 4. Retrieve information from Object using `= object.name` notation
-
-This lesson shows how to access the property (getters and setters) using the dot `.` notation, rather than sending explicit messages of `name` and `setName`.
+1. Declare a class with the following
+* a field (instance variable)
+* a property
+* Create an object (Instantiation)
+* Initialize object data using accessor
+* Retrieve instance variable values using accessor
 
 # Notes
 
-It is best practice to name the fields managed by properties with an a leading underscore.
-
-Thus for example, a property of `name` would have a corresponding field called `_name`, and a property of `age` would have a corresponding field called `_age`.
+In the Objective-C community, accessors (getters and setters) are called `name` and `setName` for the getter and setter for a `protected` instance variable called `_name`.  This is different than other languages, where the getter would be called `getName`.
+and accessors (getters).  

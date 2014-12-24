@@ -1,27 +1,18 @@
-# A.0.0 Declaration
+# B.0.0 Instance Variable and Accessors
 **© 2014 by Joaquín Menchaca**
 
 ## Purpose
 
 This tutorial demonstrates the following lessons:
 
- 1. Declare a class
-    * Create a field (instance variable)
-    * Create methods:
-      * Accessor to get data
-      * Mutator to set data
- 2. Create an object (Instantiation)
- 3. Initialize object data
- 4. Retrieve information from Object
+ 1. Declare a class with the following
+    * an field (instance variable)
+    * two methods to get and set data
+ * Create an object (Instantiation)
+ * Initialize object data using accessor
+ * Retrieve instance variable values using accessor
 
 # Notes
 
-All fields in Objective-C default to `protected` and are thus only accessible by this class and derived (children) classes.
-
-This lesson purposefully creates methods of `setName` and `getName` to illustrate mutators (setters) and accessors (getters).  
-
-# Terminology and Naming Conventions
-
-In the Apple's [Coding Guidelines for Cocoa](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.pdf), setters and getters are both referred to as *accessors*.
-
-In their guideline `getName` should just be called `name` instead.  The method called `setName` is alright.
+In the Objective-C community, accessors (getters and setters) are called `name` and `setName` for the getter and setter for a `protected` instance variable called `_name`.  This is different than other languages, where the getter would be called `getName`.
+ and accessors (getters).  
