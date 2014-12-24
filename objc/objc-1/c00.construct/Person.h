@@ -4,10 +4,10 @@
 #import <string.h>
 
 @interface Person : Object {
-    char* _name;
+    const char* _name;
 }
 
-@property char *name;
+@property const char *name;
 
 - (Person *) init;
 

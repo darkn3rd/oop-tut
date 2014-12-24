@@ -3,12 +3,12 @@
 #import <stdio.h>
 #import <string.h>
 
-@interface Person : Object
-{
-    char* name;
+@interface Person : Object {
+    const char* _name;
 }
 
+@property const char *name;
+
 - (Person *) init: (const char *) n;
-- (void) setName: (const char *) n;
-- (const char *) getName;
+
 @end
