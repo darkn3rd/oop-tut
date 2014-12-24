@@ -12,11 +12,11 @@ endif
 
 all: Demo
 Demo: Demo.o Person.o
-	$(CC) $(LDFLAGS) -o Demo Demo.o Person.o
+	$(CC) $(LDFLAGS) -o $@ $^
 Demo.o: Demo.m
-	$(CC) $(CFLAGS) -c Demo.m -o $@
+	$(CC) $(CCFLAGS) -c $^ -o $@
 Person.o: Person.m
-	$(CC) $(CFLAGS) -c Person.m -o $@
+	$(CC) $(CCFLAGS) -c $^ -o $@
 
 run: all
 	./Demo
