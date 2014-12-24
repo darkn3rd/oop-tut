@@ -1,11 +1,12 @@
 #import "Person.h"
 
-@interface Student : Person
-{
-  double gpa;
+@interface Student : Person {
+  double _gpa;
 }
 
+/********* INITIALIZERS ********/
 - (Student *) init: (const char *) n gpa:(double) g;
-- (void)   gpa: (double) g;
-- (double) gpa;
+/********** PROPERTIES **********/
+@property double gpa;
+
 @end
