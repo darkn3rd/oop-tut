@@ -18,8 +18,11 @@ It is hoped that this code can compile on both Linux and Mac OS X.  So far, I ha
 
 In my tutorials, I use the term ***accessor*** to mean a method (member function) that accesses instance variables (fields) from an object, and I use the term ***mutator*** to mean a method (member function) that changes instance variables (fields) in an object.  These are called ***getters*** and ***setters*** respectively.
 
-In some OOP languages, like Objective-C and Ruby, an ***accessor*** can be either a ***getter*** or ***setter***.  I will try my best to be explicit on these to avoid confusion.
+In some OOP languages, like Objective-C and Ruby, an ***accessor*** can be either a ***getter*** or ***setter***.
 
+### Linguistics
+
+The mixed usage in terminology may stem from the ambiguity in the word **access**, where access can mean either (1) *permission for entrance* or *ability for entrance* or it could mean more narrowly (2) *retrieval*, which is what one typically does when **accessing** something.
 
 ## Tested Systems
 
