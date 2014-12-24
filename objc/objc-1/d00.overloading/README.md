@@ -1,4 +1,4 @@
-# B.2.0 Overloading Constructors (OOP Tutorial in C++)
+# D.1.0 Multiple Constructors (OOP Tutorial in Objective C)
 **© 2014 by Joaquín Menchaca**
 
 ## Purpose
@@ -16,6 +16,4 @@ There will be the following constructor style methods that support:
 
 ## Notes
 
-In the C language, you cannot have two functions with the same name.  
-
-In the Objective-C language, true overloading is not supported, but numerous  constructor styled methods, as long as they are named differently, or if they carry they same name, they support different messages.
+There can be different initializers receive different messages to initialize different data.  The caller will select the appropriate initializer for the supplied data.

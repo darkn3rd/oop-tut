@@ -3,11 +3,13 @@
 #import <stdio.h>
 #import <string.h>
 
-@interface Person : Object
-{
-    char* name;
-    int age;
+@interface Person : Object {
+    const char* _name;
+    int _age;
 }
+
+@property const char *name;
+@property int age;
 
 // ###### Initializers ######
 - (Person *) init;
@@ -16,10 +18,5 @@
 - (Person *) initWithName: (const char *) n age:(int) a;
 // ###### Methods ######
 - (void) info;
-// ###### Mutators ######
-- (void) setName: (const char *) n;
-- (void) setAge: (int) a;
-// ###### Accessors ######
-- (const char *) getName;
-- (int) getAge;
+
 @end

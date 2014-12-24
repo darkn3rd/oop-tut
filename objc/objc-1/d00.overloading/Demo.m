@@ -7,15 +7,15 @@ int main (int argc, const char * argv[])
     int   age;
 
     // initialize data through overloaded constructor (set)
-    id captain = [[Person alloc] initWithName: "Jean-Luc"];
-    id officer = [[Person alloc] initWithAge: 21];
-    id ensign  = [[Person alloc] initWithName: "Wesley" age: 15];
+    Person *captain = [[Person alloc] initWithName: "Jean-Luc"];
+    Person *officer = [[Person alloc] initWithAge: 21];
+    Person *ensign  = [[Person alloc] initWithName: "Wesley" age: 15];
 
     printf("\n");
 
     // retrieve string from person object
-    name = [captain getName];
-    age  = [captain getAge];
+    name = captain.name;
+    age  = captain.age;
 
     // output results
     printf("Captain: \n");
@@ -23,8 +23,8 @@ int main (int argc, const char * argv[])
     printf("\tAge: %d\n", age);
 
     // retrieve string from person object
-    name = [officer getName];
-    age  = [officer getAge];
+    name = officer.name;
+    age  = officer.age;
 
     // output results
     printf("Officer:\n");
@@ -32,8 +32,8 @@ int main (int argc, const char * argv[])
     printf("\tAge: %d\n", age);
 
     // retrieve string from person object
-    name = [ensign getName];
-    age  = [ensign getAge];
+    name = ensign.name;
+    age  = ensign.age;
 
     // output results
     printf("Ensign:\n");

@@ -11,3 +11,5 @@ This tutorial demonstrates:
 In this lesson, we create a custom constructor that accepts arguments to initialize field data.  This way we do not have to call numerous mutators (setters), and can instead initialize required data during the object's creation.
 
 # Notes
+
+In Objective-C, instead of having constructors, you have methods that initialize data.

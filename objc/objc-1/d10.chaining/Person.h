@@ -5,9 +5,12 @@
 
 @interface Person : Object
 {
-    char* name;
-    int age;
+    const char* _name;
+    int _age;
 }
+
+@property const char *name;
+@property int age;
 
 // ###### Initializers ######
 - (Person *) init;
@@ -17,10 +20,5 @@
 
 // ###### Methods ######
 - (void) info;
-// ###### Mutators ######
-- (void) setName: (const char *) n;
-- (void) setAge: (int) a;
-// ###### Accessors ######
-- (const char *) getName;
-- (int) getAge;
+
 @end
