@@ -25,21 +25,26 @@ Here are some [Installation Instructions](INSTALL.md) that will help configure a
 
 These are the current lessons devised thus far are the following
 
- 1. :green_book: Declaration and Instantiation
-    * Properties with setter and getters
-    * Properties accessed with dot `.` notation
- 2. :green_book: Initializer
+ 1. :green_book: Class Declaration and Class Method
+ * :green_book: Object Instantiation and Instance Method
+ * :green_book: Instance Variable and Accessors
+    * :page_facing_up: Setter and Getters
+    * :page_facing_up: Properties accessed with setter and getters
+    * :page_facing_up: Properties accessed with dot `.` notation
+ * :green_book: Initializer
     * :page_facing_up: Custom Initializer
- 3. :green_book: Multiple Initializer ***ALTERNATIVE***
+ * :green_book: Multiple Initializer
     * :page_facing_up: Initializer Chaining (Delegation)
- 4. :green_book: Class Variables
- 5. :closed_book: Immutability ***ALTERNATIVE***
-    * Immutability using Properties
- 6. :green_book: Inheritance
+ * :green_book: Class Variables
+ * :closed_book: Immutability
+    * :page_facing_up: Immutability by omitting setter
+     * :page_facing_up: Immutability using Properties
+ * :green_book: Inheritance
     * :page_facing_up: Using parent methods
-    * :page_facing_up: Using `super()`
- 7. :green_book: Overriding
- 8. :green_book: Protocols
+    * :page_facing_up: Using parent fields (ivars)
+    * :page_facing_up: Using parent constructors
+ * :green_book: Overriding
+ * :green_book: Protocols
 
 ## Usage
 

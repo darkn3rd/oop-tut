@@ -2,5 +2,5 @@
 
 int main (int argc, const char * argv[])
 {
-  [Person sayit];
+  [Person sayit];  // call class method
 }

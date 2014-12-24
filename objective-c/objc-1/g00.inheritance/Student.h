@@ -4,6 +4,7 @@
   double _gpa;
 }
 
+/********** PROPERTIES **********/
 @property double gpa;
 
 @end

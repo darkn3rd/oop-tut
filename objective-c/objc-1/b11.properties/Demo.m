@@ -3,12 +3,12 @@
 
 int main (int argc, const char * argv[])
 {
-  // initialize data through mutator (set)
+  // initialize data through use property (set)
   Person *captain = [Person new];  // instantiate new object
-  captain.name = "Jean-Luc";       // mutator
+  captain.name = "Jean-Luc";       // use property
 
   // retrieve string from person object
-  const char *name = captain.name; // accessor
+  const char *name = captain.name; // use property
 
   // output results
   printf("Name of the Person:\n\t%s\n", name);

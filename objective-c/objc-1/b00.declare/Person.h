@@ -4,12 +4,11 @@
 #import <stdio.h>
 
 /****** CLASS DECLARATOIN ******/
-@interface Person : Object
-{
-  const char* name;
+@interface Person : Object {
+  char* _name;
 }
 
 /*********** ACESSORS **********/
 - (void)   setName: (const char *) n;
-- (const char *) getName;
+- (const char *) name;
 @end

@@ -7,12 +7,11 @@
     self = [super init];
     if (self) {
       [self setName: n];
-      if (_id == 0) { _id = i; }
+      if (_id == 0) { _id = i; }  // only change id once
       [self info];
     }
 
     return self;
-
 }
 
 /*********** METHODS ***********/
@@ -24,9 +23,8 @@
 /****** ACESSORS (SETTERS) *****/
 - (void) setName: (const char *) n {
     if (n) {
-       // create new char* of length of n
        name = (char *) malloc(strlen(n)+1);
-       strcpy(name, n); // copy contents
+       strcpy(name, n);
     }
 }
 

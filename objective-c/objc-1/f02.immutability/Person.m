@@ -7,7 +7,7 @@
     self = [super init];
     if (self) {
       self.name = n;
-      if (_id == 0) { _id = i; }
+      if (_id == 0) { _id = i; }  // only change ID once
       [self info];
     }
 

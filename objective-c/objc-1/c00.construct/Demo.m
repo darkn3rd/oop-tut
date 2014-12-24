@@ -9,21 +9,21 @@ int main (int argc, const char * argv[])
   // create two objects
   Person *captain = [[Person alloc] init]; // instantiate new object
   Person *officer = [[Person alloc] init]; // instantiate new object
-  // initialize data through mutator (set)
-  captain.name = "Jean-Luc";      // call mutator
-  officer.name = "Data";          // call mutator
+  // initialize data through setter (set)
+  captain.name = "Jean-Luc";      // use property
+  officer.name = "Data";          // use property
 
   printf("\nPrinting Results:\n\n");
 
   // retrieve string from captain object
-  name = captain.name;           // call accessor
+  name = captain.name;           // use property
 
   // output results
   printf("  Name of the Captain:\n");
   printf("\t%s\n", name);
 
   // retrieve string from captain object
-  name = officer.name;           // call accessor
+  name = officer.name;           // use property
 
   // output results
   printf("  Name of the Officer:\n");

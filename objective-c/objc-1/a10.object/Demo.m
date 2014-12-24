@@ -2,6 +2,6 @@
 
 int main (int argc, const char * argv[])
 {
-  Person *someperson = [Person new];
-  [someperson sayit];
+  Person *someperson = [Person new];  // instantiate object
+  [someperson sayit];                 // call instance method
 }

@@ -14,13 +14,13 @@ int main (int argc, const char * argv[])
   printf("\nPrinting Results:\n\n");
 
   // retrieve string from captain object
-  name = captain.name;  // call accessor
+  name = captain.name;  // use property
 
   // output results
   printf("  Name of the Captain:\n\t%s\n", name);
 
   // retrieve string from captain object
-  name = officer.name;              // call accessor
+  name = officer.name;  // use property
 
   // output results
   printf("  Name of the Officer:\n\t%s\n", name);
