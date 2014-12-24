@@ -1,5 +1,6 @@
 #import "Triangle.h"
 
+/**** CLASS IMPLEMENTATION *****/
 @implementation Triangle
 
 /******* INITIALIZERS *******/
@@ -8,7 +9,7 @@
   return self;
 }
 
-/******* METHODS *******/
+/*********** METHODS ***********/
 - (NSNumber *) calculateArea {
    return [NSNumber numberWithFloat: ([width floatValue] * [height floatValue] / 2)];
 }

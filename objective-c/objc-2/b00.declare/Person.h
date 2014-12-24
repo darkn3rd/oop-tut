@@ -1,13 +1,11 @@
 #import <Foundation/Foundation.h>
 #import <stdlib.h>
 
-// ###### Objects ######
-@interface Person : NSObject
-{
-  NSString *_name;
+@interface Person : NSObject {
+  NSString *_name;  // instance variable
 }
 
-//@property (assign) NSString *name;
+/********* ACCESSORS ***********/
 - (void)   setName: (NSString *) name;
 - (NSString *) name;
 

@@ -5,10 +5,10 @@ void NSPrint(NSString *str);
 
 @interface Person : NSObject
 
+/********* PROPERTIES **********/
 @property (assign) NSString *name;
 @property (assign) NSNumber *age;
-
-
+/********* INITIALIZERS ********/
 - (id) init;
 - (id) initWithAge: (NSNumber *) age;
 - (id) initWithName: (NSString *) name;

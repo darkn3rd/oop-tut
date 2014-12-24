@@ -3,12 +3,13 @@
 
 void NSPrint(NSString *str);
 
-@interface Shape : NSObject
-{
+@interface Shape : NSObject {
   NSNumber *width, *height;
 }
 
-  - (Shape *) initWithWidth: (NSNumber *) w height: (NSNumber *) h;
-  - (NSNumber *) calculateArea;
+/********* INITIALIZERS ********/
+- (Shape *) initWithWidth: (NSNumber *) w height: (NSNumber *) h;
+/*********** METHODS ***********/
+- (NSNumber *) calculateArea;
 
 @end

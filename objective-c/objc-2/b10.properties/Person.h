@@ -1,9 +1,9 @@
 #import <Foundation/Foundation.h>
 #import <stdlib.h>
 
-// ###### Objects ######
 @interface Person : NSObject
 
+/********* PROPERTIES **********/
 @property (assign) NSString *name;
 
 @end

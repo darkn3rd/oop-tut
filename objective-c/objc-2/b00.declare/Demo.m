@@ -1,7 +1,7 @@
 #import <stdlib.h>
 #import "Person.h"
 
-// ###### Blocks ######
+// ****** Blocks ******
 void (^NSPrint)(NSString *) = ^(NSString *str) {
   [str writeToFile:@"/dev/stdout" atomically:NO encoding:NSUTF8StringEncoding error:nil];
 };

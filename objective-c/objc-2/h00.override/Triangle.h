@@ -2,7 +2,9 @@
 
 @interface Triangle : Shape
 
-  - (Triangle *) initWithWidth: (NSNumber *) w height: (NSNumber *) h;
-  - (NSNumber *) calculateArea;
+/********* INITIALIZERS ********/
+- (Triangle *) initWithWidth: (NSNumber *) w height: (NSNumber *) h;
+/*********** METHODS ***********/
+- (NSNumber *) calculateArea;
 
 @end

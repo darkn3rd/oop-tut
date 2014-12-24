@@ -6,10 +6,10 @@ void NSPrint(NSString *str)
   [str writeToFile:@"/dev/stdout" atomically:NO encoding:NSUTF8StringEncoding error:nil];
 }
 
-/******* CLASS *******/
+/**** CLASS IMPLEMENTATION *****/
 @implementation Person
 
-/******* INITIALIZERS *******/
+/********* INITIALIZERS ********/
 - (id) init {
    if (self = [super init]) { [self initWithName: @"(NULL)" age: @-1]; }
    return self;
@@ -35,7 +35,7 @@ void NSPrint(NSString *str)
    return self;
 }
 
-// ###### Methods ######
+/*********** METHODS ***********/
 - (void) info {
   NSPrint([NSString stringWithFormat: @" [INFO]: Person Object is created with age=\"%@\"", _age]);
   NSPrint([NSString stringWithFormat: @", name=\"%@\"\n", _name]);

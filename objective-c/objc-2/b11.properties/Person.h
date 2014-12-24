@@ -3,6 +3,7 @@
 
 @interface Person : NSObject
 
+/********* PROPERTIES **********/
 @property (assign) NSString *name;
 
 @end

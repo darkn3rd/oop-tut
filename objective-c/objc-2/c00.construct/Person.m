@@ -6,9 +6,9 @@ void NSPrint(NSString *str)
   [str writeToFile:@"/dev/stdout" atomically:NO encoding:NSUTF8StringEncoding error:nil];
 }
 
-/******* CLASS *******/
+/**** CLASS IMPLEMENTATION *****/
 @implementation Person
-/******* INITIALIZERS *******/
+/********* INITIALIZERS ********/
 - (Person *) init {
   // Forward to appropriate initialization method
   NSPrint(@" [INFO]: Person Object is created\n");

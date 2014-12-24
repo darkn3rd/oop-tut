@@ -3,7 +3,7 @@
 
 int main (int argc, const char * argv[])
 {
-  // ########## INITIALIZE DATA ##########
+  // ********** INITIALIZE DATA **********
   NSString *name;
   NSNumber *gpa;
 
@@ -19,13 +19,13 @@ int main (int argc, const char * argv[])
   captain.gpa = @3.8;
   officer.gpa = @4;
 
-  // ########## TEST CAPTAIN OBJECT ##########
+  // ********** TEST CAPTAIN OBJECT **********
   name = captain.name; // accessor
   gpa  = captain.gpa;  // accessor
 
   NSPrint([NSString stringWithFormat: @"Captain:\n\tName: %@\n\tGPA: %@\n", name, gpa]);
 
-  // ########## TEST OFFICER OBJECT ##########
+  // ********** TEST OFFICER OBJECT **********
   name = officer.name; // accessor
   gpa  = officer.gpa;  // accessor
 

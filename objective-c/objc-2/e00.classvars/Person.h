@@ -5,9 +5,9 @@ void NSPrint(NSString *str);
 
 @interface Person : NSObject
 
+/********* PROPERTIES **********/
 @property (assign) NSString *name;
-
-/******* Initializers ********/
+/********* INITIALIZERS ********/
 + (void) initialize;
 - (Person *) init;
 - (Person *) initWithName: (NSString *) name;
@@ -15,6 +15,6 @@ void NSPrint(NSString *str);
 - (void) dealloc;
 /******* Methods ********/
 - (void) info;
-/******* Accessors ********/
+/********* ACCESSORS ***********/
 + (NSNumber *) count;
 @end

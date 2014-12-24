@@ -6,11 +6,12 @@ void NSPrint(NSString *str)
   [str writeToFile:@"/dev/stdout" atomically:NO encoding:NSUTF8StringEncoding error:nil];
 }
 
-/******* CLASS VAROABLE *******/
+/******* CLASS VARIABLE ********/
 static NSNumber *count;
 
+/**** CLASS IMPLEMENTATION *****/
 @implementation Person
-/******* INITIALIZERS *******/
+/********* INITIALIZERS ********/
 + (void) initialize { count = @0; }
 
 - (Person *) init {
@@ -40,12 +41,12 @@ static NSNumber *count;
 #endif
 }
 
-/******* METHODS *******/
+/*********** METHODS ***********/
 -  (void) info {
     NSPrint([NSString stringWithFormat: @"[INFO] Person Object: name='%@' created.\n", _name]);
 }
 
-/******* ACCESSORS *******/
+/********* ACCESSORS ***********/
 + (NSNumber *) count { return count; }
 
 

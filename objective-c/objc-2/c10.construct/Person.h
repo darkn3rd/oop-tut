@@ -5,8 +5,9 @@ void NSPrint(NSString *str);
 
 @interface Person : NSObject
 
+/********* PROPERTIES **********/
 @property (assign) NSString *name;
-
+/******** INITIALIZERS *********/
 - (id) init: (NSString *) name;
 
 @end

@@ -6,10 +6,10 @@ void NSPrint(NSString *str)
   [str writeToFile:@"/dev/stdout" atomically:NO encoding:NSUTF8StringEncoding error:nil];
 }
 
-/******* CLASS *******/
+/**** CLASS IMPLEMENTATION *****/
 @implementation Person
 
-/******* Constructors *******/
+/********* INITIALIZERS ********/
 - (Person *) init: (NSString *) name {
     if (self = [super init]) { _name = name; }
     return self;
