@@ -1,7 +1,7 @@
-#import "Shapeable.h"
+#import "Dimensionable.h"
 #import "Shape.h"
 
-@interface Rectangle : Shape <Shapeable>
+@interface Rectangle : Shape <Dimensionable>
 
   - (Rectangle *) initWithWidth: (double) w height: (double) h;
   - (double) calculateArea;

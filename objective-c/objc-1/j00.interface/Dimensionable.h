@@ -1,6 +1,6 @@
 #import <objc/Object.h>
 
-@protocol Shapeable
+@protocol Dimensionable
 
   - (double) calculateArea;
 
