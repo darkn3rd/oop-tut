@@ -1,0 +1,27 @@
+UNAME_S := $(shell uname -s)
+ifeq ($(UNAME_S),Linux)
+	CC= gcc
+	CCFLAGS += -Wall
+	LDFLAGS += -lobjc
+endif
+ifeq ($(UNAME_S),Darwin)
+	CC = gcc
+	CCFLAGS += -arch i386
+	LDFLAGS += -lobjc -arch i386
+endif
+
+all: Demo
+Demo: Demo.o Person.o Student.o
+	$(CC) $(LDFLAGS) -o $@ $^
+Demo.o: Demo.m
+	$(CC) $(CCFLAGS) -c $^ -o $@
+Person.o: Person.m
+	$(CC) $(CCFLAGS) -c $^ -o $@
+Student.o: Student.m
+	$(CC) $(CCFLAGS) -c $^ -o $@
+
+run: all
+	./Demo
+
+clean:
+	$(RM) *.o Demo
