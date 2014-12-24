@@ -47,8 +47,9 @@ This uses a `Person` and `Student` metaphor, where `Student` is a type of a `Per
    * :green_book: Constructor with parameters (C10)
    * :green_book: Destructor (C20)
 * :books: Overloading Constructors (D00)
-   * :green_book: Delegated Constructor (D10)
-   * :green_book: Dynamic Constructor (D20)
+   * :green_book: Multiple Constructors (D10)
+   * :green_book: Delegated Constructor (D20)
+   * :green_book: Dynamic Constructor (D30)
 * :books: Class Variables
    * :green_book: Class Method (E10)
 * :books: Immutable Fields (F00)
