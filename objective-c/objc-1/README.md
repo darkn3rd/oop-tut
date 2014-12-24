@@ -5,18 +5,6 @@
 
 This is a tutorial of the Objective-C using the generic `objc/Object` library.  As this library is antiquated, it uses the limited features Objective-C version 1.
 
-## Overview
-
-Wikipedia [article](http://en.wikipedia.org/wiki/Objective-C) on Objective-C does a far better job that I could explain:
-
-* http://en.wikipedia.org/wiki/Objective-C
-
-## Terminology
-
-In my tutorials, I use the term ***accessor*** to mean a method (member function) that accesses instance variables (fields) from an object, and I use the term ***mutator*** to mean a method (member function) that changes instance variables (fields) in an object.  These are called ***getters*** and ***setters*** respectively.
-
-In some OOP languages, like Objective-C and Ruby, an ***accessor*** can be either a ***getter*** or ***setter***.  I will try my best to be explicit on these to avoid confusion.
-
 ## Installation
 
 Here are some [Installation Instructions](INSTALL.md) that will help configure and setup an Objective-C environment with the Foundation Libraries.  
@@ -38,7 +26,7 @@ These are the current lessons devised thus far are the following
  * :green_book: Class Variables
  * :closed_book: Immutability
     * :page_facing_up: Immutability by omitting setter
-     * :page_facing_up: Immutability using Properties
+    * :page_facing_up: Immutability using Properties
  * :green_book: Inheritance
     * :page_facing_up: Using parent methods
     * :page_facing_up: Using parent fields (ivars)
@@ -59,8 +47,3 @@ A basic make file is included and has been tested Mountain Lion (OS X 10.8.5).  
 * :dvd: Mac OS X 10.8.5 (Mountain Lion)
   * :package:  XCode 5.1.1 (Apple LLVM 5.1)
   * :package:  XCode 5.1.1 Command Line Tools
-
-## Links
-
-* [Google Objective-C Style Guide](http://google-styleguide.googlecode.com/svn/trunk/objcguide.xml)  
-* [Coding Guidelines for Cocoa](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.pdf)
