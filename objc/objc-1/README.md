@@ -28,10 +28,10 @@ These are the current lessons devised thus far are the following
  1. :green_book: Declaration and Instantiation
     * Properties with setter and getters
     * Properties accessed with dot `.` notation
- 2. :green_book: Constructors
-    * :page_facing_up: Custom Constructors
- 3. :closed_book: Overloading Constructors ***ALTERNATIVE***
-    * :page_facing_up: Constructor Chaining
+ 2. :green_book: Initializer
+    * :page_facing_up: Custom Initializer
+ 3. :green_book: Multiple Initializer ***ALTERNATIVE***
+    * :page_facing_up: Initializer Chaining (Delegation)
  4. :green_book: Class Variables
  5. :closed_book: Immutability ***ALTERNATIVE***
     * Immutability using Properties
