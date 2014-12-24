@@ -7,16 +7,16 @@ endif
 ifeq ($(UNAME_S),Darwin)
 	CC = gcc
 	CCFLAGS += -arch i386
-	LDFLAGS +=
+	LDFLAGS += -lobjc -arch i386
 endif
 
 all: Demo
 Demo: Demo.o Person.o
-	$(CC) $(LDFLAGS) -o Demo Demo.o Person.o
+	$(CC) $(LDFLAGS) -o $@ $^
 Demo.o: Demo.m
-	$(CC) $(CCFLAGS) -c Demo.m -o $@
+	$(CC) $(CCFLAGS) -c $^ -o $@
 Person.o: Person.m
-	$(CC) $(CCFLAGS) -c Person.m -o $@
+	$(CC) $(CCFLAGS) -c $^ -o $@
 
 run: all
 	./Demo
