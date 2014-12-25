@@ -1,24 +1,17 @@
-SMONKY := $(shell command -v js > /dev/null 2>&1; echo $?)
-RHINO  := $(shell command -v rhino > /dev/null 2>&1; echo $?)
-ifeq ($(SMONKY),1)
-	RUN = js
-endif
-ifeq ($(RHINO),0)
-	RUN = rhino
-endif
-
 TSC = tsc
 TSFLAGS =
-RUN = rhino
+RUN = node
 
-all: Demo.js Person.js
-Demo.js: Demo.ts
-	$(TSC) $(TSFLAGS) Demo.ts
-Person.js: Person.ts
-	$(TSC) $(TSFLAGS) Person.ts
+.SUFFIXES: .js .ts
+
+all: Demo.njs
+Demo.njs: Person.js Demo.js
+	sed -e '1i print=console.log;' -e '/^load/d' $^ > $@
+.ts.js:
+	$(TSC) $(TSFLAGS) $<
 
 run: all
-	$(RUN) Demo.js
+	$(RUN) Demo.njs
 
 clean:
-	$(RM) *.js
+	$(RM) *.js *.njs

@@ -44,8 +44,10 @@ load('YourCode.js');
 ## Usage
 
 * Compiling: `make`
+* Running using Node: `node Demo.njs`
 * Running using SpiderMonkey: `js Demo.js`
 * Running using Rhino: `rhino Demo.js`
+* Cleaning up: `make clean`
 
 ## Tested Systems
 
