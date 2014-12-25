@@ -45,6 +45,119 @@ These scripts have been tested sporadically on the following operating systems:
 
 # Installation Notes
 
+## Mac OS X Overview
+
+### Prerequisites
+
+##### XCode
+
+The latest XCode is needed along with XCode command line tools.  Instructions for this are from: https://developer.apple.com.
+
+##### Java
+
+A Java compiler is needed to compile Java, Groovy, or Rhino scripts.  Download the latest JDK from Oracle.
+
+Here's an example of downloading JDK 1.8 Update 25 from Oracle:
+
+```bash
+$ curl -v -j -k -L -H "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u25-b17/jdk-8u25-macosx-x64.dmg > ~/Downloads/jdk-8u25-macosx-x64.dmg
+$ hdiutil mount ~/Downloads/jdk-8u25-macosx-x64.dmg
+$ sudo -S installer -verbose -pkg "/Volumes/JDK 8 Update 25/JDK 8 Update 25.pkg" -target /
+$ java -version
+java version "1.8.0_25"
+Java(TM) SE Runtime Environment (build 1.8.0_25-b17)
+Java HotSpot(TM) 64-Bit Server VM (build 25.25-b02, mixed mode)
+```
+
+##### Homebrew for Package Management
+
+Install [HomeBrew](http://brew.sh/) as the package manager:
+
+```bash
+$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ brew update
+$ brew doctor
+```
+
+##### GNU Sed
+
+Mac OS X has the needed tools with exception of GNU Sed.  This can be added to the environment through this:
+
+```bash
+$ brew install gnu-sed --with-default-names
+$ sudo /usr/local/bin/sed -e '/\/usr\/local\/bin/d' -e '1i /usr/local/bin' -i /etc/paths
+$ sed --version | head -1
+sed (GNU sed) 4.2.2
+```
+
+### Install Packages
+
+```bash
+$ brew install ant
+$ brew install groovy
+$ brew install mono
+$ brew install nant
+$ brew tap dart-lang/dart
+$ brew install dart
+$ brew install spidermonkey
+$ brew install rhino
+$ brew install v8
+$ brew install node
+$ npm install -g typescript
+$ npm install -g coffee-script
+$ brew install python
+$ pip install --upgrade --no-use-wheel pip
+$ pip install --upgrade --no-use-wheel setuptools
+$ brew install ruby
+$ gem update
+$ gem install bundler
+```
+
+### Verify Versions
+
+```bash
+$ java -version
+java version "1.8.0_25"
+Java(TM) SE Runtime Environment (build 1.8.0_25-b17)
+Java HotSpot(TM) 64-Bit Server VM (build 25.25-b02, mixed mode)
+$ ant -version
+Apache Ant(TM) version 1.9.4 compiled on April 29 2014
+$ groovy -v
+Groovy Version: 2.3.7 JVM: 1.8.0_25 Vendor: Oracle Corporation OS: Mac OS X
+$ mono --version | head -1
+Mono JIT compiler version 3.10.0 (tarball Wed Oct 22 10:09:38 BST 2014)
+$ mcs --version
+Mono C# compiler version 3.10.0.0
+$ nant -h | head -1
+NAnt 0.92 (Build 0.92.4543.0; release; 6/9/2012)
+$ ruby -v
+ruby 2.1.5p273 (2014-11-13 revision 48405) [x86_64-darwin13.0]
+$ gem --version
+2.2.2
+$ bundle --version
+Bundler version 1.7.9
+$ python --version
+Python 2.7.9
+$ pip --version
+pip 6.0.3 from /usr/local/lib/python2.7/site-packages (python 2.7)
+$ dart --version
+Dart VM version: 1.8.3 (Mon Dec  1 07:52:54 2014) on "macos_x64"
+$ echo node version: $(node --version)
+node version: v0.10.35
+$ echo npm version: $(npm --version)
+npm version: 2.1.14
+$ tsc --version
+message TS6029: Version 1.3.0.0
+$ coffee --version
+CoffeeScript version 1.8.0
+$ echo js version: $(ls -l /usr/local/bin | grep 'js ' | awk -F/ '{ print $4 }')
+js version: 1.8.5
+$ echo rhino version: $(ls -l /usr/local/bin | grep rhino | awk -F/ '{ print $4 }')
+rhino version: 1.7R4
+$ echo v8 version: $(ls -l /usr/local/bin | grep 'v8 ' | awk -F/ '{ print $4 }')
+v8 version: 3.25.30
+```
+
 ## Mac OS X 10.8.5 (Snow Leopard)
 
 ### Prerequisites
