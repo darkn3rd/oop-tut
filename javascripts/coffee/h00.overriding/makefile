@@ -1,22 +1,15 @@
-SMONKY := $(shell command -v js > /dev/null 2>&1; echo $?)
-RHINO  := $(shell command -v rhino > /dev/null 2>&1; echo $?)
-ifeq ($(SMONKY),1)
-RUN = js
-endif
-ifeq ($(RHINO),0)
-RUN = rhino
-endif
-
-JSC = coffee
+JSC     = coffee
 JSFLAGS = --compile --stdio
-RUN = rhino
+RUN     = node
 
-all: Demo.js
-Demo.js: Demo.coffee Shape.coffee Triangle.coffee Rectangle.coffee
-	cat Shape.coffee Triangle.coffee Rectangle.coffee Demo.coffee | $(JSC) $(JSFLAGS) > $@
+all: Demo.njs
+Demo.njs: Demo.js
+	sed '1i print=console.log;' $^ > $@
+Demo.js: Shape.coffee Triangle.coffee Rectangle.coffee Demo.coffee
+	cat $^ | $(JSC) $(JSFLAGS) > $@
 
 run: all
-	$(RUN) Demo.js
+	$(RUN) Demo.njs
 
 clean:
-	$(RM) *.js
+	$(RM) *.js *.njs
