@@ -14,6 +14,23 @@ CoffeeScript has a lot of excellent syntax sugar that automates extremely tediou
 * CoffeeScript automatically creates `var` statements for any variables initially defined.  There are some patterns in JavaScript where this is undesirable, such as calling a method that might indirectly create these in your object, and so explicitly creating variables will cause such methods to fail.
 * CoffeeScript automatically creates return block, where your last line of a function is a return.  There are numerous patterns in JavaScript that require explicit control over crafting the return block, including not returning things.
 
+## Usage
+
+I crafted some make scripts that can be used to run these demoes using Node.js:
+
+* Building: `make`
+* Running: `make run`
+* Cleaning: `make clean`
+
+You can alternatively run `node Demo.njs`
+
+You can use other java engines as well:
+
+* SpiderMonkey `js Demo.js`
+* Rhino `js Demo.js`
+* V8 `v8 Demo.js`
+
+
 ## Tested Systems
 
 * :dvd: *__OS X 10.8.5 (Mountain Lion)__*
