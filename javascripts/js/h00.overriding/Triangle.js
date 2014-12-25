@@ -2,16 +2,12 @@ load('Shape.js');
 /******* CLASS DEFINITION *******/
 var Triangle = (function () {
   /******* CONSTRUCTOR *******/
-  function Triangle (name, gpa) {
-    Shape.call(this, name);
-    this.gpa = gpa != null ? gpa : 0.0;
-  }
+  function Triangle (width, height) { Shape.call(this, width, height); }
 
-  /******* PROPERTIES *******/
-  Object.defineProperty(Shape.prototype, "gpa", {
-    get: function(){ return this._gpa },
-    set: function(value) { this._gpa = value }
-  });
+  /******* METHODS *******/
+  Triangle.prototype.calculateArea = function () {
+    return (this.width * this.height) / 2;
+  };
 
   return Triangle;
 })(Shape);

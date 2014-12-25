@@ -1,13 +1,15 @@
 /******* CLASS DEFINITION *******/
 var Shape = (function () {
-  /******* CONSTRUCTOR *******/
-  function Shape (name) { this.name = name; }
+  var width, height;
 
-  /******* PROPERTIES *******/
-  Object.defineProperty(Shape.prototype, "name", {
-    get: function(){ return this._name },
-    set: function(value) { this._name = value }
-  });
+  /******* CONSTRUCTOR *******/
+  function Shape(width, height) {
+    this.width = width;
+    this.height = height;
+  }
+
+  /******* METHODS *******/
+  Shape.prototype.calculateArea = function () { return 0.0; };
 
   return Shape;
 })();

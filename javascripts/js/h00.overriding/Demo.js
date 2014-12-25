@@ -1,17 +1,13 @@
-load('Student.js');
+load('Triangle.js');
+load('Rectangle.js');
 /******* MAIN SECTION *******/
-var captain = new Student("Jean-Luc");  // create obj w/ name
-captain.gpa = 3.8;                      // set object's gpa
-var officer = new Student("Data", 4.0); // create obj w/ name, gpa
+var shapeObject     = new Shape(4, 5);
+var triangleObject  = new Triangle(4, 5);
+var rectangleObject = new Rectangle(4, 5);
 
-// retrieve data from captain object
-name = captain.name;
-gpa = captain.gpa;
-
-print("Captain:\n\tName: " + name + "\n\tGPA: " + gpa);
-
-// retrieve data from officer object
-name = officer.name;
-gpa = officer.gpa;
-
-print("Officer:\n\tName: " + name + "\n\tGPA: " + gpa);
+print("The Area of a Shapeless object with 4 and 5: "
+  + shapeObject.calculateArea());
+print("The Area of a Triangle object with 4 and 5:  "
+  + triangleObject.calculateArea());
+print("The Area of a Rectangle object with 4 and 5: "
+  + rectangleObject.calculateArea());
