@@ -4,6 +4,14 @@ There are numerous engines out there that implement JavaScript based on ES3 (ECM
 
 Also, I wanted to explore some alternatives, like Coffee-Script, TypeScript, and Dart.  Essentially, I wanted to see what the fuss is about. :smile:
 
+## Terminology
+
+### Properties
+
+In the general community of OOP, ***properties*** refers indirect access to to private *fields* through some sort of wrapper functions, such as *getter* and *setter* methods.  This functionality was added in ES5 standard, and this functionality are explicitly called ***accessor properties***, to avoid confusion with the traditional use of the word in the JavaScript community.
+
+The term ***properties*** in JavaScript traditionally refers to the data (or key/value pairs) inside an object, but with the new ES5 standard, these are explicitly called ***data properties*** to avoid ambiguity.
+
 ## Install Notes for OS X 10.8.5 (Snow Leopard)
 
 ### SpiderMonkey
