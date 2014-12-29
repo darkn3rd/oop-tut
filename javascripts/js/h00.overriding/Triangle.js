@@ -1,6 +1,8 @@
 load('Shape.js');
 /******* CLASS DEFINITION *******/
 var Triangle = (function () {
+  Triangle.prototype = new Shape();  // use shape for basis of prototype 
+
   /******* CONSTRUCTOR *******/
   function Triangle (width, height) { Shape.call(this, width, height); }
 
@@ -11,5 +13,3 @@ var Triangle = (function () {
 
   return Triangle;
 })(Shape);
-
-Triangle.prototype = new Shape();

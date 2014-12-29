@@ -1,5 +1,5 @@
 /******* OBJECT DECLARATION *******/
-var Person = {
-  /******* OBJECT METHOD *******/
-  sayit: function(){ print("Hello World!\n") }
-};
+var Person = { /* nothing */ };
+
+/******* OBJECT METHOD *******/
+Person.__proto__.sayit = function(){ print("Hello World!\n") };

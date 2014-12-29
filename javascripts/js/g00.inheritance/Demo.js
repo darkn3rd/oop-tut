@@ -24,3 +24,5 @@ name = officer.name;
 gpa = officer.gpa;
 
 print("Officer:\n\tName: " + name + "\n\tGPA: " + gpa);
+
+print("");

@@ -1,6 +1,8 @@
 load('Person.js');
 /******* CLASS DEFINITION *******/
 var Student = (function () {
+  Student.prototype = new Person();
+
   /******* CONSTRUCTOR *******/
   function Student (name, gpa) {
     this.name = name;                    // parent is not being accessed.
@@ -8,12 +10,10 @@ var Student = (function () {
   }
 
   /******* PROPERTIES *******/
-  Object.defineProperty(Person.prototype, "gpa", {
+  Object.defineProperty(Student.prototype, "gpa", {
     get: function(){ return this._gpa },
     set: function(value) { this._gpa = value }
   });
 
   return Student;
 })(Person);
-
-Student.prototype = new Person();
