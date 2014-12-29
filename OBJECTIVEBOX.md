@@ -38,7 +38,7 @@ These scripts have been tested sporadically on the following operating systems:
 * **Frameworks, Compilers, Runtime Engines**
   * GNUStep or Cocoa
   * Node.js, SpiderMonkey, Rhino, or V8
-  * GNU compilers, CLang, or Visual C++
+  * gcc, clang, or Visual C++
   * Dart
   * Ruby
   * Python
