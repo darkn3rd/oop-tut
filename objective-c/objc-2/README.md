@@ -5,18 +5,6 @@
 
 This material is in its infancy. A basic makefile is included that is tested with clang.  The exact lessons (use cases) are still being developed.
 
-## Overview
-
-Wikipedia [article](http://en.wikipedia.org/wiki/Objective-C) on Objective-C does a far better job that I could explain:
-
-* http://en.wikipedia.org/wiki/Objective-C
-
-## Terminology
-
-In my tutorials, I use the term ***accessor*** to mean a method (member function) that accesses instance variables (fields) from an object, and I use the term ***mutator*** to mean a method (member function) that changes instance variables (fields) in an object.  These are called ***getters*** and ***setters*** respectively.
-
-In some OOP languages, like Objective-C and Ruby, an ***accessor*** can be either a ***getter*** or ***setter***.  I will try my best to be explicit on these to avoid confusion.
-
 ## Installation
 
 Here are some [Installation Instructions](INSTALL.md) that will help configure and setup an Objective-C environment with the Foundation Libraries.  

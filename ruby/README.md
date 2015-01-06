@@ -36,7 +36,7 @@ These are the current lessons devised thus far are the following
 
 ## Usage
 
-* Running the Demonstration: `./demo.py`
+* Running the Demonstration: `./demo.rb`
 
 ## Tested Systems
 

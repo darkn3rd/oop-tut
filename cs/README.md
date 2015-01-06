@@ -1,4 +1,4 @@
-# OOP Tutorial in C# 
+# OOP Tutorial in C#
 **© 2014 by Joaquín Menchaca**
 
 ## Overview
@@ -7,15 +7,19 @@ The C# language was developed as apart of Microsoft's .NET initiative in 2002 an
 
 There are two popular platforms for running C# and CLI platform: [Microsoft .NET](http://www.microsoft.com/net) and [Mono Project](http://www.mono-project.com/).
 
-### Common Langauge Infrastructure
+### About Common Langauge Infrastructure
 
-The Common Language Infrastructure is a set of technologies that are similar in some ways to the Java Platform, where Java source code is compiled to an intermediary Java Bytecode, which is executed by a Java Virtual Machine that runs natively on the operating system.  In Common Language Infrastructure, source code is compiled into bytecode called CIL ([Common Intermediate Language](http://en.wikipedia.org/wiki/Common_Intermediate_Language)).  This bytecode is executed by an application virtual machine called CLR (Common Language Runtime).  The Common Language Infrastructure was in its inception to support multiple languages on one single platform.
+The Common Language Infrastructure is a set of technologies that are similar in some ways to the Java Platform, where Java source code is compiled to an intermediary Java Bytecode, which is executed by a Java Virtual Machine that runs natively on the operating system.
+
+In Common Language Infrastructure, source code is compiled into bytecode called CIL ([Common Intermediate Language](http://en.wikipedia.org/wiki/Common_Intermediate_Language)).  This bytecode is executed by an application virtual machine called CLR (Common Language Runtime).  The Common Language Infrastructure was in its inception to support multiple languages on one single platform.
 
 ### Impetus Behind CLI
 
-One of the driving reasons at Microsoft behind developing .NET was that at Microsoft there were numerous runtime engines, such as Visual C++, MFC, and Visual Basic.  It was difficult to share resources, as code and libraries were incompatible between the runtime engines.  Microsoft developed COM ([Component Object Model](http://en.wikipedia.org/wiki/Component_Object_Model)) as a means to create sharable libraries, but this was limited, complex, proprietary, and not ubiquitous.  There was a need to have stronger interoperability.
+One of the driving reasons at Microsoft behind developing .NET was that at Microsoft there were numerous runtime engines, such as Visual C++, MFC, and Visual Basic.  It was difficult to share resources, as code and libraries were incompatible between the runtime engines.  Microsoft developed COM ([Component Object Model](http://en.wikipedia.org/wiki/Component_Object_Model)) as a means to create sharable libraries, but this was limited, complex, proprietary, and not ubiquitous.  It also did not support inheritance.  There was a need to have stronger interoperability.
 
-The .NET implementation provides one runtime engine, the CLR virtual machine that can host numerous programming languages, e.g. Java (J#), C#, C++, VB (VB.NET), etc.  The code between languages is fully interchangeable as they all compile into CIL bytecode.  Thus, as an example, a Student class created in VB.NET could be derived from a Person class created in C#.
+The .NET implementation provides one runtime engine, the CLR virtual machine that can host numerous programming languages, e.g. Java (J#), C#, C++, VB (VB.NET), Ruby (IronRuby), Python (IronPython), etc.  
+
+The code between languages is fully interchangeable (incouding inheritance) as they all compile into CIL bytecode.  Thus, as an example, a Student class created in VB.NET could be derived from a Person class created in C#.
 
 As Microsoft branches into other processor architectures with smart phones, game consoles, and other devices, it will be easy to port and develop applications for those environments, as long as there's .NET available on the target platforms.
 

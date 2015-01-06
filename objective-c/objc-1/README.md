@@ -7,7 +7,7 @@ This is a tutorial of the Objective-C using the generic `objc/Object` library.  
 
 ## Installation
 
-Here are some [Installation Instructions](INSTALL.md) that will help configure and setup an Objective-C environment with the Foundation Libraries.  
+Here are some [Installation Instructions](INSTALL.md) that will help configure and setup an Objective-C environment with the Object Libraries.  
 
 ## Lessons
 
