@@ -64,10 +64,9 @@ tsc -> ../lib/node_modules/typescript/bin/tsc
 
 ### Dart
 
-Dart does not work on Mac OS X because of https://github.com/dartsim/homebrew-dart/issues/3.
+In searching for Google's Dart, a Google Search may lead you: https://github.com/dartsim. This is not the Dart Language, which is found at: https://www.dartlang.org/.
 
-
-### Dart (Problems)
+### Dart
 
 ```bash
 $ brew tap dart-lang/dart
