@@ -41,3 +41,10 @@ These are the current lessons devised thus far are the following
 * http://broken.build/2011/07/21/static-variables-and-methods-in-python/
 * [Python FAQ: Descriptors](http://eev.ee/blog/2012/05/23/python-faq-descriptors/)
 * [Introduction to Python descriptors](http://www.ibm.com/developerworks/library/os-pythondescriptors/)
+
+## Future Exploration
+
+* Encapsulation in Python
+  * [Encapsulation in Python: two approaches](http://lackingrhoticity.blogspot.com/2009/06/encapsulation-in-python-two-approaches.html)
+  * [Update on Securing the Python Interpreter](http://tav.espians.com/update-on-securing-the-python-interpreter.html)
+  * [Capabilities for Python?](http://neopythonic.blogspot.com/2009/03/capabilities-for-python.html)

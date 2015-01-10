@@ -48,3 +48,10 @@ These are the current lessons devised thus far are the following
 * [Read Ruby by Matthias Richwin](http://readruby.io/)
 * [Abstract classes in Ruby - losing the security blanket](http://yakhairsurplus.com/abstract-classes-ruby-losing-security-blanket/)
 * [Abstract classes in Ruby](http://riccardotacconi.blogspot.com/2012/12/abstract-classes-in-ruby.html)
+
+## Future Exploration
+
+* [What is a Closure?](http://joeybutler.net/ruby/what-is-a-closure/)
+* [
+Ruby is NOT a Callable Oriented Language (It’s Object Oriented)](http://yehudakatz.com/2010/02/21/ruby-is-not-a-callable-oriented-language/)
+* [Python vs. Ruby: A Battle to The Death](http://blog.extracheese.org/2010/02/python-vs-ruby-a-battle-to-the-death.html)
