@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 from Person import Person    # include Person.py
 
 # class declaration

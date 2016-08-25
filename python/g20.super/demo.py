@@ -1,4 +1,4 @@
-#!/usr/bin/python -B
+#!/usr/bin/env python
 from Student import Student    # include Person.py
 
 # create new objects and initialize data

@@ -1,4 +1,4 @@
-#!/usr/bin/python -B
+#!/usr/bin/env python
 from Person import Person    # include Person.py
 
 # instantiate three Person objects on the heap

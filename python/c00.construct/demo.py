@@ -1,4 +1,4 @@
-#!/usr/bin/python -B
+#!/usr/bin/env python
 from Person import Person    # include Person.py
 
 print("Creating two objects:\n")

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 ###### DESCRIPTOR ######
 class Descriptor(object):
   def __get__(self, instance, owner):

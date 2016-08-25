@@ -1,7 +1,7 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # class declaration
 class Person:
-  ###### SETTERS ######    
+  ###### SETTERS ######
   def setName (self,name):
     self.name = name      # set data
 

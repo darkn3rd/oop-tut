@@ -1,10 +1,10 @@
-#!/usr/bin/python -B
+#!/usr/bin/env python
 from Person import Person    # include Person.py
 
 # initialize data through mutator (set)
-person = Person()            # instantiate new object
-person.setName("Jean-Luc")   # mutator 
+captain = Person()            # instantiate new object
+captain.setName("Jean-Luc")   # mutator
 
 # access and print data through accessor (get)
-name   = person.getName()    # accessor
+name   = captain.getName()    # accessor
 print "Name of the Person:\n\t" + name

@@ -1,4 +1,4 @@
-#!/usr/bin/python -B
+#!/usr/bin/env python
 from Shape import Shape         # include Shape.py
 from Triangle import Triangle   # include Triangle.py
 from Rectangle import Rectangle # include Rectangle.py

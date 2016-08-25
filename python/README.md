@@ -11,21 +11,21 @@ The exact lessons (use cases) are still being developed.
 
 These are the current lessons devised thus far are the following
 
- 1. :green_book: Declaration and Instantiation
-    * :page_facing_up: Properties
- 2. :green_book: Initializer
-     * :page_facing_up: Default vs. Custom Initializer
- 3. :closed_book: Overloaded Constructors ***ALTERNATIVE***
+ 1. :green_book: Declaration and Instantiation (A00, A10)
+    * :page_facing_up: Properties (B10, B11)
+ 2. :green_book: Initializer (C00)
+     * :page_facing_up: Default vs. Custom Initializer (C10)
+ 3. :closed_book: Overloaded Constructors ***ALTERNATIVE*** (D30)
  4. :green_book: Class Variables
-    * :page_facing_up: Using `@staticmethod`
-    * :page_facing_up: Using `@classmethod`
-    * :page_facing_up: `Person.count` vs `self.__class__.count`
- 5. :closed_book: Immutability ***ALTERNATIVE***
+    * :page_facing_up: Using `@staticmethod` (E00)
+    * :page_facing_up: Using `@classmethod` (E01)
+    * :page_facing_up: `Person.count` vs `self.__class__.count` (E10)
+ 5. :closed_book: Immutability ***ALTERNATIVE*** (F00)
  6. :green_book: Inheritance
-    * :page_facing_up: Using parent methods
-    * :page_facing_up: Using `super()`
- 7. :green_book: Overriding Methods
- 8. :green_book: Abstraction
+    * :page_facing_up: Using parent methods (G00)
+    * :page_facing_up: Using `super()` (G20)
+ 7. :green_book: Overriding Methods (H00)
+ 8. :green_book: Abstraction (I00)
 
 ## Usage
 

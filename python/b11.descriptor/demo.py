@@ -1,4 +1,4 @@
-#!/usr/bin/python -B
+#!/usr/bin/env python
 from Person import Person    # include Person.py
 
 # initialize data through mutator (set)

@@ -1,4 +1,4 @@
-#!/usr/bin/python -B
+#!/usr/bin/env python
 from Person import Person    # include Person.py
 
 print("\n\tThe number of Persons is now: '%s'.\n" % Person.getCount())

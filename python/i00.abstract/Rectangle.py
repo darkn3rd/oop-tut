@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 from Shape import Shape    # include Shape.py
 
 # class declaration
