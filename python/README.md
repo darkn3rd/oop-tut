@@ -19,8 +19,8 @@ These are the current lessons devised thus far are the following
  4. :green_book: Class Variables
     * :page_facing_up: Using `@staticmethod` (E00)
     * :page_facing_up: Using `@classmethod` (E01)
-    * :page_facing_up: `Person.count` vs `self.__class__.count` (E10)
- 5. :closed_book: Immutability ***ALTERNATIVE*** (F00)
+    * :page_facing_up: `Person.count` vs `self.__class__.count` (E10, E11)
+ 5. :closed_book: Immutability ***ALTERNATIVE*** (F01)
  6. :green_book: Inheritance
     * :page_facing_up: Using parent methods (G00)
     * :page_facing_up: Using `super()` (G20)
@@ -41,6 +41,7 @@ These are the current lessons devised thus far are the following
 * http://broken.build/2011/07/21/static-variables-and-methods-in-python/
 * [Python FAQ: Descriptors](http://eev.ee/blog/2012/05/23/python-faq-descriptors/)
 * [Introduction to Python descriptors](http://www.ibm.com/developerworks/library/os-pythondescriptors/)
+* [Multimethod](https://adambard.com/blog/implementing-multimethods-in-python/)
 
 ## Future Exploration
 
