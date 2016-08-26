@@ -9,22 +9,43 @@ This is a very basic overview of OOP in Python.
 
 These are the current lessons devised thus far are the following
 
- 1. :green_book: Declaration and Instantiation (A00, A10)
-    * :page_facing_up: Instance Variables (B00)
-    * :page_facing_up: Properties (B10, B11)
- 2. :green_book: Initializer (C00)
-     * :page_facing_up: Default vs. Custom Initializer (C10)
- 3. :green_book: Dynamic Constructors (D30)
- 4. :green_book: Class Variables
-    * :page_facing_up: Using `@staticmethod` (E00, E01)
-    * :page_facing_up: Using `@classmethod` (E10, E11)
-    * :page_facing_up: `Person.count` vs `self.__class__.count` (E10, E11)
- 5. :closed_book: Immutability (through obfuscation) (F01)
- 6. :green_book: Inheritance
-    * :page_facing_up: Using parent methods (G00)
-    * :page_facing_up: Using `super()` (G20)
- 7. :green_book: Overriding Methods (H00)
- 8. :green_book: Abstraction (I00)
+### **PART I: INTRODUCTION**
+
+* :books: Class and Object
+  * :green_book: Class Declaration and Class Method (A00)
+  * :green_book: Object Instantiation and Instance Method (A10)
+* :books: Class Variable and Object Variable
+  * :green_book: Class Variable (B00)
+  * :green_book: Instance Variable (B10)
+
+### **PART II: MECHANICS**
+
+  * :books: Encapsulation and Access
+    * :green_book: Accessors and Mutators (C00)
+    * :green_book: Properties (C10)
+    * :green_book: Overloading Methods (C20)
+    * :green_book: Methods Variable Parameters (C30)
+  * :books: Construction (Initialization)
+     * :green_book: Initializer (D00)
+     * :green_book: Default/Customer Initializer (D10)
+  * :books: Overloading Constructors
+     * :green_book: Dynamic Constructor (E30)
+  * :books: Class Variables
+     * :green_book: Class Method using (F00, F00, F10, F11)
+  * :books: Immutability
+     * :green_book: Obfuscation (G01)
+  * :books: Inheritance
+    * :green_book: Parent Methods (H00)
+    * :green_book: Parent Constructor (H20)
+
+### **PART III: INHERITANCE**
+
+  * :books: Overriding
+    * :green_book: Override Methods (I00)
+    * :green_book: Override Properties (I01)
+  * :books: Abstraction (J00)
+    * :green_book: Abstract Methods (J00)
+    * :green_book: Abstract Properties (J01)
 
 ## **Tested Systems**
 

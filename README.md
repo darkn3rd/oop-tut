@@ -1,5 +1,5 @@
 # Object-Oriented-Programming Tutorial
-**© 2014 by Joaquín Menchaca**
+**© 2016 by Joaquín Menchaca**
 
 ## Overview
 
@@ -34,37 +34,48 @@ This is a simple `Person` class and object with a method that says "HelloWorld".
 * :books: Class and Object
   * :green_book: Class Declaration and Class Method (A00)
   * :green_book: Object Instantiation and Instance Method (A10)
+* :books: Class Variable and Object Variable
+  * :green_book: Class Variable (B00)
+  * :green_book: Instance Variable (B10)  
 
 ### Part II Mechanics
 
 This uses a `Person` and `Student` metaphor, where `Student` is a type of a `Person`.
 
-* :books: Instance Variables and Accessors
-  * :green_book: Accessors and Mutators (B00)
-  * :green_book: Properties (B10)
+* :books: Encapsulation and Access
+  * :green_book: Accessors and Mutators (C00)
+  * :green_book: Properties (C10)
+  * :green_book: Overloading Methods (C20)
+  * :green_book: Methods Variable Parameters (C30)
 * :books: Construction (Initialization)
-   * :green_book: Constructor (C00)
-   * :green_book: Constructor with parameters (C10)
-   * :green_book: Destructor (C20)
-* :books: Overloading Constructors (D00)
-   * :green_book: Multiple Constructors (D10)
-   * :green_book: Delegated Constructor (D20)
-   * :green_book: Dynamic Constructor (D30)
+   * :green_book: Constructor (D00)
+   * :green_book: Constructor with parameters (D10)
+   * :green_book: Destructor (D20)
+* :books: Overloading Constructors
+  * :green_book: Single Constructors (E00)
+   * :green_book: Multiple Constructors (E10)
+   * :green_book: Delegated Constructor (E20)
+   * :green_book: Dynamic Constructor (E30)
 * :books: Class Variables
-   * :green_book: Class Method (E10)
-* :books: Immutable Fields (F00)
+   * :green_book: Class Method (F10)
+* :books: Immutability
+   * :green_book: Immutable Fields (G00)
 * :books: Inheritance
-  * :green_book: Parent Methods (G00)
-  * :green_book: Parent Fields (G10)
-  * :green_book: Parent Constructor (G20)
+  * :green_book: Parent Methods (H00)
+  * :green_book: Parent Fields (H10)
+  * :green_book: Parent Constructor (H20)
 
 ### Part III
 
 This uses an abstract `Shape` and concrete `Triangle` and `Rectangle` to illustrate concepts in this section.
 
-* :books: Overriding (H00)
-* :books: Abstraction (I00)
-* :books: Interface (J00)
+* :books: Overriding
+  * :green_book: Override Methods (I00)
+* :books: Abstraction
+  * :green_book: Abstract Methods (J00)
+* :books: Interface
+  * :green_book: Interface Methods (K00)
+
 
 ### Future Sections
 
