@@ -9,5 +9,6 @@ class Triangle(Shape):
         self.height = args[1] / 1.0
 
     ###### METHODS ######
-    def getArea(self):
+    @property
+    def area(self):
         return (self.base * self.height) / 2

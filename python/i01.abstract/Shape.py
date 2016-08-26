@@ -7,5 +7,6 @@ class Shape(object):
     __metaclass__ = ABCMeta
 
     ###### METHODS ######
+    @property
     @abstractmethod
-    def getArea(self): pass
+    def area(self): pass

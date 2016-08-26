@@ -2,12 +2,13 @@
 from Shape import Shape  # include Shape.py
 
 # class declaration
-class Triangle(Shape):
+class Rectangle(Shape):
     ###### INITIALIZER ######
     def __init__(self, *args):
-        self.base = args[0] / 1.0
+        self.width  = args[0] / 1.0
         self.height = args[1] / 1.0
 
     ###### METHODS ######
-    def getArea(self):
-        return (self.base * self.height) / 2
+    @property
+    def area(self):
+        return (self.width * self.height)

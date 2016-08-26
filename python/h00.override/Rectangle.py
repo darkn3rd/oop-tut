@@ -9,5 +9,5 @@ class Rectangle(Shape):
         self.height = args[1] / 1.0
 
     ###### METHODS ######
-    def calculateArea(self):
+    def getArea(self):
         return (self.width * self.height)
