@@ -3,8 +3,8 @@
 class Person:
   ###### SETTERS ######
   def setName (self,name):
-    self.name = name      # set data
+    self._name = name      # set data
 
   ###### GETTERS ######
   def getName(self):
-    return self.name      # return data
+    return self._name      # return data
