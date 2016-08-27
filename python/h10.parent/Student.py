@@ -10,9 +10,9 @@ class Student(Person):
 
   ###### PROPERTIES ######
   @property
-  def name (self):
+  def gpa (self):
     return self._gpa
 
-  @name.setter
-  def name (self, gpa):
+  @gpa.setter
+  def gpa (self, gpa):
     self._gpa = gpa
