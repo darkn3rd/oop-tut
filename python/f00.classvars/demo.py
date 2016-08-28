@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 from Person import Person    # include Person.py
 
-print("\n\tThe number of Persons is now: '%s'.\n" % Person.getCount())
+print("\n\tThe number of Persons is now: '%s'.\n" % Person.get_count())
 
 print("Creating Persons...\n")
 
@@ -10,4 +10,4 @@ captain = Person("Jean-Luc")
 officer = Person("Data")
 ensign  = Person("Wesley")
 
-print("\n\tThe number of Persons is now: '%s'.\n" % Person.getCount())
+print("\n\tThe number of Persons is now: '%s'.\n" % Person.get_count())

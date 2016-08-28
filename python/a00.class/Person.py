@@ -3,5 +3,5 @@
 class Person:
   ###### CLASS METHOD ######
   @classmethod
-  def sayit(cls):
+  def say_it(cls):
     print("Hello World!")

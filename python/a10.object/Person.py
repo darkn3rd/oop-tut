@@ -2,5 +2,5 @@
 # class declaration
 class Person:
   ###### INSTANCE METHOD ######
-  def sayit(self):
+  def say_it(self):
     print("Hello World.")

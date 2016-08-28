@@ -3,8 +3,8 @@ from Person import Person    # include Person.py
 
 # initialize data through mutator (set)
 captain = Person()            # instantiate new object
-captain.setName("Jean-Luc")   # mutator
+captain.set_name("Jean-Luc")   # mutator
 
 # access and print data through accessor (get)
-name   = captain.getName()    # accessor
+name   = captain.get_name()    # accessor
 print "Name of the Person:\n\t" + name

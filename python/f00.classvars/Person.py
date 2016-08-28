@@ -27,5 +27,5 @@ class Person:
     self._name = name
 
   @staticmethod
-  def getCount():
+  def get_count():
     return Person.count
