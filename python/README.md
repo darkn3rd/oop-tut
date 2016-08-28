@@ -9,6 +9,8 @@ This is a very basic overview of OOP in Python.
 
 These are the current lessons devised thus far are the following.
 
+***Note**: The getter/setter methods added for illustration purposes, but should be noted these are considered an anti-pattern in the Python community.  Direct access or using a Property decorator is the preferred method.
+
 ### **PART I: INTRODUCTION**
 
 * :books: Class and Object
