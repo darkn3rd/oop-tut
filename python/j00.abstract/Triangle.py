@@ -5,9 +5,9 @@ from Shape import Shape  # include Shape.py
 class Triangle(Shape):
     ###### INITIALIZER ######
     def __init__(self, *args):
-        self.base = args[0] / 1.0
-        self.height = args[1] / 1.0
+        self._base = args[0] / 1.0
+        self._height = args[1] / 1.0
 
-    ###### METHODS ######
-    def getArea(self):
-        return (self.base * self.height) / 2
+    ###### GETTER ANTI-PATTERN ######
+    def get_area(self):
+        return (self._base * self._height) / 2

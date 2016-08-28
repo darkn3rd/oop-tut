@@ -3,9 +3,11 @@ from Person import Person    # include Person.py
 
 # class declaration
 class Student(Person):
-  ###### GETTER/SETTER ANTI-PATTERN ######
-  def get_gpa (self):
+  ###### PROPERTIES ######
+  @property
+  def name (self):
     return self._gpa
 
-  def set_gpa (self, gpa):
+  @name.setter
+  def name (self, gpa):
     self._gpa = gpa

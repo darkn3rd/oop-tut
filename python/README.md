@@ -7,7 +7,7 @@ This is a very basic overview of OOP in Python.
 
 ## **Lessons**
 
-These are the current lessons devised thus far are the following
+These are the current lessons devised thus far are the following.
 
 ### **PART I: INTRODUCTION**
 
@@ -41,9 +41,15 @@ These are the current lessons devised thus far are the following
   * :books: Immutability
      * :green_book: Immutability through Obfuscation (G01)
   * :books: Inheritance
-    * :green_book: Basic Inheritance (H00)
-    * :green_book: Parent Property (H10)
+    * :green_book: Basic Inheritance
+      * :page_facing_up: Getter/Setter Anti-Pattern (H00)
+      * :page_facing_up: Parent Properties (H01)
+    * :green_book: Parent Attributes
+      * :page_facing_up: Getter/Setter Anti-Pattern (H10)
+      * :page_facing_up: Parent Properties (H11)
     * :green_book: Parent Constructor using `super()` (H20)
+      * :page_facing_up: Getter/Setter Anti-Pattern (H20)
+      * :page_facing_up: Parent Properties (H21)
 
 ### **PART III: INHERITANCE**
 

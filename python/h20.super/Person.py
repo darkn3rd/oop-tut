@@ -3,12 +3,12 @@
 class Person(object):
   ###### INITIALIZER ######
   def __init__(self,name):
-    self.setName(name)    # call mutator
+    self.set_name(name)    # call mutator
 
   ###### Mutators ######
-  def setName (self,name):
-    self.name = name      # set data
+  def set_name (self,name):
+    self._name = name      # set data
 
   ###### Accessors ######
-  def getName(self):
-    return self.name      # return data
+  def get_name (self):
+    return self._name      # return data

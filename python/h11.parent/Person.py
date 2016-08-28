@@ -1,14 +1,15 @@
 #!/usr/bin/env python
-
 # class declaration
 class Person:
   ###### INITIALIZER ######
   def __init__(self,name):
-      self.set_name(name)
+      self.name = name    # call property
 
-  ###### GETTER/SETTER ANTI-PATTERN ######
-  def get_name (self):
+  ###### PROPERTY DECORATORS ######
+  @property
+  def name (self):
       return self._name
 
-  def set_name (self, name):
+  @name.setter
+  def name (self, name):
       self._name = name
