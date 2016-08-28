@@ -6,8 +6,8 @@ import math
 class Circle(Shape):
     ###### INITIALIZER ######
     def __init__(self, *args):
-        self.radius = args[0] / 1.0
+        self._radius = args[0] / 1.0
 
-    ###### METHODS ######
-    def getArea(self):
-        return (self.radius ** 2 * math.pi)
+    ###### GETTER ANTI-PATTERN ######
+    def get_area(self):
+        return (self._radius ** 2 * math.pi)

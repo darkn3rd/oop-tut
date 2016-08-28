@@ -27,5 +27,5 @@ class Person:
     self._name = name
 
   @classmethod
-  def getCount(cls):
+  def get_count(cls):
     return cls.count

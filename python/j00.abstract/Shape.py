@@ -6,6 +6,6 @@ from abc import ABCMeta, abstractmethod
 class Shape(object):
     __metaclass__ = ABCMeta
 
-    ###### METHODS ######
+    ###### ABSTRACT METHOD ######
     @abstractmethod
-    def getArea(self): pass
+    def get_area(self): pass

@@ -5,5 +5,5 @@ class Shape(object):
     def __init__(self, *args): pass
 
     ###### METHODS ######
-    def getArea(self):
+    def get_area(self):
         return 0.0

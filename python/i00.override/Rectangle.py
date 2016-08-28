@@ -5,9 +5,9 @@ from Shape import Shape  # include Shape.py
 class Rectangle(Shape):
     ###### INITIALIZER ######
     def __init__(self, *args):
-        self.width = args[0] / 1.0
-        self.height = args[1] / 1.0
+        self._width = args[0] / 1.0
+        self._height = args[1] / 1.0
 
     ###### METHODS ######
-    def getArea(self):
-        return (self.width * self.height)
+    def get_area(self):
+        return (self._width * self._height)

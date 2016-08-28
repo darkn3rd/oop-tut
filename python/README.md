@@ -7,7 +7,9 @@ This is a very basic overview of OOP in Python.
 
 ## **Lessons**
 
-These are the current lessons devised thus far are the following
+These are the current lessons devised thus far are the following.
+
+***Note***: The getter/setter methods added for illustration purposes, but should be noted these are considered an anti-pattern in the Python community.  Direct access or using a Property decorator is the preferred method.
 
 ### **PART I: INTRODUCTION**
 
@@ -23,6 +25,8 @@ These are the current lessons devised thus far are the following
   * :books: Encapsulation and Access
     * :green_book: Accessors and Mutators (C00)
     * :green_book: Properties (C10)
+      * :page_facing_up: Properties using Descriptors (C11)
+      * :page_facing_up: Properties using Attributes (C12)
     * :green_book: Overloading Methods (C20)
     * :green_book: Methods Variable Parameters (C30)
   * :books: Construction (Initialization)
@@ -31,12 +35,23 @@ These are the current lessons devised thus far are the following
   * :books: Overloading Constructors
      * :green_book: Dynamic Constructor (E30)
   * :books: Class Variables
-     * :green_book: Class Method using (F00, F00, F10, F11)
+     * :green_book: Class Method
+       * :page_facing_up: Class Method using `staticmethod` decorator (F00)
+       * :page_facing_up: Class Method using `staticmethod` decorator and `__class__` (F01)
+       * :page_facing_up: Class Method using `classmethod` decorator (F10)
+       * :page_facing_up: Class Method using `classmethod` decorator and `__class__` (F11)
   * :books: Immutability
-     * :green_book: Obfuscation (G01)
+     * :green_book: Immutability through Obfuscation (G01)
   * :books: Inheritance
-    * :green_book: Parent Methods (H00)
-    * :green_book: Parent Constructor (H20)
+    * :green_book: Basic Inheritance
+      * :page_facing_up: Getter/Setter Anti-Pattern (H00)
+      * :page_facing_up: Parent Properties (H01)
+    * :green_book: Parent Attributes
+      * :page_facing_up: Getter/Setter Anti-Pattern (H10)
+      * :page_facing_up: Parent Properties (H11)
+    * :green_book: Parent Constructor using `super()` (H20)
+      * :page_facing_up: Getter/Setter Anti-Pattern (H20)
+      * :page_facing_up: Parent Properties (H21)
 
 ### **PART III: INHERITANCE**
 
