@@ -1,3 +1,7 @@
 .DS_Store
 *.pyc
 .idea
+.vagrant
+.dockerignore
+.packages/*
+!.packages/README.md
